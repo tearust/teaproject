@@ -1,5 +1,5 @@
 # TEA Project
-![[teaproject/logoname-green.png]]
+![](https://github.com/tearust/teaproject/blob/master/logoname-green.png)
 
 This is the open public repo for the Tea Project community.
 
@@ -14,7 +14,7 @@ TEA project has two tokens; TEA and CML (Camellia). TEA token is a stable utilit
 ## Discussions
 Github's **Discussions** and **Wiki** will be used in this repo as the primary means of sharing information. These two features are accessible in the header of the page:
 
-![[access-wiki-discussions.png]]
+![](https://github.com/tearust/teaproject/blob/master/access-wiki-discussions.png)
 
 **Discussions** is a place for new and existing users to get answers to their questions about the project and interact with the project maintainers. It's a place for members to communicate: to share ideas or to ask for help, as well as a good place for newcomers to ask how they can contribute to the project.
 
