@@ -1,6 +1,8 @@
 # TEA Project
 
-<img src="https://github.com/tearust/teaproject/blob/master/logoname-green.png" alt="logo" style="width:300px;"/>
+<a href="https://teaproject.org" >
+  <img src="https://github.com/tearust/teaproject/blob/master/logoname-green.png" alt="logo" style="width:100px;"/>
+</a>
 
 This is the open public repo for the Tea Project community.
 
