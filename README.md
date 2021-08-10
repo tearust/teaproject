@@ -1,6 +1,6 @@
 # TEA Project
 
-![](https://github.com/tearust/teaproject/blob/master/logoname-green.png)
+[![Logo](https://github.com/tearust/website/blob/main/frontend/public/tea-logo/name-green.png)](https://teaproject.org)
 
 This is the open public repo for the Tea Project community.
 
