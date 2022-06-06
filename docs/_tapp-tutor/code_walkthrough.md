@@ -181,7 +181,7 @@ sequenceDiagram
 ```
 
 ## Combination of SQL and NoSQL
-The diagram above shows a common use case that loads all messages. But in many cases, the ids (index) of the OrbitDB is stored in GlueSQL, so it's very common to first have to query GlueSQL to get the IDs. After successfully querying GlueSqL for the IDs, then we can query OrbitDB using the IDs to retrieve the actual data.
+The diagram above shows a common use case that loads all messages. But in many cases, the ids (index) of the OrbitDB is stored in GlueSQL, so it's very common to first have to query GlueSQL to get the IDs. After successfully querying GlueSqL for the IDs, then we can query OrbitDB using the IDs to retrieve the actual data.
 
 ```mermaid
 sequenceDiagram
