@@ -50,7 +50,7 @@ sequenceDiagram
 
 Accounting information is stored in the state (e.g. when querying the balance of a user's TApp account.)
 
-Querying the state can return the result without having to wait in conveyor queue. But the communication is still async, so additional queries for more results are still needed which is not shown in the diagram. You can see the details on additional queries at [[party-fe]]'s workflow section.
+Querying the state can return the result without having to wait in conveyor queue. But the communication is still async, so additional queries for more results are still needed which is not shown in the diagram. You can see the details on additional queries at [[party-fe#Workflow]].
 
 Note: This is a brief diagram. The real communication is more complicated than this.
 
@@ -79,7 +79,7 @@ sequenceDiagram
 
 Commands are more complicated in that certain precautions must be taken before they're allowed to change the state. Like any other distributed state machine, we have to make sure the state in all the [[State_Machine_Replica]]s are consistent. We use the [[conveyor]] algorithm to sort the commands by their timestamp and are executed in identical order across all replicas.
 
-The following diagram demonstrates the workflow of how a simple transfer txn command is handled. Note that this diagram is a simplifed verison. The full version can be found in [[party-fe]]'s workflow section.
+The following diagram demonstrates the workflow of how a simple transfer txn command is handled. Note that this diagram is a simplifed verison. The full version can be found in [[party-fe#Workflow]].
 
 ```mermaid
 sequenceDiagram
