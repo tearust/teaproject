@@ -28,6 +28,7 @@ There are 4 folders (click the following links for more details):
 Any user can launch a TApp by clicking on one of the [[hosting_CML]]s urls (there's no domain used when launching TApps). Picking any of the urls will work exactly the same so you can choose the one with least network latency. The URL is nothing but an IPFS CID.
 
 Note: This is a brief diagram. The real communication is more complicated than this.
+
 ```mermaid
 sequenceDiagram
 	participant A as Front end
@@ -43,7 +44,6 @@ sequenceDiagram
 	C->>+B: the html/css/js code that the request cid refers to
 	B->>-A: response html/css/js front end code
 	A->>A: render the browser. show the UI
-	
 ```
 
 ## Query the state
@@ -53,6 +53,7 @@ Accounting information is stored in the state (e.g. when querying the balance of
 Querying the state can return the result without having to wait in conveyor queue. But the communication is still async, so additional queries for more results are still needed which is not shown in the diagram. You can see the details on additional queries at [[party-fe#Workflow]].
 
 Note: This is a brief diagram. The real communication is more complicated than this.
+
 ```mermaid
 sequenceDiagram
 	participant A as Front end
@@ -72,7 +73,6 @@ sequenceDiagram
 	D->>B: send back the account balance response
 	B->>A: send back the account balance response
 	A->>A: render the browser. show the account balance on the UI
-	
 ```
 ## Send a command that changes the state
 
@@ -100,8 +100,7 @@ sequenceDiagram
 	G->>-F: state commited successful. response ok
 	F->>-D: response ok
 	D->>B: response ok
-	B->>A: response ok
-	
+	B->>A: response ok	
 ```
 
 ## Running SQL queries
@@ -129,7 +128,6 @@ sequenceDiagram
 	D->>B: send back the query result
 	B->>A: send back the query result
 	A->>A: render the browser. show the result on UI
-	
 ```
 
 ## Send SQL scripts to change SQL database
@@ -157,7 +155,6 @@ sequenceDiagram
 	F->>-D: response ok
 	D->>B: response ok
 	B->>A: response ok
-	
 ```
 
 ## Load / save NoSQL data with OrbitDB
