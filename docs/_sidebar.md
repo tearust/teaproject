@@ -1,4 +1,5 @@
-- **TApp Tutor*
+- [Home](/)
+- **TApp Tutor**
 - [Getting Started](_tapp-tutor/get_started.md)
 - [How to use TEA Party app](_tapp-tutor/how_to_use_TEA_Party.md)
 - [Three tier architecture](https://teaproject.medium.com/the-tapps-3-tier-decentralized-tech-stack-43d2872f609b)
