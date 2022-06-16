@@ -11,7 +11,7 @@
 - [TEA economy and the Web3 Revolution for Developers](_tapp-tutor/TEA_economy_and_Web3_revolution_for_developers.md)
 
 ## Epochs
-- [Epoch Overview](_epochs/Epochs.md)
+- [Epochs Overview](_epochs/Epochs.md)
 - [Epoch 2](_epochs/Epoch-2.md)
 - [Epoch 3](_epochs/Epoch-3.md)
 - [Epoch 4](https://teaproject.medium.com/tea-project-whats-new-in-epoch-4-d0728418ea3a)
