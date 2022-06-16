@@ -1,11 +1,11 @@
-TEA Party user guide (epoch 9, March, 2022): https://teaproject.medium.com/tea-party-tapp-epoch-9-users-guide-2bd8ddd87daa
+[TEA Party user guide - Epoch 9, March, 2022](https://teaproject.medium.com/tea-party-tapp-epoch-9-users-guide-2bd8ddd87daa)
 
 
 Youtube video tutorial:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yl7DUnyE_0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Why is TEA Party a typical Web3 application?
+## Why is TEA Party a typical Web3 application?
 Before we get into this question, please read [[What_makes_a_Web3_application]]? first.
 
 Web3 applications are different than web 2.0 applications in multiple ways:
