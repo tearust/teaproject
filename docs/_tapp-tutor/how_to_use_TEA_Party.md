@@ -9,7 +9,7 @@ Youtube video tutorial:
 
 
 ## Why is TEA Party a typical Web3 application?
-Before we get into this question, please read [[What_makes_a_Web3_application]]? first.
+Before we get into this question, please read [[What_makes_a_Web3_application]] first.
 
 Web3 applications are different than web 2.0 applications in multiple ways:
 
@@ -19,13 +19,13 @@ Web3 applications are different than web 2.0 applications in multiple ways:
 - Tokenomics driven.
 
 ## No centralized hosting
-When you start the TEA party, you'll probably notice that it's different than a regular web 2.0 application. You're not going to a domain name such as `teaparty.com`. Instead, you're given several URLs with different IP addresses such as in the screen shot below.
+When you start the TEA party, you'll probably notice that it's different than a regular web 2.0 application. You're not going to a domain name such as **teaparty.com**. Instead, you're given several URLs with different IP addresses such as in the screen shot below.
 
 ![urls](https://user-images.githubusercontent.com/1761809/160294873-a61c21b8-e8ee-4cbf-bc41-05ae097a47bb.png)
 
 You'll notice that the IP addresses are different, but the rest of the URLs are identical. The part that's the same correlates to the IPFS CID of the current version of the TEA Party [[front_end]]. The IP addresses are the IPs of the [[hosting_CML]]. In the screenshot above, you'll notice how there are three TEA mining machined (with [[hosting_CML]] planted) currently hosting this TEA Party application. 
 
-There's no **"domain name" or "server"** involved with TApps.  As you can see, anyone (including yourself) can become a host and earn the TApp hosting fee. There's no centralized server involved with deploying a TApp. On the other word, if some super power does not like this application, there's no way for them to take this application offline. TApps say bye bye to cloud server hosting and instead utilize the TEA Project's decentralized hosting node architecture.
+There's no **domain name** or **server** involved with TApps.  As you can see, anyone (including yourself) can become a host and earn the TApp hosting fee. There's no centralized server involved with deploying a TApp. On the other word, if some super power does not like this application, there's no way for them to take this application offline. TApps say bye bye to cloud server hosting and instead utilize the TEA Project's decentralized hosting node architecture.
 
 ## No censorship
 
