@@ -2,7 +2,7 @@
 - **TApp Tutor**
 - [Getting Started](_tapp-tutor/get_started.md)
 - [How to use TEA Party app](_tapp-tutor/how_to_use_TEA_Party.md)
-- [Three tier architecture](https://teaproject.medium.com/the-tapps-3-tier-decentralized-tech-stack-43d2872f609b)
+- [Three tier architecture](_tapp-tutor/three-tier-architecture.md)
 - [Consensus](_tapp-tutor/consensus.md)
 - [Code walkthrough](_tapp-tutor/code_walkthrough.md)
 - [The magic of TEA state machine](_tapp-tutor/magic_of_state_machine.md)
