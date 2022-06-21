@@ -9,6 +9,8 @@
 - [TApps Overview](_tapps/TApps.md)
 - **Tokens**
 - [TEA & CML](_token/Where-to-buy-TEA-token-and-CML.md)
+- **FAQs**
+- [FAQs](_faq/FAQ.md)
 
 
 
