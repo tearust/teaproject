@@ -1,4 +1,4 @@
-- [Home](/)
+- **[Home](/)**
 - **Tokens**
 - [TEA & CML](_token/Where-to-buy-TEA-token-and-CML.md)
 - [TEA Tokens](_token/TEA-Tokens.md)
