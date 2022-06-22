@@ -19,7 +19,7 @@ Software engineer [Jacky Li](https://www.linkedin.com/in/jacky-li-4039747b/) gra
 
 ## Raindust Mingzhi Yan
 
-Software engineer Mingzhi Yan graduated from Wuhan University. Prior to TEA Project, he was engaged in artificial intelligence and multi-party secure computing research and development at Yuncong Technology.
+Software engineer [Mingzhi Yan](https://www.linkedin.com/in/mingzhi-yan-7544b9203/) graduated from Wuhan University. Prior to TEA Project, he was engaged in artificial intelligence and multi-party secure computing research and development at Yuncong Technology.
 
 
 ## The TEA Project Has Full-Time & Part-Time Contributors
