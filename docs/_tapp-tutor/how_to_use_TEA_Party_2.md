@@ -1,11 +1,7 @@
 # How to Use the TEA Party TApp
 
-[TEA Party user guide - Epoch 9, March, 2022](https://teaproject.medium.com/tea-party-tapp-epoch-9-users-guide-2bd8ddd87daa)
-
-
 Youtube video tutorial:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yl7DUnyE_0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Why is TEA Party a typical Web3 application?
@@ -21,7 +17,7 @@ Web3 applications are different than web 2.0 applications in multiple ways:
 ## No centralized hosting
 When you start the TEA party, you'll probably notice that it's different than a regular web 2.0 application. You're not going to a domain name such as **teaparty.com**. Instead, you're given several URLs with different IP addresses such as in the screen shot below.
 
-![urls](https://user-images.githubusercontent.com/1761809/160294873-a61c21b8-e8ee-4cbf-bc41-05ae097a47bb.png)
+
 
 You'll notice that the IP addresses are different, but the rest of the URLs are identical. The part that's the same correlates to the IPFS CID of the current version of the TEA Party [[front_end]]. The IP addresses are the IPs of the [[hosting_CML]]. In the screenshot above, you'll notice how there are three TEA mining machined (with [[hosting_CML]] planted) currently hosting this TEA Party application. 
 
@@ -37,6 +33,5 @@ Not only is the hosting of TApps fully decentralized, the database is also fully
 ## Tokenomics driven
 In web 2.0, end users sell their privacy to the tech giants in return for "free" application services. In Web3, because there's no centralized "operator" to steal your privacy for profit, there won't be any free lunch provided by the applications.  Someone has to pay for the service as the miners and developers need to make a living. Some coming from the web 2.0 world might think this is bad, but this is actually how things should work.  Because all the API call to the [[public_service]] need to be paid, all [[get_started#Storage]] will need either RAM or hard drive space. These computing costs are eventually paid by end users. In a TApp like the TEA Party, users can see the price of posting message or sending private notifications. 
 
-![](https://user-images.githubusercontent.com/86096370/160329742-1f51d1a3-588a-4c45-874b-783ed2867f05.png)
 
 There might be some new business model that end users can earn "free" services in exchange of some work or data. We'll continue trying these models in future versions of the TEA Party.

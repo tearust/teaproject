@@ -2,6 +2,7 @@
 - **TApp Tutor**
 - [Getting Started](_tapp-tutor/get_started.md)
 - [How to use TEA Party app](_tapp-tutor/how_to_use_TEA_Party.md)
+- [How to use TEA Party app 2](_tapp-tutor/how_to_use_TEA_Party_2.md)
 - [Three tier architecture](_tapp-tutor/three-tier-architecture.md)
 - [Consensus](_tapp-tutor/consensus.md)
 - [Code walkthrough](_tapp-tutor/code_walkthrough.md)
