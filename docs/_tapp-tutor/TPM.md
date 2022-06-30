@@ -4,6 +4,6 @@ TPM is the main component of the Trusted Computing technology. Here's a good sim
 
 For a quick overview of Trusted Computing please go to this [Stanford page](https://cs.stanford.edu/people/eroberts/cs201/projects/trusted-computing/what.html) or for more detail visit [the trusted computing group](https://trustedcomputinggroup.org/).
 
-For the reasons why we need TPM, you can read [[consensus#Proof of Trusted Computing]].
+For the reasons why we need TPM, you can read [consensus > Proof of Trusted Computing](consensus.md#proof-of-trusted-computing).
 
-Every node's [[enclave]] is protected by a TPM chip, and the [[mini-runtime]] runs inside the [[enclave]].
+Every node's [enclave](enclave.md) is protected by a TPM chip, and the [mini-runtime](mini-runtime.md) runs inside the [enclave](enclave.md).

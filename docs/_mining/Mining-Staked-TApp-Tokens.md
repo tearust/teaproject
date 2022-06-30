@@ -8,11 +8,11 @@ Some of the options that a TApp creator makes ends up affecting miners who host 
 
 1. **Initial tokens** - the TApp creator must pay for the initial amount of tokens minted out of their own wallet. The amount they pay isn't affected by the number of staked tokens they issue.
 
-2. **Max allowed hosts** is the maximum number of miners that can host the TApp. Each mining CML can only host the TApp once, and the number directly above (**Min hosts**) is the minimum number of hosts necessary for the TApp to become operational on the network.
+1. **Max allowed hosts** is the maximum number of miners that can host the TApp. Each mining CML can only host the TApp once, and the number directly above (**Min hosts**) is the minimum number of hosts necessary for the TApp to become operational on the network.
 
-3. **Billing model** - most TApp creators will want to choose the second option involving dividend payments to allow miners to share in the TApp's consume actions (such as tipping rounds). Selecting **Fixed TEA payment per 100 blocks** will require paying the miners every 100 blocks regardless if there are any consume actions during that time. The fixed cost model ultimately becomes a cost on token holders as they will see their token supply shrink when expenses are greater than consume action dividends.
+1. **Billing model** - most TApp creators will want to choose the second option involving dividend payments to allow miners to share in the TApp's consume actions (such as tipping rounds). Selecting **Fixed TEA payment per 100 blocks** will require paying the miners every 100 blocks regardless if there are any consume actions during that time. The fixed cost model ultimately becomes a cost on token holders as they will see their token supply shrink when expenses are greater than consume action dividends.
 
-4. **Staked tokens per miner** - every miner who hosts the TApp will be allocated this number of tokens. Note that these tokens aren't like normal tokens: they can't be sold and they don't augment the supply curve (and thus don't affect the TApp token price). If **100** staked tokens are selected per miner, this means that miners will receive consume action dividends _as if they owned 100 tokens_ every 1000 blocks.
+1. **Staked tokens per miner** - every miner who hosts the TApp will be allocated this number of tokens. Note that these tokens aren't like normal tokens: they can't be sold and they don't augment the supply curve (and thus don't affect the TApp token price). If **100** staked tokens are selected per miner, this means that miners will receive consume action dividends *as if they owned 100 tokens* every 1000 blocks.
 
 These staked tokens will show up in the miners wallet under **My hosting TApps**:
 

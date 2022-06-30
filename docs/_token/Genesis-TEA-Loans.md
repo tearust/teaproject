@@ -1,9 +1,9 @@
-
 # Genesis TEA Loans
 
 Contestants can use their frozen CML seeds as collateral for a Genesis Loan. A Genesis Loan is particularly useful for generating the TEA needed for the initial mining machine staking slot. Putting up your extra seeds as collateral will provide you the following amount of TEA in exchange:
-- **C CML seed** - 1500T
-- **B CML seed** - 3000T
+
+* **C CML seed** - 1500T
+* **B CML seed** - 3000T
 
 For example, a user could put two extra C CML seeds they have up for collateral to receive 1500x2 = 3000T back from the Genesis loan. They would have to pay back the loan with interest in order to receive their seeds back (loan duration is currently set at 3 days). Users also have the option of rolling over their loan indefinitely while only having to pay interest. 
 
@@ -12,6 +12,7 @@ The Genesis TEA Loan has a variable interest rate given by the AMM curve. The ra
 ![](https://miro.medium.com/max/4800/1*crJia3eJdLC9RiJ2SZ6a1A.png)
 
 ### Genesis TEA Loans can be paid off in full or just the interest to extend the loan
+
 Contestants can extend the loan as long as they pay the interest accrued by the end of the loan due date.
 
 ![](https://miro.medium.com/max/1400/1*CV3ljd137eILuVgCBJM3Xg.png)

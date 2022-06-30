@@ -1,22 +1,24 @@
 # Competitor's Guide to Getting Started
+
 Competitors can join the contest using the the signup form on [the leader board page](https://wallet.teaproject.org/#/leader_board) in the TEA browser wallet - click on the **Register for competition** button. After that, contestants can purchase contest CML using the form below:
 
-| Epoch  | Purchase Form |
-| ------------- | ----------------------- |
-| Epoch 2.1  | _Completed_            |
-| Epoch 3  | _Completed_            |
-| Epoch 4  | _Completed_            |
-| Epoch 5  | _Completed_            |
-| Epoch 6  | _Completed_ |
-| Epoch 7  | _Completed_ |
-| Epoch 8  | _Completed_ |
-| Epoch 9  | [Purchase form](https://docs.google.com/forms/d/e/1FAIpQLSfb1fjb_Pyfkfa4zOORoWoZcbWJ61OO5r1Egp2CcYsbdwtIeQ/viewform?ts=621ea246) |
+|Epoch|Purchase Form|
+|-----|-------------|
+|Epoch 2.1|*Completed*|
+|Epoch 3|*Completed*|
+|Epoch 4|*Completed*|
+|Epoch 5|*Completed*|
+|Epoch 6|*Completed*|
+|Epoch 7|*Completed*|
+|Epoch 8|*Completed*|
+|Epoch 9|[Purchase form](https://docs.google.com/forms/d/e/1FAIpQLSfb1fjb_Pyfkfa4zOORoWoZcbWJ61OO5r1Egp2CcYsbdwtIeQ/viewform?ts=621ea246)|
 
 The signup form can be used to register for test epochs as well, check on the latest status by visiting [our Telegram group](https://t.me/teaprojectorg).
 
 Competitors will need to first install the polkadot{.js} extension and setup a wallet account.
 
-# Install the Polkadot{.js} Extension 
+# Install the Polkadot{.js} Extension
+
 The polkadot{.js} extension is available for the [Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd), [Brave](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd), or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/) browsers. Other browsers compatible with Chrome should be compatible with the Polkadot extension, check [github](https://github.com/polkadot-js/extension) for more information. 
 
 The Pokadot extension does not allow for full wallet capabilities. It's only focused on managing your accounts and providing signing capabilities to apps requesting access.
@@ -32,10 +34,11 @@ Follow the instructions to generate your new key pair.
 Please keep your private key secret. During the preview stage, tokens in this account are not real TEA tokens and can only be used on the testnet. But it's still good practice to keep your private key as secure as possible.
 
 # You Need Some Initial TEA to Participate in the Mining Contest
+
 Because TEA is only generated from mining rewards and contestants are all joining at the beginning, there's no TEA yet in the system. Contestants can put some of their CML seeds up for loans in order to get the TEA necessary to secure the first stake of their mining machines. We have a Genesis bank that issues contestants loans for the following amount:
 
-- 1500T per C CML pledged as collateral.
-- 3000T per B CML used as collateral.
+* 1500T per C CML pledged as collateral.
+* 3000T per B CML used as collateral.
 
 # TEA Browser Wallet Functions
 
@@ -62,7 +65,9 @@ Note that all CML seeds have a defrost schedule visible in your wallet. Only CML
 Besides mining and staking, contestants can increase their TEA assets by investing in TApp tokens. There's more information on TApp tokens [in our wiki](https://github.com/tearust/teaproject/wiki/TApp-Token-Supply-and-Demand). 
 
 # Note that Each Mining Contest is Divided into Epochs
+
 Every mining contest happens within an epoch: the blockchain resets to **0** block time and the amount of TEA in the system is also 0. That is why we pay out rewards at the end of every epoch. Starting in epoch 7, we will move to a continuous contest model where the blockchain is not reset and rewards will accrue across epochs.
 
 # TEA mining rewards can be traded for mainnet CML
+
 Participants in the TEA mining contests can exchange their contest TEA for mainnet CML vouchers at various intervals throughout the contest by using [the reward exchange form](https://forms.gle/JvZEE5J2DyM5fZHu5).

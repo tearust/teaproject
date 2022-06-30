@@ -1,7 +1,8 @@
 # Epoch 2
 
 ## Using the Mining Wallet - Preview 1
-The mining wallet is accessible at [wallet.teaproject.org](https://wallet.teaproject.org/).  
+
+The mining wallet is accessible at [wallet.teaproject.org](https://wallet.teaproject.org/).
 
 Here is a video tutorial for using the wallet in the preview stage: 
 
@@ -12,17 +13,20 @@ A transcript of the video is [available here](https://teaproject.medium.com/vide
 Below are the steps described in the video in more detail.
 
 ## Preparing Your Wallet
+
 More info is available in the [TEA Browser wallet](https://github.com/tearust/teaproject/wiki/TEA-Browser-Wallet) wiki
 post.
 
 ## Sign Up For CML Seed Coupons
+
 You 'll need the TEA Project's NFT known as Camellia (CML) to start mining on the TEA network. The investor registration form for our latest epoch is available [on our Github wiki](https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist) to sign up for redeemable CML seed coupons.
 
 Testers will be able to see their CML coupons in their tea wallet when the new epoch starts.
 
 ## Steps to Start Generating TEA Yield
-      
+
 ## Mining TEA
+
 The two ways to generate TEA are either to mine or to stake. To begin mining, you would plant a CML seed into a TEA mining machine to generate TEA tokens. These machines are all virtual for right now, merely simulated machines in place of real miners. Look for the little icon here in your CML seed's row to plant your seed into a miner:
 
 ![](img/demo-mining-plant.png)

@@ -1,12 +1,15 @@
 ## Thinking outside the box
+
 Consensus is the most important concept in the blockchain world. It enables distributed nodes to agree on what the next state should be. There are many different types of consensus for all the different blockchain projects. And still there are new consensus algorithms being invented every other month. Although we tried to fix its shortcomings, the blockchain is still far from the efficiency of cloud computing. The primary reason it's not able to keep up is consensus. The nature of blockchain requires its constituent nodes to regularly take time (every few minutes or seconds) to communicate with other nodes and run complex algorithms to determine the next block. This makes the blockchain slow and costly, a process that cloud computing doesn't require. You've probably never heard of the TPS concept in the cloud computing world since it has the big advantage of centralization. The nodes can fully trust other nodes without running any kind of complex consensus. Can we find the best blockcahin consensus that can run as fast as cloud computing? To try to solve this problem, we'll need to start thinking outside the box.
 
 ## The best consensus is no consensus
+
 As we mentioned above, as long as there's a consensus, a blockchain can never reach the same speed as cloud computing. The question of "what's the best consensus?" is actually a trick question. It turns out that no consensus is the best consensus .
 
 Assuming there was, by magic, no need to run consensus: every standalone node can make the correct decision on what the next state is supposed to be. Let's imagine that all of the nodes can magically reach the same state. Now that we've set the goal, let's see how we can make this magic into reality. 
 
 ## The key is the sequence of events
+
 We must take into consideration that the whole blockchain is a state machine. An event (we usually call these "transactions") is the outside trigger to change the state inside of the state machine. Every node is a replica of the state machine. As long as every node can get the same sequence of events and update the state accordingly, the new state will be the same across all replicas.
 
 If we review all of the existing consensus algorithms, no matter what proof-of-whatever they're based on, they all do the same thing: make all nodes agree on a single sequence of events. 
@@ -14,44 +17,55 @@ If we review all of the existing consensus algorithms, no matter what proof-of-w
 Now, can we get the sequence of all events without using consensus?
 
 ## Proof of Time
+
 As long as we stay on the earth without being able to travel at near light speed, we can consider that time is a stable physical value. If we give every event a timestamp before sending out to replicas, this timestamp can be trusted. Then all the replicas can sort events based on the timestamp without communicating with others. Of course, given the network latency, we allow a grace period or buffer period where replicas wait prior to executing the event. 
 
 Actually using time as the RoT (Root of Trust) of consensus is commonly used in cloud computing (e.g. Google Spanner). But it's not widely used in blockchain world simple because blockchain cannot trust other nodes as centralized cloud computers can. 
 
 Now the question is can we trust the timestamp attached to an event since the source of the timestamp was created outside of the blockchain?
 
-Yes we can by using another RoT(Root of Trust), the [[TPM]] chip.
+Yes we can by using another RoT(Root of Trust), the [TPM](TPM.md) chip.
 
 ## Proof of Trusted Computing
-TEA Project is a project that relies on a hardware RoT. Every TEA node needs to have the [[TPM]] chip built-in. The TPM chip uses Trusted Computing technology to collect the evidence of hardware integrity. That TPM data is verified by other TEA nodes (verifiers) via [[Remote_Attestation]] (RA). The decision is made by the verifier independently, and final judgement is done by the blockchain's BFT. If there's any change in a TEA node, no matter hardware or software, it will be detected by a verifier and furthermore marked "malicious" in the blockchain. Other TEA nodes will immediately reject communication with this bad actor. 
+
+TEA Project is a project that relies on a hardware RoT. Every TEA node needs to have the [TPM](TPM.md) chip built-in. The TPM chip uses Trusted Computing technology to collect the evidence of hardware integrity. That TPM data is verified by other TEA nodes (verifiers) via [Remote_Attestation](Remote_Attestation.md) (RA). The decision is made by the verifier independently, and final judgement is done by the blockchain's BFT. If there's any change in a TEA node, no matter hardware or software, it will be detected by a verifier and furthermore marked "malicious" in the blockchain. Other TEA nodes will immediately reject communication with this bad actor. 
 
 If all the TEA nodes are protected by a TPM chip, all data generated inside this node (actually inside the enclave of this node) can be trusted. This includes the timestamps generated by the GPS moudle that we attach to events.
 
 ## GPS as time source of atomic clock
+
 Although we can trust the TEA node that's protected by a TPM, the internal hardware clock (most likely quartz clock) cannot be trusted. It's not acurate and precise enough to be used to sort events. Requiring every TEA node to have an atomic clock built-in is not practical financially. The best solution is to use GPS satellites. The GPS satellites send a free time signal to all GPS receivers. We don't need to use the signal to calculate geolocation, we instead only need the time as an event timestamp. Because it's under the watchful protection of the TPM, the timestamp can be trusted.
 
 ## Conclusion
-All TEA nodes have a TPM protected [[enclave]]. The TPM also protects the GPS receiver and the timestamp it generates. All events generated from those TEA nodes will have a timestamp attached. The events are sent to a group of [[State_Machine_Replica]]s. The events are inserted and sorted in the [[conveyor]] before eventually being executed by the [[state_machine_actor]]. When the events are executed, it changes the [[state]].  
+
+All TEA nodes have a TPM protected [enclave](enclave.md). The TPM also protects the GPS receiver and the timestamp it generates. All events generated from those TEA nodes will have a timestamp attached. The events are sent to a group of [State_Machine_Replica](State_Machine_Replica.md)s. The events are inserted and sorted in the [conveyor](conveyor.md) before eventually being executed by the [state_machine_actor](state_machine_actor.md). When the events are executed, it changes the [state](state.md).
 
 ## Notes
+
 ## Sync messages between replicas
-Although no conensus is required between replicas, but we still need to keep the data synced between them. This is mainly done to fill in the missed events and to get the earliest timestamp for the same event. The details are explaned in the [[conveyor]] article. 
+
+Although no conensus is required between replicas, but we still need to keep the data synced between them. This is mainly done to fill in the missed events and to get the earliest timestamp for the same event. The details are explaned in the [conveyor](conveyor.md) article. 
 
 ## Event or Command?
-In the TEA Project, we call events that can change the state [[commands]]. If an event is just a query of the current state without changing the state, we call these [[queries]]. 
+
+In the TEA Project, we call events that can change the state [commands](commands.md). If an event is just a query of the current state without changing the state, we call these [queries](queries.md). 
 
 We use event here in this article to be consistent with the common terminologies used in distributed computing. 
 
-If an event is just a query, it doesn't need to go through the whole grace period process. It goes direclty to the state machine to execute its query. See [[queries]] for detail.
+If an event is just a query, it doesn't need to go through the whole grace period process. It goes direclty to the state machine to execute its query. See [queries](queries.md) for detail.
 
 ## Continuous state updates
+
 There is no block in our new consensus. There is no need to wait every few minutes or seconds for the next block. The TEA Project state machine is continuously updating similar to a distributed database without any central control.
 
 ## Grace period (or buffer period)
-When an event is sent to the [[State_Machine_Replica]], it will not be executed immediately. It will stay in the [[conveyor]] for a short period of time. During this period, the sequence of events will be re-ordered based on timestamps. When they are eventually executed, the sequence is confirmed. We're actively testing the best length of the grace period. At the time this article was written, we've set the grace period at 3 seconds.
+
+When an event is sent to the [State_Machine_Replica](State_Machine_Replica.md), it will not be executed immediately. It will stay in the [conveyor](conveyor.md) for a short period of time. During this period, the sequence of events will be re-ordered based on timestamps. When they are eventually executed, the sequence is confirmed. We're actively testing the best length of the grace period. At the time this article was written, we've set the grace period at 3 seconds.
 
 ## Finality
+
 As long as the event is executed in the state machine, it has reached finality. 
 
 ## Learn more
-Please go to [[conveyor]] and [[State_Machine]] to learn more.
+
+Please go to [conveyor](conveyor.md) and [State_Machine](State_Machine.md) to learn more.

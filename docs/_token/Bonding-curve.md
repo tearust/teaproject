@@ -2,6 +2,6 @@ A bonding curve is a mathematical concept used to describe the relationship betw
 
 ## Bonding Curve Concepts
 
-- [Bonding curve theta](https://github.com/tearust/teaproject/wiki/Bonding-Curve-Theta)
-- [TApp tokens](https://github.com/tearust/teaproject/wiki/TApp-token)
-- [TApp token supply and demand](https://github.com/tearust/teaproject/wiki/TApp-Token-Supply-and-Demand)
+* [Bonding curve theta](https://github.com/tearust/teaproject/wiki/Bonding-Curve-Theta)
+* [TApp tokens](https://github.com/tearust/teaproject/wiki/TApp-token)
+* [TApp token supply and demand](https://github.com/tearust/teaproject/wiki/TApp-Token-Supply-and-Demand)

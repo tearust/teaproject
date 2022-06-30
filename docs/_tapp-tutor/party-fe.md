@@ -3,10 +3,12 @@ The code is located at https://github.com/tearust/tapp-sample-teaparty/tree/demo
 This is a standard Vue application. We assume that readers are familar with VUE and front-end web technologies. Below we'll only focus on the TEA related parts.
 
 # bbs.vue common requests functions
+
 This file https://github.com/tearust/tapp-sample-teaparty/blob/demo-code/party-fe/src/views/bbs.js handles most message-related user interactions.
 
 For example, the code snippets below are handling a load message and send message request:
-```
+
+````
 async loadMessageList(address, channel=default_channel){
     // F.top_log("Query message list...");
     const rs = await _axios.post('/tapp/loadMessageList', {
@@ -77,18 +79,21 @@ console.log('message => ', opts)
     
     return rs;
   },
-  ```
-  You probably have noiticed that the most improtant line related to TEA is the line `await _axios.post('/tapp/loadMessageList'`
- for querying mesages, and this line `await txn.txn_request('postMessage', opts);
- for posting message.
+````
 
-You might have noticed that this line `await _axios.post('/tapp/postFreeMessage',` also looks like it's sending a command, but why is it not using `txn.txn_request()`? Well, posting a message does look like a command, but the free message doesn't cost anything. Therefore there is no state change (no money transfer). It can be comfortably handled by the [[hosting_CML]] alone without notifying the [[State_Machine]]. No matter if it's [[queries]] or [[commands]], they are concepts related to the [[State_Machine]] and not your application. 
+You probably have noiticed that the most improtant line related to TEA is the line `await _axios.post('/tapp/loadMessageList'`
+for querying mesages, and this line \`await txn.txn_request('postMessage', opts);
+for posting message.
+
+You might have noticed that this line `await _axios.post('/tapp/postFreeMessage',` also looks like it's sending a command, but why is it not using `txn.txn_request()`? Well, posting a message does look like a command, but the free message doesn't cost anything. Therefore there is no state change (no money transfer). It can be comfortably handled by the [hosting_CML](hosting_CML.md) alone without notifying the [State_Machine](State_Machine.md). No matter if it's [queries](queries.md) or [commands](commands.md), they are concepts related to the [State_Machine](State_Machine.md) and not your application. 
 
 # txn.txn_request
+
 the `_axios.post` is a standard http call which doesn't need to be explained. We can focus on the txn.txn_request utility function.
 
 The code is under views/txn.js. Almost the entire file is comprised of this function.
-```
+
+````
 import {_, axios, moment, uuid} from 'tearust_utils';
 import utils from '../tea/utils';
 import bbs from './bbs';
@@ -249,25 +254,30 @@ const F = {
 
 
 export default F;
-```
+````
 
 This is a big function, so let's dig into it step by step.
 
 # uuid
+
 Before the first step, we generate a UUID. This is used for a future results query (ecause all txns are async calls). You're not supposed to get a response immediately. You have to query after a period of time, and then from time to time until you get the result: either success or fail. UUID is the handle for such queries.
 
-Once the UUID is confirmed, it uses an http call to the [[hosting_CML]] like this:
-```
+Once the UUID is confirmed, it uses an http call to the [hosting_CML](hosting_CML.md) like this:
+
+````
 const step1_rs = await _axios.post('/tapp/'+method, {
         ...param,
         uuid: txn_uuid,
       });
-```
-The [[hosting_CML]] will handle this txn and run the back-end logic accordingly. If you are interested in that part, go to [[back_end_actor]].
+````
+
+The [hosting_CML](hosting_CML.md) will handle this txn and run the back-end logic accordingly. If you are interested in that part, go to [back_end_actor](back_end_actor.md).
 
 # txn_hash
+
 The result from step1 doesn't mean anything. It just says "hey I accepted your txn request". In order to query the result of such a txn, we need to have the hash of that txn. We don't know it at this moment. The only thing we know is the UUID. So the step2 should query the txn_hash using the UUID. You can see the code below:
-```
+
+````
 let step_2_rs = null;
     const step_2_loop = async ()=>{
       try{
@@ -286,20 +296,21 @@ let step_2_rs = null;
       }
   
     };
-```
-The result of step2 is the txn_hash. Now the front-end has the txn hash and the back-end has sent the txn to the [[State_Machine]]. But we haven't got the result yet. In order to get the result, the front-end needs to ask the [[back_end_actor]] to initialize a series of [[queries]] to the [[State_Machine]] to get the result of the transaction. Step3 performs this "initialization" request.
+````
 
-```
+The result of step2 is the txn_hash. Now the front-end has the txn hash and the back-end has sent the txn to the [State_Machine](State_Machine.md). But we haven't got the result yet. In order to get the result, the front-end needs to ask the [back_end_actor](back_end_actor.md) to initialize a series of [queries](queries.md) to the [State_Machine](State_Machine.md) to get the result of the transaction. Step3 performs this "initialization" request.
+
+````
 step_3_rs = await _axios.post('/tapp/queryHashResult', {
           hash: step_3_hash,
           uuid: hash_uuid,
         });
     
-```
+````
 
-Now, the [[back_end_actor]] receives the request and starts querying the [[State_Machine]] for the result. Because this is an async call, the back-end cannot get the result immediately. It will keep polling several times to get the result. When the back-end receives the result, it will cache it in memory for a short period of time, waiting for the [[front_end]] to fetch it. Step4 actually did the "fetching" job.
+Now, the [back_end_actor](back_end_actor.md) receives the request and starts querying the [State_Machine](State_Machine.md) for the result. Because this is an async call, the back-end cannot get the result immediately. It will keep polling several times to get the result. When the back-end receives the result, it will cache it in memory for a short period of time, waiting for the [front_end](front_end.md) to fetch it. Step4 actually did the "fetching" job.
 
-```
+````
 step_4_rs = await _axios.post('/tapp/query_result', {
           uuid: hash_uuid,
         });
@@ -313,12 +324,13 @@ step_4_rs = await _axios.post('/tapp/query_result', {
           throw e;
         }
         
-```
+````
 
-There are a few meaningful parameters in the step_ r_rs result. For example, do I need to wait and query again? This happens if the [[back_end_actor]] has not received the result from the [[State_Machine]] yet. 
+There are a few meaningful parameters in the step\_ r_rs result. For example, do I need to wait and query again? This happens if the [back_end_actor](back_end_actor.md) has not received the result from the [State_Machine](State_Machine.md) yet. 
 
 For most txns, as long as step4 has received the answer, the whole process is done. But for some txns, there are some follow-up tasks after the result. This is what step5 is supposed to do.
-```
+
+````
 let step_5_rs = null;
     let step_5_uuid = step_4_rs.query_uuid || _uuid;
     let step_5_n = 0;
@@ -340,14 +352,15 @@ let step_5_rs = null;
         await utils.sleep(5000);
         await step_5_loop();
       }
-```
+````
 
 Now the whole txn workflow is completed.
 
 # Workflow
+
 To make the workflow clear and visual, let's draw a sequence diagram.
 
-```mermaid
+````mermaid
 sequenceDiagram  
  autonumber
  participant Front end
@@ -371,4 +384,4 @@ sequenceDiagram
  Back end->>-Front end: Response result. if not ready, ask to query again later.
  Front end->>+Back end: Optional step5, follow up tasks...
  Back end->>-Front end: Ok...
-```
+````

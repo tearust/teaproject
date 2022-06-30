@@ -6,10 +6,12 @@ Users can click on the CML ID in their wallet to show the CML detail screen. The
 <img width="1130" alt="camellia_options" src="https://user-images.githubusercontent.com/86096370/141043047-731de60f-3fca-4f28-9cd7-76733de77be7.png">
 
 The two buttons useful for migrating a CML are the following:
-- **Migrate miner** - Use this button to migrate your CML to a new machine (e.g. your old machine provider has unreliable uptime). The machine will have to be shut down first before this button becomes active. 
-- **Shut down miner** - Shut down an active miner before beginning the migration process.
+
+* **Migrate miner** - Use this button to migrate your CML to a new machine (e.g. your old machine provider has unreliable uptime). The machine will have to be shut down first before this button becomes active. 
+* **Shut down miner** - Shut down an active miner before beginning the migration process.
 
 # The CML Migration Process
+
 After shutting down your mining CML, click **Migrate miner**. You'll be presented with this screen:
 
 <img width="1166" alt="Screen Shot 2021-11-10 at 7 53 42 PM" src="https://user-images.githubusercontent.com/86096370/141234158-35ee8e52-b8bb-4847-b95c-a067838e16d6.png">
@@ -19,8 +21,8 @@ This is the same process you have to do when planting a CML. Run the script to g
 The dialog will require 3 items to be filled out besides the CML ID:
 <img width="766" alt="Screen Shot 2021-11-09 at 3 23 49 PM" src="https://user-images.githubusercontent.com/86096370/141022713-6a11754d-e7c5-41b4-a513-7104c1253d98.png">
 
-- The **Machine ID** and **Polkadot wallet (SS88) address** are copied from the last step.
-- The **Miner IP** is from the new machine you are transferring to.
+* The **Machine ID** and **Polkadot wallet (SS88) address** are copied from the last step.
+* The **Miner IP** is from the new machine you are transferring to.
 
 Moving onto the final **Migrate** step, you'll have to copy the shell script command and run it on the terminal of your new mining machine. After the script has finished running (the terminal output finishes with a `docker start completed` message), click the **Migrate** button. 
 
