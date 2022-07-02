@@ -7,8 +7,5 @@
 - [Epoch 5](_epochs/Epoch-5.md)
 - [Epoch 6](_epochs/Epoch-6.md)
 - [Epoch 7](_epochs/Epoch-7.md)
-- [Epoch 7 - Rewards](_epochs/Epoch-7-Reward-Details.md)
 - [Epoch 8](_epochs/Epoch-8.md)
 - [Epoch 9](_epochs/Epoch-9.md)
-- [Epoch 9 - Stake Tokens](_epochs/Epoch-9-Stake-TApp-Tokens.md)
-
