@@ -20,23 +20,25 @@
     }
   </script>
 
-  <script src="index.js"></script>
-  <script>
-
-    setFullTextSearchConfig({
-      NO_DATA_TEXT: 'Nothing found...',
-      RESULT_COLOR: 'violet',
-      INSENSITIVE: true
-    })
-    
+<script>
     window.$docsify = {
-      name: '',
-      repo: '',
       loadSidebar: true,
       subMaxLevel: 3,
-      plugins: [
-        fullTextSearch
-      ]
+      name: '',
+      repo: '',
+
+      search: 'auto', // default
+
+      // complete configuration parameters
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Search',
+        noData: 'No results',
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+     }
     }
   </script>
 
