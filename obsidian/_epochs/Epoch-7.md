@@ -43,3 +43,6 @@ The consume action payouts for epoch 7 TApps will be as follows:
 - The consume action payouts for TEA Project-related YouTube videos will be as follows: 1T per view with a 25T cap that resets every 1000 blocks. There's no minimal tip amount for TEAfluencer TApps in epoch 7 (i.e. if a particular video gets 0 views in a 1000 block period, then it won't receive any tip for those 1000 blocks).
 
 3. **TEA Party TApps:** TBA.
+
+## Epoch 7 Reward Details
+![[Epoch-7-Reward-Details]]
