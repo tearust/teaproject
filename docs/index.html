@@ -26,6 +26,25 @@
   }
 </script>
 
+  <script src="index.js"></script>
+  <script>
+
+    setFullTextSearchConfig({
+      NO_DATA_TEXT: 'Nothing found...',
+      RESULT_COLOR: 'violet',
+      INSENSITIVE: true
+    })
+    
+    window.$docsify = {
+      name: '',
+      repo: '',
+      loadSidebar: true,
+      plugins: [
+        fullTextSearch
+      ]
+    }
+  </script>
+
 <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
 <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
 <script>mermaid.initialize({ startOnLoad: true });</script>
