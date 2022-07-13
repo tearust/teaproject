@@ -1,5 +1,4 @@
-- [Home](/)
-- **TApps**
+## TApps Pages
 - [TApps](_tapps/TApps.md)
 - [TApps List](_tapps/TApps-List.md)
 - [TApps Creating a TApp](_tapps/TApps-Creating-a-TApp.md)

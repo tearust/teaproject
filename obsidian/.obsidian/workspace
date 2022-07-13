@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_epochs/Epoch-9.md",
+            "file": "_tapp-tutor/README.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_epochs/Epoch-9.md",
+                "file": "_tapp-tutor/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +89,15 @@
   },
   "active": "1b949e0592dd6f57",
   "lastOpenFiles": [
-    "_epochs/Epoch-9.md",
-    "_epochs/_sidebar.md",
-    "_epochs/Epoch-7.md",
-    "_epochs/Epoch-6.md",
+    "_tapp-tutor/README.md",
+    "_token/README.md",
+    "_token/_sidebar.md",
+    "_tapps/README.md",
     "_tapps/_sidebar.md",
-    "_tapps/Developers.md"
+    "_sidebar.md",
+    "README.md",
+    "_epochs/README.md",
+    "_faq/README.md",
+    "_mining/_sidebar.md"
   ]
 }

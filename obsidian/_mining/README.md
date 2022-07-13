@@ -1,5 +1,4 @@
-- [Home](/)
-- **Mining**
+## Mining Pages
 - [TEA Mining](_mining/TEA-Mining.md)
 - [Mining](_mining/Mining.md)
 - [Mining Contest Newbie Getting Started Guide](_mining/Newbie-Mining-Contest-Getting-Started-Guide.md)

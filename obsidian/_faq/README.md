@@ -1,5 +1,4 @@
-- [Home](/)
-- **FAQs**
+## FAQs
 - [Blog posts explaining TEA Project](_faq/Blog-Posts.md)
 - [Disaster Prevention](_faq/Disaster-Prevention.md)
 - [FAQ](_faq/FAQ.md)

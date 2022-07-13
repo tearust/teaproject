@@ -1,5 +1,4 @@
-- [Home](/)
-- **Epochs**
+## Links to Epochs
 - [Epochs Overview](_epochs/Epochs.md)
 - [Epoch 2](_epochs/Epoch-2.md)
 - [Epoch 3](_epochs/Epoch-3.md)
@@ -9,4 +8,3 @@
 - [Epoch 7](_epochs/Epoch-7.md)
 - [Epoch 8](_epochs/Epoch-8.md)
 - [Epoch 9](_epochs/Epoch-9.md)
-
