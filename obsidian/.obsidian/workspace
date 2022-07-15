@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_tapp-tutor/README.md",
+            "file": "_tapp-tutor/get_started.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tapp-tutor/README.md",
+                "file": "_tapp-tutor/get_started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,13 +89,13 @@
   },
   "active": "1b949e0592dd6f57",
   "lastOpenFiles": [
+    "README.md",
     "_tapp-tutor/README.md",
     "_token/README.md",
     "_token/_sidebar.md",
     "_tapps/README.md",
     "_tapps/_sidebar.md",
     "_sidebar.md",
-    "README.md",
     "_epochs/README.md",
     "_faq/README.md",
     "_mining/_sidebar.md"

@@ -1,6 +1,6 @@
 # TEA Project
 
-[![Logo](https://github.com/tearust/website/blob/main/frontend/public/tea-logo/name-green.png)](https://teaproject.org)
+[![Logo](./tea-logo.png)](https://teaproject.org)
 
 This is the documentation site for the Tea Project. The information presented here is designed to help users participate in the project.
 
