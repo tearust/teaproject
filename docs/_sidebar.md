@@ -1,7 +1,0 @@
-- [Home](/)
-- <strong>[TApp Tutor - Getting Started](_tapp-tutor/get_started.md)</strong>
-- <strong>[TEA Mining](_mining/TEA-Mining.md)</strong>
-- <strong>[Epochs Overview](_epochs/Epochs.md)</strong>
-- <strong>[TApps Overview](_tapps/TApps.md)</strong>
-- <strong>[TEA & CML](_token/Where-to-buy-TEA-token-and-CML.md)</strong>
-- <strong>[FAQs](_faq/FAQ.md)</strong>
