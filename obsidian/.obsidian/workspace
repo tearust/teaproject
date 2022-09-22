@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_tapp-tutor/get_started.md",
+            "file": "_epochs/README.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tapp-tutor/get_started.md",
+                "file": "_epochs/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "1b949e0592dd6f57",
   "lastOpenFiles": [
-    "README.md",
-    "_tapp-tutor/README.md",
-    "_token/README.md",
-    "_token/_sidebar.md",
-    "_tapps/README.md",
-    "_tapps/_sidebar.md",
-    "_sidebar.md",
+    "_epochs/Epochs.md",
     "_epochs/README.md",
-    "_faq/README.md",
-    "_mining/_sidebar.md"
+    "_epochs/Epoch-2.md",
+    "_sidebar.md",
+    "_epochs/Epoch-3.md",
+    "_epochs/Epoch-7.md",
+    "_tapp-tutor/The_future_and_innovation_of_layer2.md",
+    "_tapp-tutor/TPM.md",
+    "_tapp-tutor/txn.md",
+    "_tapp-tutor/urls_for_teaparty.md"
   ]
 }

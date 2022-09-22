@@ -29,11 +29,11 @@ Testers will be able to see their CML coupons in their tea wallet when the new e
 
 The two ways to generate TEA are either to mine or to stake. To begin mining, you would plant a CML seed into a TEA mining machine to generate TEA tokens. These machines are all virtual for right now, merely simulated machines in place of real miners. Look for the little icon here in your CML seed's row to plant your seed into a miner:
 
-![](img/demo-mining-plant.png)
+![](img_epochs/demo-mining-plant.png)
 
 The miner ID & IP will accept anything at this stage (again, these are imaginary machines):
 
-![](img/demo-mining-machine-details.png)
+![](img_epochs/demo-mining-machine-details.png)
 
 ## Staking TEA
 
@@ -41,8 +41,8 @@ Staking is a method of generating revenue without requiring the user to have a m
 
 Users can stake either 1 CML or 1000T per staking slot. To start staking, select the "Mining Camellia" link in the header. Click on the **Stake** button for any miner you want to stake with:
 
-![](img/demo-cml.png)
+![](img_epochs/demo-cml.png)
 
 You can either select one of your non-staked and defrosted CML for staking, or leave the CML unselected and the system will automatically take 1000T for your staked amount. The slot index is a slippage tolerance setting and can be safely ignored for now:
 
-![](img/demo-staking.png)
+![](img_epochs/demo-staking.png)

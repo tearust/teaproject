@@ -26,7 +26,7 @@ You cannot transfer funds or coupons between different accounts. This is to prev
 
 ## No initial funding (but unlimited Genesis Loans of COFFEE)
 
-![](img/genesis-loans.png)
+![](img_epochs/genesis-loans.png)
 
 You won't have any initial funding as you did during the epoch 2 mining contest. But you can now borrow COFFEE with no limitations. Whenever you need funds, you can borrow COFFEE, and then convert it to TEA at the prevailing exchange rate. But take note that this is a debt: COFFEE has a compound interest rate of 0.2% per 100 blocks (this number is subject to change.) If you don't manage your debt well while accumulating assets during this epoch, you might end up with a negative balance!
 
@@ -50,25 +50,25 @@ The compound interest rate may look like just a tiny number at the beginning, bu
 
 In epoch 3.0, you can still use your frozen CML seeds as collateral for a Genesis Loan. The interest rate for our first mining contest in epoch 2 was 0.1 % flat. Now, the rate will change based on the remaining TEA in the liquidation pool of the Genesis Loan. This rate is calculated using the AMM curve: the less TEA there is remaining in the liquidation pool, the higher the interest rate. The interest rate will be a flexible compound interest rate that is recalculated every 100 blocks. So no matter what the rate it was when you took out the loan, the current interest rate you pay is whatever the rate is for the most recent 100-block recalculation. 
 
-![](img/genesis-interest.png)
+![](img_epochs/genesis-interest.png)
 
 ## Genesis TEA Loans can be paid off in full or just the interest to extend the loan
 
 In epoch 2.1, you couldn't pay just the interest due to extend your loan. Now you can extend a loan by paying the interest accrued by the end of the loan due date. 
 
-![](img/genesis-extend.png)
+![](img_epochs/genesis-extend.png)
 
 You still have the option to pay off the loan entirely. 
 
 You can see how much Genesis TEA Loan debt you have outstanding in your wallet:
 
-![](img/genesis-debt.png)
+![](img_epochs/genesis-debt.png)
 
 ## Top up is back
 
 During epoch 2, several contestants fell into trouble when their remaining TEA was too low to make any transactions. Although it's always best to avoid running out of gas on the way to the gas station, sometimes it still happens. To help those who've fallen below the approximately .0003 TEA balance necessary to make transactions, we've added back the **top up** button. You can click the top up button to get 0.1 TEA. It won't make you rich, but it'll at least help you drive to the gas station!
 
-![](img/genesis-top-up.png)
+![](img_epochs/genesis-top-up.png)
 
 ## Mining machines are no longer free. Contestants will use COFFEE to buy one
 
@@ -95,14 +95,14 @@ For epoch 3, each TApp will represent a particular YouTube video. The winning vi
 
 In epoch 3, there's a new top-level TApps page.
 
-![](img/invest-tapps.png)
+![](img_epochs/invest-tapps.png)
 
 This page shows the existing TApps and buttons allowing you to either invest or host any particular TApps.
 
 To **invest** means you're a shareholder of this TApp, just like when you buy a company's stock. 
 The difference is that you're buying from a smart contract called a **bonding curve**. You pay TEA to the bonding curve and receive a particular TApp token in return. For example, in the screenshot above, you'll have **DDF** and **TYB** tokens as your assets if you pay TEA to buy them. The AMM calculates the price of the token based on each token's bonding curve. Generally speaking, the earlier you invest, the lower the price.
 
-![](img/bonding-curve.png)
+![](img_epochs/bonding-curve.png)
 
 (in this image, n > 1, but we set n = 1/2 and m = 1 and 0.7)
 
@@ -111,26 +111,26 @@ The **a** is 1 for the buy curve, 0.7 for the sell curve. The integral  is used 
 
 If the bonding curve is a new Defi concept to you, please google for more details. Simply put, if more tokens are sold (total supply increases), the higher the price of the token and the market cap.
 
-![](img/tapps-list.png)
+![](img_epochs/tapps-list.png)
 
 ## Sell your investment
 
 Unlike traditional order book marketplaces, you don't need a buyer when you sell your investment token. You're actually selling it to the bonding curve. The sell price is based on the predefined the rule that **the sell curve is 70% of the buy curve**. If you buy a token and sell it immediately, you'll lose 30%. The 30% goes to the TApps owners' funding pool. 
 
-![](img/investment.png)
+![](img_epochs/investment.png)
 
 ## Dividend (consumer usage) and expense(paying the hosting fee)
 
 The income and expense of the TApp will go directly to and from the bonding curve as well. The TApp here is a simple DAO that is managed by code and not by the app developers. The bonding curve will automatically calculate how to distribute revenue to shareholders or take tokens from a wallet to pay expenses.
 
-![](img/consume-list.png)
+![](img_epochs/consume-list.png)
 
 When a consumer pays to use this YTB TApp, the funds will be distributed based on the bonding curve's predefined logic. This also holds for the expenses, such as paying for hosting fees.
 
 The bonding curve is constantly changing. Every consume and expense event will cause the price to fluctuate. This is how a typical AMM (Automatic Market Maker) application works to attract venture capital.
 
-![](img/log-details.png)
+![](img_epochs/log-details.png)
 
 Once you've invested in any TApps, you can see them on your Assets page under the **My investment in TApps** tab:
 
-![](img/my-investment-tapps.png)
+![](img_epochs/my-investment-tapps.png)
