@@ -7,12 +7,8 @@
         "id": "1b949e0592dd6f57",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_sidebar.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1b949e0592dd6f57",
+  "active": "9f6f028a07da4ea6",
   "lastOpenFiles": [
     "README.md",
     "_epochs/README.md",
