@@ -1,3 +1,4 @@
+# Epoch 9 Stake TApp Tokens
 ## For new users to the TEA Mining Contest, make sure to buy COFFEE first
 
 Congratulations for your interest in joining the TEA Project's testnet. This guide is focused on those who wish to join the contest through staking and making investments in TApps (through TApp tokens).
