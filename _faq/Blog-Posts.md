@@ -18,3 +18,12 @@
 - [A long article on the TEA token economy - CML and TEA](https://medium.com/@teaproject/challenges-in-the-tea-token-economy-design-cf928a06679b)
 - [How will the business model support the token price?](https://medium.com/@teaproject/the-tea-token-model-how-does-the-business-support-value-price-ff5f8278e4fc)
 - [How TApps Benefit Everyone in the TEA Ecosystem (includes use cases)](https://medium.com/@teaproject/how-tea-project-tapps-benefit-everyone-7c3d59284205)
+
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
