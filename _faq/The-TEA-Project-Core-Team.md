@@ -19,8 +19,11 @@ Software engineer [Jacky Li](https://www.linkedin.com/in/jacky-li-4039747b/) gra
 
 ## Raindust Mingzhi Yan
 
-Software engineer [Mingzhi Yan](https://www.linkedin.com/in/mingzhi-yan-7544b9203/) graduated from Wuhan University. Prior to TEA Project, he was engaged in artificial intelligence and multi-party secure computing research and development at Yuncong Technology.
+Software engineer Mingzhi Yan graduated from Wuhan University. Prior to TEA Project, he was engaged in artificial intelligence and multi-party secure computing research and development at Yuncong Technology.
 
+## Alsein Xiang 
+
+Software engineer Alsein Xiang (pronounced as /ˈælseɪn ʃʌŋ/) graduated from the University Of Wollongong in Australia. He most recently worked for iVolution Capital as a system engineer optimizing their high-frequency trading infrastructure. Prior to that, Alsein engaged in Rust development as a member of the Lark Video Conference team at Bytedance.
 
 ## The TEA Project Has Full-Time & Part-Time Contributors
 All team members are working full time on the TEA Project. Since the TEA Project is an open source project, there are a large number of part-time and community developers as well as other roles participating. These people are not listed in the core team, however, their IDs can be found on Github.

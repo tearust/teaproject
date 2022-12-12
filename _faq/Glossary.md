@@ -1,7 +1,6 @@
 - [TEA Token](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F#tea-token)
 - [Camellia (CML)](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F#camellia-cml)
 - [Mining Contest](https://github.com/tearust/teaproject/wiki/Mining-Contest)
-- [Genesis Loan](https://github.com/tearust/teaproject/wiki/Genesis-Loan)
 - [Staking](https://github.com/tearust/teaproject/wiki/What-is-staking%3F)
 - [Hosting](https://github.com/tearust/teaproject/wiki/Mining:-Host-and-Unhost-TApps)
 - [TApp](https://github.com/tearust/teaproject/wiki/TApps)

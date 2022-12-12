@@ -55,8 +55,8 @@ You can see how much Genesis TEA Loan debt you have outstanding in your wallet:
 
 ![](img_epochs/genesis-debt.png)
 
-## Top up is back
-During epoch 2, several contestants fell into trouble when their remaining TEA was too low to make any transactions. Although it's always best to avoid running out of gas on the way to the gas station, sometimes it still happens. To help those who've fallen below the approximately .0003 TEA balance necessary to make transactions, we've added back the **top up** button. You can click the top up button to get 0.1 TEA. It won't make you rich, but it'll at least help you drive to the gas station!
+## Topup is back
+During epoch 2, several contestants fell into trouble when their remaining TEA was too low to make any transactions. Although it's always best to avoid running out of gas on the way to the gas station, sometimes it still happens. To help those who've fallen below the approximately .0003 TEA balance necessary to make transactions, we've added back the **Topup** button. You can click the top up button to get 0.1 TEA. It won't make you rich, but it'll at least help you drive to the gas station!
 
 ![](img_epochs/genesis-top-up.png)
 
