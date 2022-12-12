@@ -1,12 +1,12 @@
 
-## FAQs
+## Blog Posts
 - [Two Minute Teaser](https://teaproject.medium.com/tea-project-2-minute-teaser-98d5744be4e3)
 - [TEA Project: Moving from Cloud Computing to Web3](https://teaproject.medium.com/tea-project-moving-from-cloud-computing-to-web3-9e0bb5443c92)
 - [TEA Project: Filling the gap between cloud apps and dApps](https://teaproject.medium.com/tea-project-filling-the-gap-between-cloud-apps-and-dapps-99ff7bb4b408)
 - [TEA vs Blockchain](https://medium.com/@teaproject/tea-vs-blockchain-ca31b2e438b3)
 - [TEA vs IPFS](https://medium.com/@teaproject/tea-vs-ipfs-f37202a33fc)
 - [TEA vs Trusted Computing](https://medium.com/@teaproject/tea-vs-trusted-computing-1224745f1664)
-- [Disaster prevention](./Disaster-Prevention)
+- [Disaster prevention](Disaster-Prevention.md)
 - [How big is the market?](https://medium.com/@teaproject/tea-project-disrupting-cloud-computing-market-size-estimation-347b814688db)
 - [Who are the founders and core team members?](https://github.com/tearust/teaproject/wiki/The-TEA-Project-Core-Team)
 - [TEA Project outstanding features compared to other competitors](https://medium.com/@teaproject/tea-project-competitors-d62f53c05bcf)
