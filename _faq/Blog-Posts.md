@@ -19,6 +19,7 @@
 - [How will the business model support the token price?](https://medium.com/@teaproject/the-tea-token-model-how-does-the-business-support-value-price-ff5f8278e4fc)
 - [How TApps Benefit Everyone in the TEA Ecosystem (includes use cases)](https://medium.com/@teaproject/how-tea-project-tapps-benefit-everyone-7c3d59284205)
 
+#### Mermaid example
 
 ```mermaid
   graph TD;
