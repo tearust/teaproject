@@ -28,3 +28,30 @@
       B-->D;
       C-->D;
 ```
+
+## Example 2
+
+#### Fund flow at this stage
+```mermaid
+sequenceDiagram  
+    participant Apps  
+    participant Collection_pool  
+    participant Distribution_pool
+    participant Maintainer
+    participant Public_service_payment
+    participant Genesis_block_reserved_miner_reward
+    participant Global_bonding_curve
+    participant Global_bonding_curve_stakers
+    Apps->>Collection_pool: A fixed memory tax very few blocks as a simulator to real memory tax
+	Distribution_pool-->>Public_service_payment: Constantly the RA (public service) get paid from the Income tax pool buffer
+    Apps->>Collection_pool: Again, A fixed memory tax very few blocks as a simulator to real memory tax
+	Distribution_pool-->>Public_service_payment: Constantly the RA (public service) get paid from the Income tax pool buffer
+    Collection_pool-->>Distribution_pool: At the last block of today, Calculate the income tax for every maintainer. collect to this pool
+    Collection_pool-->>Maintainer: After deductable of income tax, the remaining send to maintainer as revenue.
+	Distribution_pool-->>Public_service_payment: Constantly the RA (public service) get paid from the Income tax pool buffer
+	Distribution_pool-->>Global_bonding_curve: At the end of today, if the balance of Income tax pool is above 1000T, the exceed part is paid to Global bonding curve
+	Global_bonding_curve-->>Global_bonding_curve_stakers: Use the standard bonding curve logic, the stakers will earn dividend in the curve. If they withdraw (sell Global token) they will receive TEA token
+	Genesis_block_reserved_miner_reward-->>Distribution_pool: At the end of a day, if the balance of pool buffer is less than 1000T. topup from the reserved token
+    
+```
+
