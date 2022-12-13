@@ -12,11 +12,10 @@ A transcript of the video is [available here](https://teaproject.medium.com/vide
 Below are the steps described in the video in more detail.
 
 ## Preparing Your Wallet
-More info is available in the [TEA Browser wallet](https://github.com/tearust/teaproject/wiki/TEA-Browser-Wallet) wiki
-post.
+First install the Polkadot{.js} extension and then create your wallet account. Then you'll be able to use the faucet to generate some TEA necessary for the gas to pay for your first transactions.
 
 ## Sign Up For CML Seed Coupons
-You 'll need the TEA Project's NFT known as Camellia (CML) to start mining on the TEA network. The investor registration form for our latest epoch is available [on our Github wiki](https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist) to sign up for redeemable CML seed coupons.
+You 'll need the TEA Project's NFT known as Camellia (CML) to start mining on the TEA network. The investor registration form for our latest epoch is available as a Google Form to sign up for redeemable CML seed coupons.
 
 Testers will be able to see their CML coupons in their tea wallet when the new epoch starts.
 

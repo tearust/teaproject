@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "5f9e6c0e0b945bc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e28dd30ab34c86c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecb7ac6e982eb59d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_mining/TEA-Mining.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd3a07ef3ccf3a69",
+    "type": "split",
+    "children": [
+      {
+        "id": "22d335fb7d875366",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "370101498a530636",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "402ba019a931e1db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist -path:original-root",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9befdd5c2804defc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "87bc135c31723935",
+    "type": "split",
+    "children": [
+      {
+        "id": "fde7391058d9f17e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c620fe6184c7f122",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_mining/TEA-Mining.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "101068acc7aafd6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_mining/TEA-Mining.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac9fc7fbe36132fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "58a7eb74a00d4ddd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_mining/TEA-Mining.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "370101498a530636",
+  "lastOpenFiles": [
+    "_token/TEA-Tokens.md",
+    "_mining/TEA-Mining.md",
+    "_mining/Newbie-Mining-Contest-Getting-Started-Guide.md",
+    "_epochs/Epoch-9-Stake-TApp-Tokens.md",
+    "_epochs/Epoch-2.md",
+    "_tapps/TApp-TEA-Party.md",
+    "_tapps/README.md",
+    "_tapps/TEAfluencer.md",
+    "original-root/obsidian-backup/_tapps/TEAfluencer.md",
+    "_tapps/TApps.md"
+  ]
+}

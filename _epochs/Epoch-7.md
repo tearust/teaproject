@@ -9,7 +9,7 @@ In epoch 7:
 - [Mining](https://github.com/tearust/teaproject/wiki/Mining) involves [setting up actual mining hardware](https://github.com/tearust/teaproject/wiki/Mining-With-Your-Own-Hardware).
 - C CML can earn [Availability Attestation rewards](https://github.com/tearust/teaproject/wiki/Mining---Availability-Attestation) by monitoring the availability of B CML. An added benefit of running a C CML miner is that there's no need for a public IP and there's therefore no need to rent a cloud server. A typical home computer with a residential internet connection is sufficient to mine with a Type C CML.
 - [PoS staking and mining](https://support.polkadot.network/support/solutions/articles/65000168057-how-do-i-stake-nominate-on-polkadot-) is also possible in layer-1, the same as Polkadot. Miners wishing to earn through PoS can [follow this link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwallet.teaproject.org%2Fwss1#/staking).
-- Contestants can use any YouTube video to create TEAfluencer TApps. But only videos approved by Sudo will get tips: if your video doesn't get an approval from Sudo, your TApp won't receive any tips(i.e. revenue).  
+- Contestants can use any YouTube video to create TEA Fluencer TApps. But only videos approved by Sudo will get tips: if your video doesn't get an approval from Sudo, your TApp won't receive any tips(i.e. revenue).  
 - There are two constraints for anyone creating a TApp: **1)** there is a 100T non-refundable deposit for creating a TApp and **2)** the contestant has 24 hours to get the TApp hosted. If the TApp isn't hosted within 24 hours, the TApp is manually taken back from the user ready to be deployed by someone else and the user loses their 100T deposit. 
 - Contestants can now transfer contest funds (contest TEA) and [contest CML Coupons](https://github.com/tearust/teaproject/wiki/CML-Coupons).
 - Epoch 7 is planned to run continuously until the team decides to stop. As updates happen during epoch 7, contestants should be able to see the notification on their **My CML** page. When updates occur, click to see the instructions. Follow the instructions to update your mining software. Ignoring the update notification and failing to update will result in your CML mining machine being forced offline after a grace period.
@@ -37,10 +37,10 @@ The consume action payouts for epoch 7 TApps will be as follows:
 - Note that the contestant making the referral can sell the TApp token immediately to get the all the TEA out for their starting funds (instead of taking out a Genesis collateral loan).
 - Self-referrals are allowed, so every purchase of contest CML a contestant makes will create a consume action in their TApp. The purchaser's TApp should be created first before making the self-referral. If the user wants to get a self-referral for the first consume action into their referral TApp (i.e. the user is making their first CML coupon purchase after entering the contest), then the user should create their referral TApp first. They can then enter their the referral code into the Google Form to earn a self-referral, and the amount paid will be used as the basis of the consume action into their referral TApp token's bonding curve.
   
-2. **TEAfluencer TApps:** These will continue to be tie consume actions to YouTube video views, but they will be at a reduced rate in epoch 7.
+2. **TEA Fluencer TApps:** These will continue to be tie consume actions to YouTube video views, but they will be at a reduced rate in epoch 7.
 
 - The videos must relate to the TEA Project and must be approved by the Sudo account for tip outs to occur.
-- The consume action payouts for TEA Project-related YouTube videos will be as follows: 1T per view with a 25T cap that resets every 1000 blocks. There's no minimal tip amount for TEAfluencer TApps in epoch 7 (i.e. if a particular video gets 0 views in a 1000 block period, then it won't receive any tip for those 1000 blocks).
+- The consume action payouts for TEA Project-related YouTube videos will be as follows: 1T per view with a 25T cap that resets every 1000 blocks. There's no minimal tip amount for TEA Fluencer TApps in epoch 7 (i.e. if a particular video gets 0 views in a 1000 block period, then it won't receive any tip for those 1000 blocks).
 
 3. **TEA Party TApps:** TBA.
 

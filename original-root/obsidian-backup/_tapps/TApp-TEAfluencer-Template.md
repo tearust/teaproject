@@ -1,5 +1,5 @@
-# TApp TEAfluencer Template
-TApp's using the **TEAfluencer Social Influencer** template benefit from "tipping" where **consume** actions of TEA are made into the TApp's bonding curve according to its popularity on social media. To reap these benefits, each TApp will first need to be hosted by enough miners. In epoch 4, there needs to be a minimum of **3** hosting miners before a TApp is running on the network.
+# TApp TEA Fluencer Template
+TApp's using the **TEA Fluencer Social Influencer** template benefit from "tipping" where **consume** actions of TEA are made into the TApp's bonding curve according to its popularity on social media. To reap these benefits, each TApp will first need to be hosted by enough miners. In epoch 4, there needs to be a minimum of **3** hosting miners before a TApp is running on the network.
 
 # TApp Tipping Logic
 Once a TApp using the **TEAfluencer Social Influencer** template is running on the TEA network, the tipping logic kicks in as follows:

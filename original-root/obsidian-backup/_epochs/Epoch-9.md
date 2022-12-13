@@ -37,7 +37,7 @@ Contestants can exchange TEA for COFFEE and then cash out for USDT at anytime (a
 ## Changes to TApps
 
 - TEA Party returns with private messaging and layer-1 notifications.
-- Teafluencer will remain in epoch 9 with a tighter cap on tipping. Also no existing YouTube videos will be approved, they must be new videos.
+- TEA Fluencer will remain in epoch 9 with a tighter cap on tipping. Also no existing YouTube videos will be approved, they must be new videos.
 - [Referral TApps](https://github.com/tearust/teaproject/wiki/Epoch-7#epoch-7---tapp-consume-actions) will be removed
 
 ## Epoch 9 - Buying Stake in TApps (TApp Tokens)

@@ -4,5 +4,5 @@ Beginning in epoch 5, mining will become even more realistic as contestants will
 ## Epoch 5 Consume Actions
 In epoch 5, the consume action automatically happens every 1000 blocks. The following amount of TApp tokens are purchased and distributed to hosters and TApp token investors according to the following formula:
 
-- YouTube TEAfluencer TApp:  100T worth of tokens per view, max of 2500T per 1000 blocks. Minimum of 10T per 1000 blocks.
+- YouTube TEA Fluencer TApp:  100T worth of tokens per view, max of 2500T per 1000 blocks. Minimum of 10T per 1000 blocks.
 

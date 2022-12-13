@@ -3,15 +3,10 @@
 - If you're completely new to the TEA Project, familiarize yourself with [the newbie guide](https://github.com/tearust/teaproject/wiki/%5ENewbie-Mining-Contest-Getting-Started-Guide%5E) before getting started mining.
 - Once you're ready to mine, the [Mining With Your Own Hardware](https://github.com/tearust/teaproject/wiki/Mining-With-Your-Own-Hardware) guide will help you setup your actual mining machine.
 
-# Mining Contests
-- [Mining Contest: Competitor Checklist](https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist)
-- [Epochs](https://github.com/tearust/teaproject/wiki/Epochs)
 
 Note that all contestants must read and agree to the [Mining Contest Disclosure Agreement](https://github.com/tearust/teaproject/wiki/Mining-Contest-Disclosure-Agreement).
 
 # Helpful articles for mining contest participants 
-- [TEA Browser Wallet](https://github.com/tearust/teaproject/wiki/TEA-Browser-Wallet)
-
 - [CML Coupons](https://github.com/tearust/teaproject/wiki/CML-Coupons)
 
 - [CML Migration(Transfer)](https://github.com/tearust/teaproject/wiki/CML-Migration-(Transfer))

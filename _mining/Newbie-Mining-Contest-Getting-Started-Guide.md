@@ -6,7 +6,7 @@ To increase participation with the project, we reward contestants by allowing th
 These act as a mining license and will allow contest participants the first shot at becoming miners when mainnet launches and block rewards are at their highest.
 
 # 1. Install the Polkadot{.js} Wallet Extension
-This is necessary to interact with our [TEA browser wallet](https://wallet.teaproject.org) which you'll be using throughout the contest. The [mining contest competitor checklist](https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist#install-the-polkadotjs-extension) has a section detailing how to install the Polkadot{.js} extension.
+This is necessary to interact with our [TEA browser wallet](https://wallet.teaproject.org) which you'll be using throughout the contest. You'll first need to install the Polkadot{.js} extension.
 
 # 2. Login and Start Interacting with the TEA Browser Wallet
 You can now visit the [TEA browser wallet](https://wallet.teaproject.org) and we'll sign up for the mining competition by clicking on the **Miner**:
@@ -61,7 +61,7 @@ In the modal popup, fill in the following boxes:
 - **Email address** is for receiving reward receipts and contest notifications. Make sure to use a valid email address so you can be notified regarding your contest rewards.
 
 # 4. Trade Your USD for COFFEE
-Participants in the TEA Project mining competition will exchange USD (USDT or BUSD on the BNB Chain) for COFFEE in a 1:1 ratio. The actual form for initiating this transaction is [linked in our competitor checklist](https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist). This is a manual process so allow some time for the conversion.
+Participants in the TEA Project mining competition will exchange USD (USDT or BUSD on the BNB Chain) for COFFEE in a 1:1 ratio. If interested, you can contact the team and we'll send you the form for initiating this transaction. This is a manual process so allow some time for the conversion.
 
 Once the COFFEE has been sent to your wallet you will need to exchange it for TEA to interact with the platform. After exchanging for TEA, users will be able to purchase CML through the marketplace. Users can use their CML to start mining or they can use one or more of their CML seeds to [take out Genesis loans](https://github.com/tearust/teaproject/wiki/Genesis-TEA-Loans). These loans are useful to gain the initial 1000T needed for a mining slot, but remember to pay them off within 3 days (or renew the loans) else you'll lose your collateral seed.
 

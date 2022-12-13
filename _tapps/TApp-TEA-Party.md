@@ -15,4 +15,4 @@ During the mining contest epochs, TEA Party-based TApps will earn tips every 100
 - Maximum tip of 1000T per 1000 blocks.
 - A minimum of 1T is tipped out every 1000 blocks (in case there are no messages during that block time).
 
-Keep in mind that this amount of TEA tipped out is used to buy the TApp's tokens which is then distributed proportionally to token holders and miners. For more information about tipping rounds, you can read more about that [here](https://github.com/tearust/teaproject/wiki/TApp:-TEAfluencer-Template#tapp-tipping-logic).
+Keep in mind that this amount of TEA tipped out is used to buy the TApp's tokens which is then distributed proportionally to token holders and miners. 

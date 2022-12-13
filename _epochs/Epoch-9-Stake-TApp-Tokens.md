@@ -4,7 +4,7 @@
 Congratulations for your interest in joining the TEA Project's testnet. This guide is focused on those who wish to join the contest through staking and making investments in TApps (through TApp tokens).
 
 # 1. Install the Polkadot{.js} Wallet Extension
-This is necessary to interact with our [TEA browser wallet](https://wallet.teaproject.org) which you'll be using throughout the contest. The [mining contest competitor checklist](https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist#install-the-polkadotjs-extension) has a section detailing how to install the Polkadot{.js} extension.
+Installing the Polkadot{.js} extension is necessary to interact with our [TEA browser wallet](https://wallet.teaproject.org) which you'll be using throughout the contest.
 
 # 2. Buy COFFEE
 To get started with TEA project, you first need to purchase COFFEE (the bridge) using USDT on the BNB chain by following 👉 [this link](https://docs.google.com/forms/d/e/1FAIpQLSfb1fjb_Pyfkfa4zOORoWoZcbWJ61OO5r1Egp2CcYsbdwtIeQ/viewform?ts=621ea246). 👈
