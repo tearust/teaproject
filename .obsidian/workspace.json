@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_epochs/Epoch-06.md",
+                "file": "_epochs/Epoch-07.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_epochs/Epoch-06.md",
+                "file": "_epochs/Epoch-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_epochs/Epoch-06.md",
+                "file": "_epochs/Epoch-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_epochs/Epoch-06.md"
+                "file": "_epochs/Epoch-07.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "ecb7ac6e982eb59d",
   "lastOpenFiles": [
+    "_epochs/Epoch-06.md",
+    "_epochs/Epoch-07.md",
     "_mining/Mining.md",
     "_mining/Mining-With-Own-Hardware.md",
-    "_epochs/Epoch-06.md",
     "_epochs/Epoch-05.md",
     "_epochs/Epoch-04.md",
     "_epochs/Epoch-03.md",
     "_epochs/Epoch-02.md",
     "_token/Genesis-TEA-Loans.md",
-    "_mining/TEA-Mining.md",
-    "_token/README.md"
+    "_mining/TEA-Mining.md"
   ]
 }
