@@ -93,8 +93,15 @@ The difference is that you're buying from a smart contract called a **bonding cu
 
 (in this image, n > 1, but we set n = 1/2 and m = 1 and 0.7)
 
-In epoch 3, we use the basic bonding curve of ![[Pasted image 20210829134248.png]]
-The **a** is 1 for the buy curve, 0.7 for the sell curve. The integral ![[Pasted image 20210829134521.png]] is used to calculate the TEA amount for the funding and reserve pools.
+In epoch 3, we use the following basic bonding curve:
+
+![](img_epochs/bonding-curve-formula.png)
+
+The **a** is 1 for the buy curve, 0.7 for the sell curve. The integral formula:
+
+![](img_epochs/bonding-curve-formula-integral.png) 
+
+is used to calculate the TEA amount for the funding and reserve pools.
 
 If the bonding curve is a new Defi concept to you, please google for more details. Simply put, if more tokens are sold (total supply increases), the higher the price of the token and the market cap.
 

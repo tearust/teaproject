@@ -40,5 +40,44 @@ Contestants can exchange TEA for COFFEE and then cash out for USDT at anytime (a
 - TEA Fluencer will remain in epoch 9 with a tighter cap on tipping. Also no existing YouTube videos will be approved, they must be new videos.
 - [Referral TApps](Epoch-7.md) will be removed
 
-## Epoch 9 - Buying Stake in TApps (TApp Tokens)
-![[Epoch-9-Stake-TApp-Tokens]]
+## Start Generating TEA Revenue Through Buying TApp Tokens
+
+We've now setup everything and it's time to generate some contest TEA revenue so we can start moving up the leaderboard. The easiest way to start in TEA's testnet is to buy a TApp's token. Every decentralized app in our ecosystem, called a TApp, has its own token associated with it. Buying a TApp's token is just like owning stock in a TApp and gives the owner some financial benefits:
+
+1. Each time the TApp is used by someone, a consume action is initiated. The developer gets their share, and the rest of the consume revenue is converted to TApp tokens and distributed proportionally to TApp token holders. This is considered the dividend reward for being a TApp token holder.
+
+2. A TApp token is minted according to a bonding curve: as the supply increases, so does the price. We know that consume actions introduce a new supply of TApp tokens minted along the bonding curve. So not only will TApp token holders earn dividends, their token values will also go up at the same time.
+
+## Example of Investing in the TEA Party TApp Token
+A contestant in the mining competition will increase their leaderboard position by increasing their net asset value. One way to do this is to purchase TApp tokens and enjoy both dividends and price appreciation (as long as people keep buying the TApp token). Let's see how you'd go about investing in the TEA Party's TApp token.
+
+## 1. First navigate to the TApp list.
+Using [the TEA browser wallet](https://wallet.teaproject.org), pick the TApp from the list whose tokens you want to invest in:
+
+<img width="1175" alt="1  Screen Shot 2022-04-20 at 8 11 19 PM" src="https://user-images.githubusercontent.com/86096370/164365341-0e40cae4-7c84-4b72-ad06-91ca3eee83ce.png">
+
+Note the price (in TEA) of the token's current price. The price you pay will be the **buy** price which will be above the sell price since tokens are issued along a bonding curve. Locate the **buy** button in the row of the TApp whose token you want to buy:
+
+<img width="1106" alt="2  Screen Shot 2022-04-20 at 8 12 27 PM" src="https://user-images.githubusercontent.com/86096370/164365347-ec98a50f-cf5f-408e-8809-57df66111749.png">
+
+## 2. Decide how much of the TApp token you want to purchase.
+
+You'll need to exchange TEA for the TApp tokens you want to buy. If you have a certain amount of TEA you want to spend, input it in the TEA section and click the **convert back** button to see how much TEA that will buy you:
+
+<img width="1121" alt="3  Screen Shot 2022-04-20 at 8 14 25 PM" src="https://user-images.githubusercontent.com/86096370/164365351-d99a07f0-d2e7-40e1-9cf2-f1797cdb1516.png">
+
+Clicking the **next** button will initiate the transaction which you'll need to confirm in your wallet.
+
+## 3. Keep track of your TApp tokens in the "My assets" section of your wallet.
+
+You can always check the amount and current price of the TApp tokens you have by clicking the **my investment in TApps** tab of your assets page:
+
+<img width="1170" alt="4  Screen Shot 2022-04-20 at 8 15 01 PM" src="https://user-images.githubusercontent.com/86096370/164365354-7605684e-eabb-42ea-96f1-df7f6e3a7d2f.png">
+
+## 4. Keep Track of Your Position on the Leader Board
+The goal of these testnet competitions is to increase the total value of your assets. As competitors increase their asset value in contest TEA, they'll have two options to cash out their winnings.
+
+1. Contest TEA can be exchanged for mainnet CML. CML is a valuable NFT that's used as a mining license on the platform.
+2. The COFFEE:USDT exchange rate will always be 1:1. Contestants can therefore exchange their contest TEA back into COFFEE to be cashed out anytime at the same rate. 
+
+The CML mainnet exchange happens every week and is announced in our [Telegram group](https://t.me/teaprojectorg).

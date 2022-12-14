@@ -1,6 +1,12 @@
 # How to Mine With Your Own Hardware
 Contestants can now use their own computer hardware to mine on the TEA network. This will require running an installation script to setup your mining machine. The process is slightly different depending on the type of CML you've planted.
 
+You'll need the following to start mining:
+
+- A defrosted CML seed to plant into the mining machine. Contestants should stick with A or B CML as C seeds won't be able to host TApps.
+- 1000 TEA for the initial staking slot.
+- A mining machine to host the CML.
+
 # A & B CML are Powerful Enough to Host TApps
 You can use a type A or type B CML-planted mining machine to not only earn public service mining rewards but also host TApps. In epoch 6 there won't be any type A CML available for sale. Type B Camellia seeds can be purchased through the [marketplace](https://wallet.teaproject.org/#/auction_store) as well as through the signup form. So if you want to host TApps in epoch 6, you'll need to purchase a B CML seed and plant it into a machine with a publicly-accessible IP address.
 

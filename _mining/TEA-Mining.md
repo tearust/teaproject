@@ -11,8 +11,6 @@ Note that all contestants must read and agree to the [Mining Contest Disclosure 
 
 - [CML Migration(Transfer)](https://github.com/tearust/teaproject/wiki/CML-Migration-(Transfer))
 
-- [Genesis Loans](https://github.com/tearust/teaproject/wiki/Genesis-TEA-Loans)
-
 - [Marketplace Auctions](https://github.com/tearust/teaproject/wiki/Marketplace-Auctions)
 
 - [TApp Tokens](https://github.com/tearust/teaproject/wiki/TApp-Token-Supply-and-Demand) 

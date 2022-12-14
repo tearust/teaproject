@@ -11,8 +11,12 @@
             "id": "ecb7ac6e982eb59d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_epochs/Epoch-06.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://github.com/tearust/teaproject/wiki/Mining-Contest:-Competitor-Checklist -path:original-root",
+                "query": "https://github.com/tearust/teaproject/wiki/Mining -path:original-root",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_epochs/Epoch-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_epochs/Epoch-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_epochs/Epoch-06.md"
+              }
             }
           }
         ]
@@ -130,15 +138,15 @@
   },
   "active": "ecb7ac6e982eb59d",
   "lastOpenFiles": [
-    "_epochs/Epoch-3.md",
-    "_epochs/Epoch-2.md",
+    "_mining/Mining.md",
+    "_mining/Mining-With-Own-Hardware.md",
+    "_epochs/Epoch-06.md",
+    "_epochs/Epoch-05.md",
+    "_epochs/Epoch-04.md",
+    "_epochs/Epoch-03.md",
+    "_epochs/Epoch-02.md",
+    "_token/Genesis-TEA-Loans.md",
     "_mining/TEA-Mining.md",
-    "_token/TEA-Tokens.md",
-    "_mining/Newbie-Mining-Contest-Getting-Started-Guide.md",
-    "_epochs/Epoch-9-Stake-TApp-Tokens.md",
-    "_tapps/TApp-TEA-Party.md",
-    "_tapps/README.md",
-    "_tapps/TEAfluencer.md",
-    "original-root/obsidian-backup/_tapps/TEAfluencer.md"
+    "_token/README.md"
   ]
 }
