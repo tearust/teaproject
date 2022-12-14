@@ -3,7 +3,7 @@
 ## Epoch 7 Intro
 Epoch 7 continues to require contestants to pay to purchase contest CML seeds. The contest seeds can be bought using the [purchase form](https://forms.gle/jeBkBn8wDj1np92eA).
 
-In epoch 7:
+In Epoch 7:
 
 - Contestants will purchase contest CML coupons redeemable for seeds using their own crypto and can use Genesis TEA loans to obtain TEA funds necessary for staking slots and interacting with TApps. 
 - Mining involves [setting up actual mining hardware](../_mining/Mining-With-Own-Hardware.md).

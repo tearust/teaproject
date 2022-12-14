@@ -11,12 +11,8 @@
             "id": "ecb7ac6e982eb59d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_epochs/Epoch-07.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_epochs/Epoch-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_epochs/Epoch-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_epochs/Epoch-07.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +128,50 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ecb7ac6e982eb59d",
+  "floating": {
+    "id": "2a30179e8fd6c9cb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cfab6d9932005e8b",
+        "type": "window",
+        "children": [
+          {
+            "id": "af0559ac2d9fdc9e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b47a5596fdce93d4",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1447,
+        "y": 174,
+        "width": 1024,
+        "height": 1264,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "370101498a530636",
   "lastOpenFiles": [
+    "_faq/Disaster-Prevention.md",
+    "_mining/DDoS-Attacks-vs-Miners.md",
+    "_mining/Mining-Availability-Attestation.md",
+    "_epochs/Epoch-07.md",
     "_epochs/README.md",
     "_epochs/Epoch-11.md",
     "_epochs/Epoch-12.md",
     "_epochs/Epoch-10.md",
     "_epochs/Epoch-09.md",
-    "_epochs/Epoch-08.md",
-    "_epochs/Epoch-07.md",
-    "_epochs/Epoch-06.md",
-    "_mining/Mining.md",
-    "_mining/Mining-With-Own-Hardware.md"
+    "_epochs/Epoch-08.md"
   ]
 }
