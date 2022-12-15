@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_faq/TEA-Project-Basic-Concepts.md",
+                "file": "_mining/Mining-With-Own-Hardware.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://github.com/tearust/teaproject/wiki/Mining -path:original-root",
+                "query": "Unhost -path:original-root",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_faq/TEA-Project-Basic-Concepts.md",
+                "file": "_mining/Mining-With-Own-Hardware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_faq/TEA-Project-Basic-Concepts.md",
+                "file": "_mining/Mining-With-Own-Hardware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_faq/TEA-Project-Basic-Concepts.md"
+                "file": "_mining/Mining-With-Own-Hardware.md"
               }
             }
           }
@@ -171,15 +171,15 @@
   },
   "active": "ecb7ac6e982eb59d",
   "lastOpenFiles": [
-    "_faq/Social-Media.md",
-    "_faq/README.md",
-    "_faq/Governance-Structure.md",
-    "_faq/Glossary.md",
-    "_faq/FAQ.md",
-    "_faq/Disaster-Prevention.md",
-    "_faq/Blog-Posts.md",
-    "_epochs/Epoch-08.md",
+    "_mining/TEA-Mining.md",
+    "_mining/Mining-Contest-Disclosure-Agreement.md",
+    "_mining/Mining-Controller-Account.md",
+    "_mining/Mining-Required-Open-Ports.md",
+    "_mining/Mining-With-Own-Hardware.md",
+    "_mining/Mining-Withdraw-TEA-Funds-from-Controller-Account.md",
+    "_mining/Mining-With-Own-Hardware-Virtual-Machines.md",
+    "_mining/Mining-Contest-Mainnet-Vouchers-FAQ.md",
     "_epochs/Epoch-07.md",
-    "_mining/DDoS-Attacks-vs-Miners.md"
+    "_mining/Mining-Contest-Competitor-Checklist.md"
   ]
 }

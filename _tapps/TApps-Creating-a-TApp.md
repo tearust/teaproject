@@ -13,8 +13,6 @@ TApp creators are responsible for their TApp's initial token funding. The number
 
 See https://github.com/tearust/teaproject/wiki/Bonding-Curve-Theta
 
-# Create new TApp - YouTube Id
-The YouTube Id of your YouTube TApp. If the URL of your video is located at https://www.youtube.com/watch?v=qnZAsosHOTo , then the YouTube Id is **qnZAsosHOTo** .
 
 # Create new TApp - Min hosts
 The minimum number of hosts that must be hosting this TApp. If there are not enough mining machines to reach the **Min hosts** requirement, then the TApp won't run. The default value = 3.
@@ -48,21 +46,3 @@ Example: a landlord collects rent on a restaurant even during Covid-19 when ther
 Example: a food court offers its extra space to a restaurant and only collects a percentage of receipts instead of rent. The food court benefits when the restaurant is busy with customers, but doesn't receive anything when the restaurant doesn't have customers.
 
 Note that if option 1 (fixed TEA payment) is chosen, the TApp automatically sells TApp tokens to release the underlying TEA to pay the miners' fixed hosting fee. This causes the token holders' wallet amount to shrink over time. If the TApp does not gain any consume action tips during the tipping rounds, the investors' TApp tokens will continue to shrink. This could eventually lead to bankruptcy where the investors lose their entire investment in the TApp token.
-
-# Create new TApp - Staked token amount
-
-The amount of staked tokens set aside to be shared with miners who host the TApp. In the new billing model **Fixed TApp token and dividend payments**, the hosting miners share the profit and risk with the TApp owners. There is no longer any fixed income for miners from hosting when the TApp creator chooses this new billing option. The host needs to use their CML's performance to host a TApp. In return, the miner gets staking TApp tokens which give them a portion of the consume action whenever the TApp gets tipped. As long as the CML is still hosting the TApp, the staking tokens cannot be sold.
-
-The amount of staked tokens are specified during the creation of the TApp.
-
-If the miner unhosts the TApp, the performance value will be returned to the CML's remaining performance and the miner's staked tokens will be burned. You can learn more about [staked tokens on this page](https://github.com/tearust/teaproject/wiki/Mining:-Staked-TApp-Tokens).
-
-# TApps Topic List
-
-Everyone can create TApps, but the topics (the Youtube video) has to be in the sudo list.
-Every link can be used by only one TApp. If all links are used by other TApps, you'll have to wait until any of them die or new links are added to the list.
-
-- All topic in the list have to be preapproved by the sudo account and  must relate to and promote the TEA project.
-
-- Anyone can propose new links in our Telegram channel. If it gets approved, the proposer has priority in creating this TApp.
-

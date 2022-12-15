@@ -71,7 +71,6 @@ Because epochs change, some information in the wiki is no longer relevant and be
 - [Marketplace Auctions](https://github.com/tearust/teaproject/wiki/Marketplace-Auctions)
 - [TEA Browser Wallet](https://github.com/tearust/teaproject/wiki/TEA-Browser-Wallet)
 - [TApp Tokens](https://github.com/tearust/teaproject/wiki/TApp-Token-Supply-and-Demand) 
-- [Mining: Host and Unhost TApps](https://github.com/tearust/teaproject/wiki/Mining:-Host-and-Unhost-TApps)
 - [TEA mining helpful links](https://github.com/tearust/teaproject/wiki/TEA-Mining)
 
 Note that all contestants must read and agree to the [Mining Contest Disclosure Agreement](https://github.com/tearust/teaproject/wiki/Mining-Contest-Disclosure-Agreement).

@@ -1,36 +1,42 @@
 # How to Mine With Your Own Hardware
-Contestants can now use their own computer hardware to mine on the TEA network. This will require running an installation script to setup your mining machine. The process is slightly different depending on the type of CML you've planted.
+Contestants can now use their own computer hardware to mine on the TEA network. This will require running an installation script to setup your mining machine. 
 
 You'll need the following to start mining:
 
-- A defrosted CML seed to plant into the mining machine. Contestants should stick with A or B CML as C seeds won't be able to host TApps.
-- 1000 TEA for the initial staking slot.
+- A defrosted CML seed to plant into the mining machine. 
+- An amount of TEA to fund the creation of your initial CML investment tokens.
 - A mining machine to host the CML.
 
-# A & B CML are Powerful Enough to Host TApps
-You can use a type A or type B CML-planted mining machine to not only earn public service mining rewards but also host TApps. In epoch 6 there won't be any type A CML available for sale. Type B Camellia seeds can be purchased through the [marketplace](https://wallet.teaproject.org/#/auction_store) as well as through the signup form. So if you want to host TApps in epoch 6, you'll need to purchase a B CML seed and plant it into a machine with a publicly-accessible IP address.
+## Obtaining First CML
+A Camellia seed (CML) is an NFT that gives mining rights when planted into a machine. The lifespan of a Camellia seed varies from a few weeks during testnet to approximately 2 years after mainnet launches. Camellia seeds can be purchased through the **Seed Auction** TApp in the TApp Store wallet. 
 
-# C CML Can Mine for Public Service Rewards
+## CML Nodes Can Earn Gas Fees and Public Service Rewards
 
-Note that Type C CML are not allowed to host TApps. You can setup miners for these to earn public service rewards (like remote attestation). Type C planted mining machines can be setup on a home computer and will require 1000T for the first staking slot. C CML-planted mining machines don't require a publicly accessible IP addresses. Besides mining, type C CML seeds can also be used for securing TEA loans and staking into other mining machines.
+When a CML is chosen by an enduser to host a TApp, the CML owner will earn the gas fee that the enduser pays. The actual amount earned goes to the bonding curve of the CML's investment token.
+
+When an enduser pays a gas fee to use the services of a CML miner to host a TApp, the gas fee gets distributed as follows:
+
+- Theta % (chosen by the miner when they setup their CML) goes directly to the miner's wallet.
+- The rest goes to the bonding curve of the miner's CML token. This is like a dividend that's distributed according to how many tokens any user holds of that particular CML.
+
+A CML miner will also earn public service rewards (like remote attestation) as a result of helping the ecosystem run smoothly. 
 
 # Minimum Mining Machine Requirements - OS
-The mining machine installation scripts were designed to be run on Ubuntu. 
-- **Linux:** The script has been tested successfully on Ubuntu versions 18.04, 20.04, and 21.04 and may run on other Ubuntu versions as well. 
-- **Mac** and **Windows:** Most users running home computers will be best off running a virtual machine for Ubuntu. [Click here for more info on Mac and Windows compatability](https://github.com/tearust/teaproject/wiki/Mining-With-Your-Own-Hardware---Virtual-Machines#mac--windows-compatibility-for-mining-machine-script). That link also explains how C CML owners on Mac and Windows can use Multipass to setup Ubuntu on their home computers under a virtual machine.
+The mining machine installation scripts were designed to be run on Ubuntu. The script has been tested successfully on Ubuntu versions 18.04, 20.04, and 22.04 and may run on other Ubuntu versions as well. 
 
 # Minimum Mining Machine Requirements - Hardware
-- **For A or B-planted CML mining machines**: A machine with a publicly-reachable IP address. You can use your home computer (provided you have shell access to run docker and have [a way to get an IP address](https://help.edovia.com/hc/en-us/articles/115010872388-Making-your-computer-reachable-remotely-without-Screens-Connect) that is reachable from the outside world). For most people it will be easiest to use a cloud virtual server provider. 
-- **For C-planted CML mining machines**, most home computers running Ubuntu should work fine. These C CML machines don't always need to be reachable 24/7 so can be run from home computers behind residential routers.
-- Minimum ram requirement for mining machine = 2gb.
+- **CML mining machines** must have a publicly-reachable IP address. You can use your home computer (provided you have shell access to run docker and have [a way to get an IP address](https://help.edovia.com/hc/en-us/articles/115010872388-Making-your-computer-reachable-remotely-without-Screens-Connect) that is reachable from the outside world). For most people it will be easiest to use a cloud virtual server provider. 
 
-# Guide to Planting a B CML Seed into a Mining Machine
-The following guide will use [DigitalOcean's](https://digitalocean.com) 2GB droplet with Ubuntu 20.04 as the operating system. Because it has at least 2G of ram and a publicly accessible IP, we will be planting a B CML into this mining machine.
+- Minimum ram requirement for mining machine = 1gb.
+
+# Guide to Planting a CML Seed into a Mining Machine
+The following guide will use [DigitalOcean's](https://digitalocean.com) 2GB droplet with Ubuntu 20.04 as the operating system (although 1G of ram is enough).
+
 #### Create your droplet
 
 <img width="1040" alt="_12" src="https://user-images.githubusercontent.com/86096370/137818245-23ef2364-671e-4a39-8965-5b49a0304c49.png">
 
-#### Select Ubuntu 20.04 for the distribution
+#### Select Ubuntu for the distribution
 
 <img width="798" alt="_13" src="https://user-images.githubusercontent.com/86096370/137818248-affd3718-a1a6-4b77-8e08-53d0ddcde1ae.png">
 
@@ -61,9 +67,10 @@ It will prompt you to enter your password if you're using password authenticatio
 Your first login will also ask `Are you sure you want to continue connecting (yes/no/[fingerprint])?` to which you can answer `yes`.
 
 #### Turn on swap memory of the Digital ocean droplet
-By default, digital ocean set the memory swap to off in order to save the life of their SSD drive. But if you do not care (you should not), you should turn it on. It will potentially prevent the OOM (out of memory) which causes your server to crash. Please follow the instruction below: 
+By default, digital ocean set the memory swap to off in order to save the life of their SSD drive. We recommend turning it on. It will potentially prevent the OOM (out of memory) errors which could cause your server to crash. Please use the following instructions to enable swap memory: 
 [Digital ocean instruction](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04)
-#### Plant your Your B CML seed
+
+#### Plant your Your CML seed
 
 <img width="1150" alt="St-1" src="https://user-images.githubusercontent.com/86096370/137788027-63f90793-f89d-43a5-808f-22bdb74bc6a7.png">
 
