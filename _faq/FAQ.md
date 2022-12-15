@@ -9,21 +9,15 @@ To participate in a testnet epoch to earn COFFEE tokens redeemable for mainnet T
 2. Use the **TEA Fluencer** TApp to quote retweet the listed tweet and activate the testnet TEA faucet.
 3. Use the **Leader Board** TApp to register for the current epoch competition. Registering on the Leader Board will ensure that your testnet TEA tokens are counted for distribution of COFFEE rewards and for rollover into the next epoch.
 
-## How to get started as a miner?
-
-You will need to setup mining machine then, follow the steps in the [mining guide for the current epoch](https://www.youtube.com/playlist?list=PLOhw_qkI0ILWh5HDI8ZiFARjfkfvNPqev).
-
-## How much is the CML? And what are the rewards for participating in the testnet once the mainnet launched?
-
-You can buy hosting CML (type B) and private CML (type C) in the [Marketplace](https://wallet.teaproject.org/#/auction_store), current auction price = ~26000 TEA Tokens per B CML seed.
-
-The tea tokens earned in the testnet can be exchanged for COFFEE tokens, which is the reward for participating in the testnet. COFFEE are actually ERC20 tokens and will also give holders voting privileges calculated at mainnet launch. After the mainnet launches, it can be exchanged for mainnet TEA tokens (rate to be determined).
-
 ## I've purchased a CML - What can I do with it?
 
 CML is an NFT of the TEA Project that serves as a mining license. When users choose your CML node to host a TApp they want to use, you'll earn revenue in the form of the gas fee the end-user pays to run the TApp on your node.
 
 Note that after planting into a mining machine, each CML will have a life span of approximately 2 weeks during the testnet epochs. This is an accelerated schedule specifically for the testnet as mainnet CML will have a lifespan of approximately 2 years.
+
+## How to get started as a miner?
+
+You will need to setup mining machine then, follow the steps in the [mining guide for the current epoch](https://www.youtube.com/playlist?list=PLOhw_qkI0ILWh5HDI8ZiFARjfkfvNPqev).
 
 ## What are TApps?
 Decentralized apps (dApps) are known as TApps in the TEA ecosystem. Each TApp has a token associated with it that's issued on a bonding curve, which means early buyers reap more rewards as the supply of the TApp Token increases. 

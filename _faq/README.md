@@ -1,6 +1,6 @@
 ## FAQs
 - [Blog posts explaining TEA Project](Blog-Posts.md)
-- [Disaster Prevention](Disaster-Prevention.md)
+- [TEA Security](Disaster-Prevention.md)
 - [FAQ](FAQ.md)
 - [Glossary](Glossary.md)
 - [Governance Structure](Governance-Structure.md)
