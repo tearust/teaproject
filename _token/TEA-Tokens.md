@@ -1,6 +1,8 @@
 # TEA Tokens
 TEA is the utility token for the TEA Project. TEA is used as gas on the TEA network and is necessary for signing transactions. TEA is also the currency that's exchanged by consumers in order to use TApps.
 
+The total supply of TEA tokens is 100 million.
+
 ## How to Obtain Initial TEA Tokens
 
 #### Testnet

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_mining/Mining-With-Own-Hardware.md",
+                "file": "_token/Bonding-Curve-Theta.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_mining/Mining-With-Own-Hardware.md",
+                "file": "_token/Bonding-Curve-Theta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_mining/Mining-With-Own-Hardware.md",
+                "file": "_token/Bonding-Curve-Theta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_mining/Mining-With-Own-Hardware.md"
+                "file": "_token/Bonding-Curve-Theta.md"
               }
             }
           }
@@ -136,50 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "floating": {
-    "id": "2a30179e8fd6c9cb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cfab6d9932005e8b",
-        "type": "window",
-        "children": [
-          {
-            "id": "af0559ac2d9fdc9e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b47a5596fdce93d4",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1447,
-        "y": 174,
-        "width": 1024,
-        "height": 1264,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "ecb7ac6e982eb59d",
   "lastOpenFiles": [
-    "_mining/TEA-Mining.md",
-    "_mining/Mining-Contest-Disclosure-Agreement.md",
-    "_mining/Mining-Controller-Account.md",
-    "_mining/Mining-Required-Open-Ports.md",
-    "_mining/Mining-With-Own-Hardware.md",
-    "_mining/Mining-Withdraw-TEA-Funds-from-Controller-Account.md",
-    "_mining/Mining-With-Own-Hardware-Virtual-Machines.md",
-    "_mining/Mining-Contest-Mainnet-Vouchers-FAQ.md",
-    "_epochs/Epoch-07.md",
-    "_mining/Mining-Contest-Competitor-Checklist.md"
+    "_token/CML-Migration-(Transfer).md",
+    "_token/Bonding-Curve-Theta.md",
+    "_token/Bonding-curve.md",
+    "_token/Billing-system-between-layer1-layer2.md",
+    "_token/Investors.md",
+    "_token/Marketplace-Auctions.md",
+    "_token/README.md",
+    "_token/TApp-token.md",
+    "_token/TApp-Token-Supply-and-Demand.md",
+    "_token/Staking.md"
   ]
 }
