@@ -18,8 +18,8 @@ Consumers are a special case since they may not know the TEA Project at all whil
 
 Please get to know more according to your own interests:
 
-- [Basic Concepts for Miners](https://github.com/tearust/teaproject/wiki/TEA-Mining)
+- [Basic Concepts for Miners](../_mining/TEA-Mining.md)
 
-- [Basic Concepts for Investors](https://github.com/tearust/teaproject/wiki/Investors)
+- Investors can learn more about investing in [entity tokens](../_token/TApp-Token-Supply-and-Demand.md) as well as our [TEA and CML tokens](../_token/Where-to-buy-TEA-token-and-CML).
 
-- [Basic Concepts for Developers](https://github.com/tearust/teaproject/wiki/Developers)
+- [Basic Concepts for Developers](../_tapps/Developers.md)

@@ -62,16 +62,11 @@ If you’re an individual, so far the best way is to join the various epoch comp
 
 More information on our mainnet CML and TEA as well as how to invest is available [in our wiki](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F).
 
-
-## A page I had bookmarked is now missing?
-Because epochs change, some information in the wiki is no longer relevant and becomes outdated. In an effort to keep the wiki useful, we will delete these pages from the wiki though you may find some of them still in [our archive](https://github.com/tearust/teaproject/issues/106).	
-
 # Mining Contest Guides
 - [Epochs](../_epochs/README.md)
-- [Marketplace Auctions](https://github.com/tearust/teaproject/wiki/Marketplace-Auctions)
-- [TEA Browser Wallet](https://github.com/tearust/teaproject/wiki/TEA-Browser-Wallet)
-- [TApp Tokens](https://github.com/tearust/teaproject/wiki/TApp-Token-Supply-and-Demand) 
-- [TEA mining helpful links](https://github.com/tearust/teaproject/wiki/TEA-Mining)
+- [CML Seed Auctions](../_token/Marketplace-Auctions.md)
+- [TEA Browser Wallet](../_tapps/TEA-Browser-Wallet.md)
+- [TEA mining helpful links](../_mining/TEA-Mining.md)
 
 Note that all contestants must read and agree to the [Mining Contest Disclosure Agreement](https://github.com/tearust/teaproject/wiki/Mining-Contest-Disclosure-Agreement).
 

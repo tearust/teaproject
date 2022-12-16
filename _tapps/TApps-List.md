@@ -1,10 +1,10 @@
-# TApps List
+# TApp and CML Tokens
 
 The [TApps list in your browser wallet](https://wallet.teaproject.org/#/tapps_list) shows all of the TApps on the platform. You will see the **TApp Name** and the **Ticker** symbol for the TApp. There are four other columns showing the price and supply of any particular token:
 
 <img width="1170" alt="Screen Shot 2021-08-31 at 5 03 45 PM" src="https://user-images.githubusercontent.com/86096370/131926213-62236847-6304-48d9-9a3a-2dc659f241df.png">
 
-# Total supply
+## Total supply
 > Total number of tokens currently circulating for the TApp.
 
 _Every TApp has an initial supply once the TApp starts on the platform. How come the supply keeps going up? And why does it sometimes go down?_
@@ -14,7 +14,7 @@ Many actions can influence the supply of a TApp's token supply:
 - Anyone directly **buying** tokens on the bonding curve increases the token supply.
 - Anyone **selling** their tokens to the bonding curve causes that amount of tokens to be removed from the supply. The money comes directly from the reserve that funds the bonding curve.
 
-# Buy price
+## Buy price
 > Price at which you can buy the token from the bonding curve.
 
 _How is the price related to the token supply?_
@@ -28,7 +28,7 @@ where **y** is the price and **x** is the supply. The constant **a** is 1 for th
 
 is used to calculate the TEA amount for the funding pool and the reserve pool.
 
-# Sell price
+## Sell price
 > Price at which you can sell the token into the bonding curve.
 
 _The bonding curve doesn't need another party to buy when I want to sell my token. What exact mechanism is sending me TEA when I sell the TApp token?_
@@ -37,7 +37,7 @@ Unlike traditional order book marketplaces, you don’t need a buyer when you se
 
 ![](https://miro.medium.com/max/700/1*eqhPz8WnHke67DY3sU9P-w.png)
 
-# Market cap
+## Market cap
 > The current sell price multiplied by the number of tokens outstanding.
 
 The market cap for a bonding curve is calculated as **tokens outstanding** x **sell price of token**. This result gives you the exact amount of funds in total that are in the reserve of the bonding curve.

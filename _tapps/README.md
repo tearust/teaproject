@@ -1,8 +1,7 @@
 ## TApps Pages
 - [TApps](TApps.md)
-- [TApps List](TApps-List.md)
-- [TApps Creating a TApp](TApps-Creating-a-TApp.md)
-- [TApp TEAfluencer Template](TApp-TEAfluencer-Template.md)
+- [TApp & CML List](TApps-List.md)
+- [TApps: Creating a TApp](TApps-Creating-a-TApp.md)
 - [Developers ](Developers.md)
 - [TApp: TEA Party](TApp-TEA-Party.md)
 - [TApp: TEAfluencer](TEAfluencer.md)

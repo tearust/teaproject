@@ -1,4 +1,8 @@
-Bob’s layer2 wallet now shows: 
+_this is being reworked_
+
+To illustrate how the topup system works, let's imagine an enduser named Bob wants to play a TApp game. Bob has TEA tokens in his layer1 Ethereum wallet but needs to move those TEA tokens up to his layer2 wallet so they can be accessible by the game. 
+
+Bob uses the **Topup** button in his TEA browser wallet account page to move 30T (out of 100T) up to layer2. Bob’s layer2 wallet now shows: 
 **Total balance: 100T**
 
 > Deposit: 30T
