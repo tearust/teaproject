@@ -1,3 +1,4 @@
+# TEA & CML - Where to Buy
 ## TEA Token
 
 TEA tokens will be pre-allocated to investors, community members, the team, as well as being earmarked for other functions (liquidity pool / marketing). There will be 100 million TEA tokens pre-allocated in the genesis block, but most of that will be distributed according to a 1-2 year vesting schedule. When the TEA project mainnet goes live, miners will start to get TEA rewards through TEA mining (e.g. public services). 
