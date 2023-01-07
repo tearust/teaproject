@@ -1,0 +1,1 @@
+obsidian-export ./obsidian ./docs
