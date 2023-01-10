@@ -1,35 +1,64 @@
 {
   "main": {
-    "id": "5f9e6c0e0b945bc2",
+    "id": "bda8ff199a6f72cb",
     "type": "split",
     "children": [
       {
-        "id": "4e28dd30ab34c86c",
+        "id": "d60a9d192f138541",
         "type": "tabs",
         "children": [
           {
-            "id": "629f2b95e9c0a3c1",
+            "id": "2e42ffaef29a6a5f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_faq/FAQ.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b629e1d9195f9c21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_faq/FAQ - Mining.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "752afcf804be8767",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_faq/FAQ - Mining.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "cd3a07ef3ccf3a69",
+    "id": "4a670106b1936cbb",
     "type": "split",
     "children": [
       {
-        "id": "22d335fb7d875366",
+        "id": "5f252aae0925037b",
         "type": "tabs",
         "children": [
           {
-            "id": "370101498a530636",
+            "id": "239cac3593ae938f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,12 +68,12 @@
             }
           },
           {
-            "id": "402ba019a931e1db",
+            "id": "53f915efd6cc17c1",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "TApp-TEAfluencer-Template -path:original-root",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +83,7 @@
             }
           },
           {
-            "id": "9befdd5c2804defc",
+            "id": "8edb287812679a86",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -68,19 +97,20 @@
     "width": 300
   },
   "right": {
-    "id": "87bc135c31723935",
+    "id": "01e9d7383370fcbe",
     "type": "split",
     "children": [
       {
-        "id": "fde7391058d9f17e",
+        "id": "0b1b70891f03f560",
         "type": "tabs",
         "children": [
           {
-            "id": "c620fe6184c7f122",
+            "id": "7a19750682ec9142",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_faq/FAQ - Mining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +122,19 @@
             }
           },
           {
-            "id": "101068acc7aafd6e",
+            "id": "4fa1b477d5aad5ef",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_faq/FAQ - Mining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ac9fc7fbe36132fc",
+            "id": "643d5a720d36aeed",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +145,13 @@
             }
           },
           {
-            "id": "58a7eb74a00d4ddd",
+            "id": "b2a5e1618f8af650",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_faq/FAQ - Mining.md"
+              }
             }
           }
         ]
@@ -128,17 +161,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "629f2b95e9c0a3c1",
+  "active": "752afcf804be8767",
   "lastOpenFiles": [
-    "_tapps/TApp-TEAfluencer-Template.md",
-    "_tapps/README.md",
-    "_tapps/TApps-List.md",
-    "_token/Bonding-Curve-Theta.md",
-    "_token/Bonding-curve.md",
-    "_token/TApp-Token-Supply-and-Demand.md",
-    "_tapps/TEAfluencer.md",
-    "_tapps/TApps - Core.md",
-    "_token/Marketplace-Auctions.md",
-    "_token/CML-Migration-(Transfer).md"
+    "_faq/FAQ - Tokens.md",
+    "_faq/FAQ.md",
+    "_faq/FAQ - Mining.md",
+    "_epochs/Epoch-12.md",
+    "_epochs/Epoch-06.md"
   ]
 }
