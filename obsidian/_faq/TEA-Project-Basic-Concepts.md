@@ -1,9 +1,7 @@
-
+## TEA Project Basic Concepts
 TEA Project includes a lot of innovative concepts which might be difficult to understand at once. Therefore, we need this wiki to help community members understand these concepts. 
 
 We will introduce a few concepts below:
-
-## TEA Project is a decentralized computing platform
 
 ## Three roles in the TEA Project
 
@@ -22,4 +20,4 @@ Please get to know more according to your own interests:
 
 - Investors can learn more about investing in [entity tokens](../_token/TApp-Token-Supply-and-Demand.md) as well as our [TEA and CML tokens](../_token/Where-to-buy-TEA-token-and-CML).
 
-- [Basic Concepts for Developers](../_tapps/Developers.md)
+- [Basic Concepts for Developers](../_tapps/Developers.md "mention")

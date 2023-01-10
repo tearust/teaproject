@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b629e1d9195f9c21",
+            "id": "b333b316647910cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_faq/FAQ - Mining.md",
+                "file": "_faq/TEA-Project-Basic-Concepts.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_faq/FAQ - Mining.md",
+                "file": "_faq/TEA-Project-Basic-Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_faq/FAQ - Mining.md",
+                "file": "_faq/TEA-Project-Basic-Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_faq/FAQ - Mining.md"
+                "file": "_faq/TEA-Project-Basic-Concepts.md"
               }
             }
           }
@@ -161,12 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "752afcf804be8767",
+  "active": "b333b316647910cd",
   "lastOpenFiles": [
+    "_faq/When-will-the-mainnet-be-live.md",
+    "_faq/The-TEA-Project-Core-Team.md",
+    "_faq/TEA-Project-Basic-Concepts.md",
+    "_faq/TEA Social Media.md",
+    "_faq/README.md",
+    "_faq/Governance-Structure.md",
+    "_faq/Glossary.md",
     "_faq/FAQ - Tokens.md",
-    "_faq/FAQ.md",
-    "_faq/FAQ - Mining.md",
-    "_epochs/Epoch-12.md",
-    "_epochs/Epoch-06.md"
+    "_faq/FAQ - TApps.md",
+    "_faq/FAQ - Mining.md"
   ]
 }

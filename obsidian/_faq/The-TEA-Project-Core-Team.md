@@ -1,3 +1,4 @@
+# The TEA Project Core Team
 ## Kevin G. Zhang
 
 The founder, [Kevin G Zhang](https://www.linkedin.com/in/kevingzhang/), graduated from Tsinghua University and currently lives in Silicon Valley, USA. In 2015, when he was the CTO of Silicon Valley startup iHealth Labs, he discovered a market need that couldn't be met. At that time, iHealth Labs already had a large number of patients' medical data. However, it was barely used due to the strict regulations protecting medical data and the inability of the internet infrastructure at that time to protect it in transit. That became the starting point for Kevin's idea of establishing a trusted computing environment to protect patient privacy data.

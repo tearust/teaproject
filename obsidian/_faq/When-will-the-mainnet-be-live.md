@@ -1,3 +1,3 @@
-
+## When Will the Mainnet Be Live?
 
 The eventual launch date of the mainnet depends on the progress of the project. You can see from every epoch that the product is advancing rapidly. If everything goes well, we hope that the mainnet will go live in early 2023. However, this expectation may change at any time.

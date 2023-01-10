@@ -1,4 +1,4 @@
-# Governance Structure, Level of Decentralization and Plan of Revolution
+## TEA Governance Structure
 
 * The TEA community is governed by a DAO management structure. 
 * The TEA Project DAO encourages decentralized decision making through granting voting rights to locked T tokens. 
