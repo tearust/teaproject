@@ -1,4 +1,4 @@
-# FAQ Tokenomics
+# FAQ - Tokenomics
 
 TEA Projects uses many new economic innovations in our tokenomics design. To name a few:
 

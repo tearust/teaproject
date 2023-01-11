@@ -13,5 +13,5 @@
 ## Miscelaneous 
 - [Blog posts explaining TEA Project](Blog-Posts.md)
 - [TEA Security](Disaster-Prevention.md)
-- [Glossary](Glossary.md)
+- [FAQ-Links](FAQ-Links.md)
 - [When Mainnet?](When-will-the-mainnet-be-live.md)
