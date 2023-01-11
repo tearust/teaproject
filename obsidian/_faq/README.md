@@ -11,7 +11,5 @@
 - [TEA Core Team](The-TEA-Project-Core-Team.md)
 
 ## Miscelaneous 
-- [Blog posts explaining TEA Project](Blog-Posts.md)
-- [TEA Security](Disaster-Prevention.md)
+- [TEA Security](TEA-Security.md)
 - [FAQ-Links](FAQ-Links.md)
-- [When Mainnet?](When-will-the-mainnet-be-live.md)

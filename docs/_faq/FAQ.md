@@ -16,6 +16,10 @@ Each of our epochs is open to community members where they can earn testnet TEA 
 1. Use the **TEA Fluencer** TApp to quote retweet the listed tweet and activate the testnet TEA faucet.
 1. Use the **Leader Board** TApp to register for the current epoch competition. Registering on the Leader Board will ensure that your testnet TEA tokens are counted for distribution of COFFEE rewards and for rollover into the next epoch.
 
+## When Will the Mainnet Be Live?
+
+The eventual launch date of the mainnet depends on the progress of the project. You can see from every epoch that the product is advancing rapidly. If everything goes well, we hope that the mainnet will go live in early 2023. However, this expectation may change at any time.
+
 ## Are the TEA and CML in the contest real tokens?
 
 No, they're part of the simulation. CML and TEA during the competition should be thought of as "testnet CML" and "testnet TEA" which have no relation to mainnet CML or TEA. Even though these two coins are fictitious for the purposes of our mining contest, the testnet TEA that contestants earn during the contest will be exchanged for COFFEE during the epochs. The COFFEE can be exchanged for real TEA after the mainnet launches.
@@ -28,7 +32,7 @@ Miners are also paid out in TApp tokens when they host TApps who've elected to p
 
 ## On which network is the TEA token on?
 
-The TEA token is an ERC20 token on the Ethereum network. The mainnet target launch date is early 2023, and more information is available in the [when will the mainnet be live?](When-will-the-mainnet-be-live.md) document.
+The TEA token is an ERC20 token on the Ethereum network. The mainnet target launch date is early 2023.
 
 TEA project is a layer2 solution that will run above multiple blockchains (layer1) in the future though Ethereum will remain our primary layer1 .
 

@@ -1,4 +1,4 @@
-## FAQ - Links
+# FAQ - Links
 - [TEA Token](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F#tea-token)
 - [Camellia (CML)](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F#camellia-cml)
 - [Mining Contest](https://github.com/tearust/teaproject/wiki/Mining-Contest)
@@ -15,7 +15,7 @@
 - [TEA vs Blockchain](https://medium.com/@teaproject/tea-vs-blockchain-ca31b2e438b3)
 - [TEA vs IPFS](https://medium.com/@teaproject/tea-vs-ipfs-f37202a33fc)
 - [TEA vs Trusted Computing](https://medium.com/@teaproject/tea-vs-trusted-computing-1224745f1664)
-- [Disaster prevention](Disaster-Prevention.md)
+- [Disaster prevention](TEA-Security.md)
 - [How big is the market?](https://medium.com/@teaproject/tea-project-disrupting-cloud-computing-market-size-estimation-347b814688db)
 - [Who are the founders and core team members?](https://github.com/tearust/teaproject/wiki/The-TEA-Project-Core-Team)
 - [TEA Project outstanding features compared to other competitors](https://medium.com/@teaproject/tea-project-competitors-d62f53c05bcf)
