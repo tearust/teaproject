@@ -9,7 +9,7 @@
 ## TEA Project Structure
 
 * [Governance Structure](Governance-Structure.md)
-* [Social Media](TEA%20Social%20Media.md)
+* [Social Media](TEA-Social-Media.md)
 * [TEA Core Team](The-TEA-Project-Core-Team.md)
 
 ## Miscelaneous

@@ -22,4 +22,4 @@ Please get to know more according to your own interests:
 
 * Investors can learn more about investing in [entity tokens](../_token/TApp-Token-Supply-and-Demand.md) as well as our [TEA and CML tokens](../_token/Where-to-buy-TEA-token-and-CML).
 
-* [Basic Concepts for Developers](../_tapps/Developers.md "mention")
+* [Basic Concepts for Developers](../_tapps/Developers.md)
