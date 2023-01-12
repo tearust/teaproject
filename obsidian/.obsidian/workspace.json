@@ -47,12 +47,8 @@
             "id": "b8439c292967f405",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_faq/FAQ-Links.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -134,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_faq/FAQ-Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_faq/FAQ-Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,28 +167,27 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_faq/FAQ-Links.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "b8439c292967f405",
+  "active": "239cac3593ae938f",
   "lastOpenFiles": [
-    "_faq/FAQ-Mining.md",
-    "_faq/FAQ-TApps.md",
-    "_faq/FAQ-Technical.md",
-    "_faq/FAQ-Tokenomics.md",
-    "_faq/FAQ-Tokens.md",
-    "_faq/Governance-Structure.md",
-    "_faq/TEA-Project-Basic-Concepts.md",
-    "_faq/TEA-Security.md",
+    "_token/README.md",
+    "_tapps/TApps-Creating-a-TApp.md",
+    "_tapps/TApps-are-Not-Secure-in-Browser.md",
+    "_tapps/TApps - Core.md",
+    "_faq/The-TEA-Project-Core-Team.md",
     "_faq/TEA-Social-Media.md",
-    "_faq/The-TEA-Project-Core-Team.md"
+    "_faq/TEA-Security.md",
+    "_faq/FAQ.md",
+    "_faq/FAQ-Links.md",
+    "_faq/README.md"
   ]
 }

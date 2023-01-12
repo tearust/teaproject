@@ -26,8 +26,12 @@ TEA Project uses proof of time for consensus which doesn't have to wait for a ne
 
 TEA Project runs on top of Ethereum (our layer-1) and leverages it for token transactions as well as keeping the ledger of our trustable layer-2 nodes. But what about the TApps running on our layer-2 that are using our proof of time consensus (and not blockchain), is there a block explorer so that anybody can see all layer-2 transactions.
 
-There's not a block explorer by default in our layer-2. Consider the example of our TAppStore which by default acts as a black box to obfuscate transactions to keep them private. There's a log available for the network actions and core apps like the TAppStore, but these logs are cleared regularly. That means if user1 transfers funds to user2 who claims they never received them. After a certain amount of time, neither user would be able to confirm whether this layer2 transaction occurred after the logs are wiped.
+There's not a block explorer by default in our layer-2. Consider the example of our TApp Store which by default acts as a black box to obfuscate transactions to keep them private. There's a log available for the network actions and core apps like the TApp Store, but these logs are cleared regularly. That means if user1 transfers funds to user2 who claims they never received them. After a certain amount of time, neither user would be able to confirm whether this layer2 transaction occurred after the logs are wiped.
 
-Layer-2 will feel like a black box when you're using some system level TApps (such as the TAppStore). These TApps are designed to have privacy protection built-in. It won't disclose any information to the public by default. But you can still see your own financial status on the UI, or even your historical data in the log page.
+Layer-2 will feel like a black box when you're using some system level TApps (such as the TApp Store). These TApps are designed to have privacy protection built-in. It won't disclose any information to the public by default. But you can still see your own financial status on the UI, or even your historical data in the log page.
 
-But the TAppStore doesn't allow others to see your financial information. This is by design, because we're trying to protect our endusers' privacy. This end-to-end privacy is something that most blockchains find hard to achieve.
+But the TApp Store doesn't allow others to see your financial information. This is by design, because we're trying to protect our endusers' privacy. This end-to-end privacy is something that most blockchains find hard to achieve.
+
+Any TApp dev can make a block explorer for their own app. But this will only give users view access to data from this particular TApp. It won't be able to see private data stored in other TApps like the TApp Store.
+
+TEA Project runtime is the EVM-like architecture that hosts these TApps. Endusers cannot access the runtime directly, only developer who write their TApp code to access the APIs provided by the runtime. But you might not be able to access any particular TEA runtime feature depending on what the particular TApps you're using has implemented from the TEA runtime.

@@ -1,4 +1,4 @@
-## Mining Pages
+# Mining
 - [TEA Mining](_mining/TEA-Mining.md)
 - [Mining](_mining/Mining.md)
 - [Mining Withdraw TEA From Controller Account](_mining/Mining-Withdraw-TEA-Funds-from-Controller-Account.md)
