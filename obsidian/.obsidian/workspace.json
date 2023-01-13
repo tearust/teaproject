@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_developers/tapp-tutor/birth_control.md",
+                "file": "_ecosystem/public_service.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_developers/tapp-tutor/birth_control.md",
+                "file": "_ecosystem/public_service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_developers/tapp-tutor/birth_control.md",
+                "file": "_ecosystem/public_service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_developers/tapp-tutor/birth_control.md"
+                "file": "_ecosystem/public_service.md"
               }
             }
           }
@@ -170,15 +170,15 @@
   },
   "active": "622dd3ff8abed30b",
   "lastOpenFiles": [
+    "_ecosystem/README.md",
+    "_ecosystem/public_service.md",
+    "_developers/README.md",
+    "_developers/tapp-tutor/birth_control.md",
     "_token/bonding-curve-tokens/staking_to_hosting_CML.md",
     "_token/bonding-curve-tokens/Staking_to_state_machine.md",
     "_z_appendix/What_makes_a_Web3_application.md",
     "_developers/tapp-tutor/VMH.md",
     "_developers/tapp-tutor/urls_for_teaparty.md",
-    "_developers/tapp-tutor/Where_the_message_is_stored?.md",
-    "_developers/tapp-tutor/urls_for_teapparty.jpg.png",
-    "_developers/tapp-tutor/txn.md",
-    "_developers/tapp-tutor/TPM.md",
-    "_developers/tapp-tutor/three-tier-architecture.md"
+    "_developers/tapp-tutor/Where_the_message_is_stored?.md"
   ]
 }
