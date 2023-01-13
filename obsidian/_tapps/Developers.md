@@ -11,7 +11,7 @@ Open-source technologies used by the TEA Project include:
 * IPFS
 * Substrate
 * WebAssembly
-* WasCC, Wasmtime
+* Wasmer, Wasmtime
 * Parsec
 * NixOS
 * WolfTPM
