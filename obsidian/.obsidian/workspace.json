@@ -11,60 +11,24 @@
             "id": "2e42ffaef29a6a5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_faq/FAQ.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b333b316647910cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_faq/FAQ-TApps.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "556e0d56ad527616",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_faq/FAQ-Technical.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b8439c292967f405",
-            "type": "leaf",
-            "state": {
               "type": "empty",
               "state": {}
             }
           },
           {
-            "id": "752afcf804be8767",
+            "id": "77ed82eae4e1b504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_faq/FAQ-Mining.md",
+                "file": "_faq/README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_faq/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_faq/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_faq/README.md"
+              }
             }
           }
         ]
@@ -177,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "239cac3593ae938f",
+  "active": "77ed82eae4e1b504",
   "lastOpenFiles": [
-    "_token/README.md",
-    "_tapps/TApps-Creating-a-TApp.md",
-    "_tapps/TApps-are-Not-Secure-in-Browser.md",
-    "_tapps/TApps - Core.md",
-    "_faq/The-TEA-Project-Core-Team.md",
-    "_faq/TEA-Social-Media.md",
-    "_faq/TEA-Security.md",
-    "_faq/FAQ.md",
+    "_tapp-tutor/README.md",
     "_faq/FAQ-Links.md",
-    "_faq/README.md"
+    "_tapps/TApps-are-Not-Secure-in-Browser.md",
+    "_tapps/README.md",
+    "_faq/TEA-Security.md",
+    "_faq/TEA-Social-Media.md",
+    "_faq/The-TEA-Project-Core-Team.md",
+    "_tapps/TApps.md",
+    "_tapps/TApp-TEA-Party.md",
+    "_tapps/Developers.md"
   ]
 }

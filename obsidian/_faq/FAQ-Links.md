@@ -1,6 +1,5 @@
 # FAQ - Links
-- [TEA Token](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F#tea-token)
-- [Camellia (CML)](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F#camellia-cml)
+
 - [Mining Contest](https://github.com/tearust/teaproject/wiki/Mining-Contest)
 - [Staking](https://github.com/tearust/teaproject/wiki/What-is-staking%3F)
 - [TApp](https://github.com/tearust/teaproject/wiki/TApps)
@@ -21,6 +20,7 @@
 - [TEA Project outstanding features compared to other competitors](https://medium.com/@teaproject/tea-project-competitors-d62f53c05bcf)
 - [TEA and WebAssembly](https://medium.com/@teaproject/tea-and-webassembly-89991a83bbd1)
 - [Is TEA secure and reliable?](https://medium.com/@teaproject/tea-project-security-reliability-and-robustness-b43013b1740)
+- [Why Do TEA's dApps Show as "Not Secure" in the Browser?](https://teaproject.medium.com/how-tea-projects-use-of-http-in-web3-is-more-secure-than-https-in-web-2-0-d488265af3d2)
 - [What is TEA's governance structure?](https://github.com/tearust/teaproject/wiki/Governance-Structure)
 - [Why do you say the Internet is broken?](https://medium.com/@teaproject/fixing-a-broken-internet-728f9f0b6df3)
 - [How could TEA fix the Internet?](https://medium.com/@teaproject/how-tea-fixes-the-internet-a944dfe2db39)

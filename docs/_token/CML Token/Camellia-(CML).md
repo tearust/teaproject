@@ -1,0 +1,3 @@
+# Camellia (CML)
+
+Unlike TEA tokens, CML is an NFT (non-fungible token) and also functions as a special software license. Each CML has a different lifecycle just as each tree is different in nature. After a miner purchases frozen CML, they must wait for it to defrost to mine with it. Once their CML is defrosted, the miner can plant this CML into a mining machine to start mining to harvest TEA tokens. 

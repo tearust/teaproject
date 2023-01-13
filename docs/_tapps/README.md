@@ -7,4 +7,3 @@
 * [TApp: TEA Party](TApp-TEA-Party.md)
 * [TApp: TEAfluencer](TEAfluencer.md)
 * [TEA Browser Wallet](TEA-Browser-Wallet.md)
-* [Why Do TApps-Show as "Not-Secure"?](TApps-are-Not-Secure-in-Browser.md)

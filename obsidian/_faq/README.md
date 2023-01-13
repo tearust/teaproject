@@ -1,4 +1,4 @@
-# FAQs
+# _FAQs_
 
 ## TEA Project Main Concepts
 - [TEA Project Basic Concepts](TEA-Project-Basic-Concepts.md)

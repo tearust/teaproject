@@ -1,21 +1,3 @@
-# TEA Project Epochs
-
-The TEA Project will be running on testnets through Epoch 14. The different testing phases are broken up into **epochs** with Epoch 11 marking our transition to Ethereum's Goerli testnet. Each epoch has its own contest associated with it where end-users compete to gain testnet TEA tokens which can be redeemed for mainnet TEA vouchers (COFFEE).
-
-## How long is each testnet epoch, and how does it compare to mainnet?
-
-The testnet epochs are on an accelerated schedule during contests with 10 blocks per minute.
-
-We originally compressed 2 years time into 14 days, using the accelerated shedule of 14 (days) * 24 (hours) * 60 (minutes) * 10 (blocks per minute) during the testnet. But the epochs have evolved to last varying lengths of time as the team will move to a new epoch only once they feel enough progress has been made.
-
-## How to Participate in an Epoch
-
-Each of our epochs is open to community members where they can earn testnet TEA and exchange them for COFFEE, which are our mainnet TEA vouchers. To participate in a testnet epoch to earn COFFEE tokens redeemable for mainnet TEA:
-
-1. Set up an Ethereum address using the MetaMask wallet.
-1. Use the **TEA Fluencer** TApp to quote retweet the listed tweet and activate the testnet TEA faucet.
-1. Use the **Leader Board** TApp to register for the current epoch competition. Registering on the Leader Board will ensure that your testnet TEA tokens are counted for distribution of COFFEE rewards and for rollover into the next epoch.
-
 ## When Will the Mainnet Be Live?
 
 The eventual launch date of the mainnet depends on the progress of the project. You can see from every epoch that the product is advancing rapidly. If everything goes well, we hope that the mainnet will go live in early 2023. However, this expectation may change at any time.

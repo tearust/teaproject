@@ -1,4 +1,4 @@
-# FAQs
+# *FAQs*
 
 ## TEA Project Main Concepts
 

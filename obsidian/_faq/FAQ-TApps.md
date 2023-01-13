@@ -2,18 +2,11 @@
 
 ## What types of apps can the TEA Project support, what languages etc?
 
-The apps that can run in TEA Project is called TApps. The  TApps is nothing but WebAssembly functions plus Javascript front end code. Maybe some SQL scripts included too. 
+The apps that run in the TEA Project are called TApps. TApps are nothing but WebAssembly functions plus Javascript front end code with possibly some SQL scripts included. 
 
-TApps do not limit the programming language. As long as it can be compiled to WebAssembly. All major modern programing languages are currently supported by WebAssembly. So language is no longer a barrier. 
+TApps don't impose any limits with regard to the programming language that developers can use. All major modern programing languages are currently supported by WebAssembly.
 
-TApps are not smart contract, developer doesn't need to learn Solidity or write "smart contracts". All they need is the same as how they write web app or mobile apps. Even SQL is supported!
-
-Please click the "developer" button in teaproject.org home page, You will read the guide of developing TApps. Note, the content is kind of outdated. We may update it sometime early 2023. But the logic has no change.
-
-
-## How many ways are there to earn TEA and get a net positive gain?
-
-You can either sell something or earn by providing some services to others. This is how the real world works. Note that only the TEA you earned inside the TEA ecosystem is considered part of your "net gain". If you buy TEA token from outside the ecosystem, it's NOT considered part of your net gain. For example, if you buy 100 TEA tokens on Uniswap, that TEA isn't considered part of your net gain. If you topup those 100 TEA tokens and consume them all without earning any new assets, then your net gain is -100. It's the same with TEA Fluencer faucets, which would give you externally-generated tokens that aren't considered to be earned in the ecosystem.
+TApps are not smart contracts, which means that developers don't need to learn Solidity or write "smart contracts". All they need is the same tools they used to write web and mobile apps. Even SQL is supported!
 
 ## Are TApps EVM Compatible?
 
@@ -37,6 +30,10 @@ Because of security reasons, developers are not allowed to contact the TPM chip 
 ## Specific TApps
 
 ### Leaderboard TApp
+
+#### How do you get a net positive gain in the Leaderboard TApp?
+
+You can either sell something or earn by providing some services to others. This is how the real world works. Note that only the TEA you earned inside the TEA ecosystem is considered part of your "net gain". If you buy TEA token from outside the ecosystem, it's NOT considered part of your net gain. For example, if you buy 100 TEA tokens on Uniswap, that TEA isn't considered part of your net gain. If you topup those 100 TEA tokens and consume them all without earning any new assets, then your net gain is -100. It's the same with TEA Fluencer faucets, which would give you externally-generated tokens that aren't considered to be earned in the ecosystem.
 
 #### How comes my net gain in the Leaderboard is negative?
 A negative net gain basically means that you're spending more money than you're earning. Because our community members who run the TEA nodes provide the app hosting services to you, you pay them everytime you use the app. In other words, you pay others who provide app services through their running of host nodes. If you cannot earn money from others, your net gain will be negative.
