@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_developers/_tapp-tutor/3_tier_architecture.md",
+                "file": "_token/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_developers/_tapp-tutor/3_tier_architecture.md",
+                "file": "_token/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_developers/_tapp-tutor/3_tier_architecture.md",
+                "file": "_token/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_developers/_tapp-tutor/3_tier_architecture.md"
+                "file": "_token/README.md"
               }
             }
           }
@@ -147,15 +147,15 @@
   },
   "active": "77ed82eae4e1b504",
   "lastOpenFiles": [
+    "_token/tea-tokens/README.md",
+    "_token/cml-tokens/README.md",
+    "_token/bonding-curve-tokens/README.md",
+    "_mining/README.md",
     "_faq/README.md",
-    "_tapp-tutor/README.md",
-    "_faq/FAQ-Links.md",
-    "_tapps/TApps-are-Not-Secure-in-Browser.md",
-    "_tapps/README.md",
-    "_faq/TEA-Security.md",
-    "_faq/TEA-Social-Media.md",
-    "_faq/The-TEA-Project-Core-Team.md",
-    "_tapps/TApps.md",
-    "_tapps/TApp-TEA-Party.md"
+    "_epochs/README.md",
+    "_developers/README.md",
+    "_developers/_tapp-tutor/get_started.md",
+    "_developers/_tapp-tutor/README.md",
+    "_developers/_tapp-tutor/3_tier_architecture.md"
   ]
 }
