@@ -1,17 +1,30 @@
-# TApp Creation
+# TApp Creation & Theta
 
-## The Creator is the Owner of the TApp
+## Parameters for Creating a TApp
 
 Whoever creates a TApp is the owner. The owner is able to decide the name, the initial tokens, and the theta % of every consume and and buy action that goes directly to the owner. There's an initial funding amount (in TEA tokens) that's required to issue the tokens and start a TApp. If for example the owner will take a theta of 10% as their bonding curve incentive, every consume or buy action on the token's bonding curve will net them 10% directly to their wallets.
 
-## Creating a New TApp
-The owner will choose the following parameters when creating new TApps:
+## Theta Explained
+Theta is the percentage of every buy action of TApp's bonding curve token that goes directly to the TApp owner. This can be thought of as the payment that goes to the developer for endusers using their app.
 
-## Create New TApp - Name
-This is where you give your TApp a name. You'll also choose a symbol for it in the space right below to uniquely identify it in the TApp list.
+The theta % comes into play whenever there's a buy action on the TApp token's bonding curve. There are two possible buy action scenarios:
 
-## Create new TApp - Initial tokens
-TApp creators are responsible for their TApp's initial token funding. The number of initial tokens you wish to fund for your TApp. You can click the **Calculate** button to see what your initial cost in TEA will be for funding your chosen number of tokens. 
+1. Someone buys the TApp's token.
+2. Someone executes transactions on the TApp.
 
-## Theta
-The percentage of each consume / sell action that goes directly to the developer. See more info at [bonding curve theta](Bonding-Curve-Theta.md)
+Let's look at each buy action in depth and how the theta payment to the TApp owner (developer) gets triggered.
+
+## 1. Buying a TApp token
+When someone buys 100T worth of a TApp's token that has a theta of 10% for example,
+- The buyer gets 90T worth of tokens. This amount is deposited into the TApp token's bonding curve.
+- The owner of the TApp gets their theta percentage of the token buy (10%), or 10T.
+
+## 2. TApp usage
+When someone uses the TApp, the following actions happen:
+- The CML host providing their machine to host the TApp is paid a gas fee by the enduser.
+- The enduser pays the usage fee for the TApp.
+- The theta % of this fee goes directly to the TApp owner.
+- The remainder of the usage fee is used to buy the TApp's tokens on the bonding curve.
+- Whatever amount of TApp tokens the above process creates are distributed proportionally to the TApp's existing token holders.
+
+More info is available in [this post](../_token/bonding-curve-tokens/Bonding-Curve-Theta.md) for the bonding curve and theta.
