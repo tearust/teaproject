@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_token/cml-tokens/README.md",
+                "file": "_token/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_token/cml-tokens/README.md",
+                "file": "_token/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_token/cml-tokens/README.md",
+                "file": "_token/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_token/cml-tokens/README.md"
+                "file": "_token/README.md"
               }
             }
           }
@@ -170,8 +170,8 @@
   },
   "active": "622dd3ff8abed30b",
   "lastOpenFiles": [
-    "_token/bonding-curve-tokens/README.md",
     "_token/cml-tokens/README.md",
+    "_token/bonding-curve-tokens/README.md",
     "_token/tea-tokens/Billing-system-between-layer1-layer2.md",
     "_token/cml-tokens/CML-Migration-Transfer.md",
     "_mining/README.md",
