@@ -21,6 +21,10 @@ TEA token rewards for developers who deploy TApps and CML miners who run hosting
 2. The TApp usage fee goes to all of that TApp's bonding curve token holders.
 3. The gas fee goes to all of the CML hosting node's bonding curve token holders. Note that there could be multiple CML nodes involved with running an enduser's transaction. In that case, the gas fee will be split among them according to how much their machines are utilized.
 
+These bonding curve token profits can be better visualized as the remaining profits after all ecosystem expenses are paid out:
+
+![TEA_Economy](https://user-images.githubusercontent.com/86096370/213603062-895dc8c3-f478-4d85-8e1e-5fb44832bd79.png)
+
 More info on TApp and CML miner tokens are available in our [bonding curve section](bonding-curve-tokens/README.md).
 
 
