@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_faq/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,12 +142,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_faq/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "wascc",
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_faq/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_mining/README.md"
+                "file": "_faq/README.md"
               }
             }
           }
@@ -204,15 +204,15 @@
   },
   "active": "27b653c1327136d3",
   "lastOpenFiles": [
+    "_faq/FAQ.md",
+    "_mining/README.md",
     "_ecosystem/README.md",
     "_faq/FAQ-Links.md",
     "_faq/README.md",
-    "_faq/FAQ.md",
     "_faq/FAQ-Mining.md",
     "_faq/FAQ-TApps.md",
     "_faq/FAQ-Technical.md",
     "_faq/FAQ-Tokens.md",
-    "_faq/Governance-Structure.md",
-    "_tapps/README.md"
+    "_faq/Governance-Structure.md"
   ]
 }

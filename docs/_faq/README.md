@@ -16,7 +16,6 @@ More information on our mainnet CML and TEA as well as how to invest is availabl
 
 * [TEA Project Basic Concepts](TEA-Project-Basic-Concepts.md)
 * [TApp & CML Tokens](../_token/TApp-Token-Supply-and-Demand.md) 
-* [FAQ](FAQ.md)
 
 ## TEA Project Structure
 
