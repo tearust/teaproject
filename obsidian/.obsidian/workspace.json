@@ -67,8 +67,12 @@
             "id": "27b653c1327136d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_mining/README.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
@@ -138,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_mining/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_mining/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_mining/README.md"
+              }
             }
           }
         ]
@@ -194,17 +202,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "239cac3593ae938f",
+  "active": "27b653c1327136d3",
   "lastOpenFiles": [
-    "_devs/TEA_economy_and_Web3_revolution_for_developers.md",
-    "_devs/README.md",
-    "_tapps/Developers.md",
-    "_faq/TEA-Project-Basic-Concepts.md",
-    "_faq/TEA-Security.md",
-    "_faq/TEA-Social-Media.md",
-    "_faq/The-TEA-Project-Core-Team.md",
+    "_ecosystem/README.md",
+    "_faq/FAQ-Links.md",
     "_faq/README.md",
     "_faq/FAQ.md",
-    "_faq/Governance-Structure.md"
+    "_faq/FAQ-Mining.md",
+    "_faq/FAQ-TApps.md",
+    "_faq/FAQ-Technical.md",
+    "_faq/FAQ-Tokens.md",
+    "_faq/Governance-Structure.md",
+    "_tapps/README.md"
   ]
 }

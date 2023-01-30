@@ -8,6 +8,10 @@ TApps don't impose any limits with regard to the programming language that devel
 
 TApps are not smart contracts, which means that developers don't need to learn Solidity or write "smart contracts". All they need is the same tools they used to write web and mobile apps. Even SQL is supported!
 
+## What are TApps?
+Decentralized apps (dApps) are known as **TApps** in the TEA ecosystem. Each TApp has a token associated with it that's issued on a bonding curve, which means early buyers reap more rewards as the supply of the TApp Token increases. For more information about TApps, visit this [collection of links explaining TApps](../_tapps/README.md).
+
+
 ## Are TApps EVM Compatible?
 
 TApps are not based on smart contracts and therefore dvelopers don't need to build their apps with EVM-compatability in mind. If the developer needs to send a txn or listen to events from any EVM, it can still do so using the existing EVM API from Infura. TEA Project itself has built-in EVM API but it's not currently open to public use. 
@@ -30,6 +34,7 @@ Because of security reasons, developers are not allowed to contact the TPM chip 
 ## Specific TApps
 
 ### Leaderboard TApp
+The Leaderboard is a TApp that shows an updated list of how well contestants are doing based on their net asset value. Note that the leaderboard calculation doesn't take into consideration the value of your COFFEE vouchers (i.e. when you exchange some of your testnet TEA for COFFEE vouchers, you're asset value will go down).
 
 #### How do you get a net positive gain in the Leaderboard TApp?
 

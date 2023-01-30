@@ -10,5 +10,4 @@
 - [Mining Contest Competitor Checklist](_mining/Mining-Contest-Competitor-Checklist.md)
 - [Mining Contest Mainnet Vouchers](_mining/Mining-Contest-Mainnet-Vouchers-FAQ.md)
 - [Mining Contest Disclosure Agreement](_mining/Mining-Contest-Disclosure-Agreement.md)
-- [Layer1 (Substrate) Validator Mining](_mining/Mining-Layer-1-Validator-Mining.md)
 - [Mining Availability Attestation](_mining/Mining-Availability-Attestation.md)
