@@ -32,7 +32,7 @@ These bonding curve token profits can be better visualized as the remaining prof
 
 More info on TApp and CML miner tokens are available in our [bonding curve section](bonding-curve-tokens/README.md).
 
-# Token Pages
+## Token Pages
 
 * [TEA Tokens](_token/TEA-Tokens.md)
 * [Marketplace Auctions](_token/Marketplace-Auctions.md)

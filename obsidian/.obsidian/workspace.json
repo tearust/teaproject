@@ -67,12 +67,8 @@
             "id": "27b653c1327136d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_token/README.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -142,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_token/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_token/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_token/README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -202,17 +194,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27b653c1327136d3",
+  "active": "239cac3593ae938f",
   "lastOpenFiles": [
-    "_token/tea-tokens/README.md",
-    "_mining/State Maintainer Nodes.md",
-    "_mining/README.md",
-    "_mining/Mining-Withdraw-TEA-Funds-from-Controller-Account.md",
-    "_mining/Mining-With-Own-Hardware.md",
-    "_mining/TEA-Mining.md",
-    "_token/README.md",
-    "_token/cml-tokens/README.md",
-    "_token/bonding-curve-tokens/README.md",
-    "_token/tea-tokens/Billing-system-between-layer1-layer2.md"
+    "_devs/TEA_economy_and_Web3_revolution_for_developers.md",
+    "_devs/README.md",
+    "_tapps/Developers.md",
+    "_faq/TEA-Project-Basic-Concepts.md",
+    "_faq/TEA-Security.md",
+    "_faq/TEA-Social-Media.md",
+    "_faq/The-TEA-Project-Core-Team.md",
+    "_faq/README.md",
+    "_faq/FAQ.md",
+    "_faq/Governance-Structure.md"
   ]
 }
