@@ -23,17 +23,17 @@ When an enduser pays a gas fee to use the services of a CML miner to host a TApp
 
 A CML miner will also earn public service rewards (like remote attestation) as a result of helping the ecosystem run smoothly. 
 
-# Minimum Mining Machine Requirements - OS
+## Minimum Mining Machine Requirements - OS
 
 The mining machine installation scripts were designed to be run on Ubuntu. The script has been tested successfully on Ubuntu versions 18.04, 20.04, and 22.04 and may run on other Ubuntu versions as well. 
 
-# Minimum Mining Machine Requirements - Hardware
+## Minimum Mining Machine Requirements - Hardware
 
 * **CML mining machines** must have a publicly-reachable IP address. You can use your home computer (provided you have shell access to run docker and have [a way to get an IP address](https://help.edovia.com/hc/en-us/articles/115010872388-Making-your-computer-reachable-remotely-without-Screens-Connect) that is reachable from the outside world). For most people it will be easiest to use a cloud virtual server provider. 
 
 * Minimum ram requirement for mining machine = 1gb.
 
-# Guide to Planting a CML Seed into a Mining Machine
+## Guide to Planting a CML Seed into a Mining Machine
 
 The following guide will use [DigitalOcean's](https://digitalocean.com) 2GB droplet with Ubuntu 20.04 as the operating system (although 1G of ram is enough).
 
@@ -151,25 +151,7 @@ But if you see log messages as in the following screenshot (note the "Syncing ..
 
 then your machine is still syncing up to the latest block. Do NOT host any applications just yet. Check again after a few minutes or hours.
 
-# Your TEA Mining Machine Can Host TApps Once It's Synced-up
-
-Visit [the TApps list](https://wallet.teaproject.org/#/tapps_list) to find a TApp you want to host. Miners earn a larger share of the TApp and public service mining rewards compared to stakers: 
-
-* 50% of the mining rewards will go to the miner.
-* 50% of the rewards will be split between the miner and stakers. This staker group also includes the miner staking at the 0 index slot.
-
-For example, let's say the address ending in **NNP9** is mining with CML 298. That machine has 1 staker, the address ending in **YfLd**. Here's what the staking distribution looks like:
-
-<img width="1086" alt="Screen Shot 2021-10-19 at 5 49 06 PM" src="https://user-images.githubusercontent.com/86096370/138010022-09c65996-7852-48ed-9451-fd70959fb872.png">
-
-Let's say there are 100T worth of mining rewards to be divvied up betweeen miner and stakers for CML 298. Noting that 50% of 100T is 50T, the mining rewards are distributed as follows:
-
-* **NNP9** earns 50T for the miner's share.
-* For the stakers' share of the 50T, **NNP9** earns 70.711% of 50T and **YfLd** earns 29.289% of 50T.
-
-So in total, **NNP9** earns (50T + 35.3555T) = 85.3555T and **YfLd** earns 14.6445T of the 100T mining rewards for that round.
-
-# Managing Your TEA Mining Machine from the CML Info Page
+## Managing Your TEA Mining Machine from the CML Info Page
 
 You can manage your active CML mining machine by clicking on its ID in your wallet:
 
@@ -180,16 +162,11 @@ These are the options you have available:
 <img width="1130" alt="camellia_options" src="https://user-images.githubusercontent.com/86096370/141043047-731de60f-3fca-4f28-9cd7-76733de77be7.png">
 
 * **Migrate miner** - Use this button to migrate your CML to a new machine (e.g. your old machine provider has unreliable uptime). The machine will have to be shut down first before this button becomes active. Note that if you sell your CML, the new miner has to run this command to migrate the CML to their own machine. 
-
 * **Start miner** - Start up a previously stopped miner.
-
 * **Shut down miner** - Shut down an active miner.
-
 * **Resume miner**  - If your miner was detected to be offline, you can slick resume to continue your miner once you're sure that your node is back online.
 
-* **Apply to be a blockchain validator** - - [PoS staking and mining](https://support.polkadot.network/support/solutions/articles/65000168057-how-do-i-stake-nominate-on-polkadot-) are possible in layer-1, the same as Polkadot. Miners wishing to earn through PoS can click this button which will take them to [this url](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwallet.teaproject.org%2Fwss1#/staking).
-
-# Managing Your TEA Mining Machine From The Command Line
+## Managing Your TEA Mining Machine From The Command Line
 
 In your *delegator-resources* directory, there's a script named `tools.sh`. You can use this script file to perform administrative tasks on your mining machine using the following arguments:
 

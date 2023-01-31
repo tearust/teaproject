@@ -1,3 +1,5 @@
+# Mining: Required Open Ports
+
 **Note**: most people will just need to [restart services](Mining-Required-Open-Ports.md#restart-services) to fix their issue.
 
 Your CML node will require the following ports to be open in order to be an active host on the TEA network: 

@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_faq/README.md",
+                "file": "_mining/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_faq/README.md",
+                "file": "_mining/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_faq/README.md",
+                "file": "_mining/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_faq/README.md"
+                "file": "_mining/README.md"
               }
             }
           }
@@ -204,15 +204,15 @@
   },
   "active": "27b653c1327136d3",
   "lastOpenFiles": [
-    "_faq/FAQ.md",
+    "_mining/Mining-With-Own-Hardware.md",
+    "_mining/Mining-Required-Open-Ports.md",
+    "_mining/hosting_profitability.md",
+    "_mining/Mining-Contest-Disclosure-Agreement.md",
     "_mining/README.md",
-    "_ecosystem/README.md",
-    "_faq/FAQ-Links.md",
-    "_faq/README.md",
-    "_faq/FAQ-Mining.md",
-    "_faq/FAQ-TApps.md",
-    "_faq/FAQ-Technical.md",
-    "_faq/FAQ-Tokens.md",
-    "_faq/Governance-Structure.md"
+    "_mining/TEA-Mining.md",
+    "_mining/State Maintainer Nodes.md",
+    "_mining/Mining-Withdraw-TEA-Funds-from-Controller-Account.md",
+    "_mining/Mining-Controller-Account.md",
+    "_faq/FAQ-Mining.md"
   ]
 }

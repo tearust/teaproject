@@ -1,10 +1,10 @@
-# Getting started mining
+# TEA Mining
 
-Once you're ready to mine, the [Mining With Your Own Hardware](https://github.com/tearust/teaproject/wiki/Mining-With-Your-Own-Hardware) guide will help you setup your mining machine.
+Once you're ready to mine, the [Mining With Your Own Hardware](Mining-With-Own-Hardware.md) guide will help you setup your mining machine.
 
 Note that all contestants must read and agree to the [Mining Contest Disclosure Agreement](https://github.com/tearust/teaproject/wiki/Mining-Contest-Disclosure-Agreement).
 
-# Helpful articles for mining contest participants
+## Helpful articles for mining contest participants
 
 * [CML Migration(Transfer)](https://github.com/tearust/teaproject/wiki/CML-Migration-(Transfer))
 
