@@ -1,4 +1,4 @@
-# TEA Fluencer TApp Template
+# TEA Fluencer TApp
 
 TEA Fluencer is a type of TApp designed to allow influencers to engage with their fans/subscribers in a way that benefits both parties. It allows influencers leverage the built-in bonding curve (on the TApp) to gain social media viralness by providing TEA incentives for their fans/audiences to promote their work for them. 
 

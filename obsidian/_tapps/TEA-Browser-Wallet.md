@@ -1,4 +1,6 @@
 # TEA Browser Wallet
+The **TEA Browser Wallet** is the main portal through which users will access the TEA Project network of TApps. In addition to the list of TApps, endusers can sign-in to the browser wallet to transact investment tokens as well as top-up funds to TEA's layer-2 (as well as withdraw back to Ethereum).
+
 There are 2 options for running the TEA browser wallet:
 
 1. **Remote.** You can access the remotely hosted wallet client at [wallet.teaproject.org](https://wallet.teaproject.org).

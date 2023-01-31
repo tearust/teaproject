@@ -1,4 +1,4 @@
-# TApps - Core Ecosystem TApps
+# Core TApps
 There are a core set of TApps that are maintained by the TEA Project team for the benefit of the TEA ecosystem. 
 
 ## TApp Store

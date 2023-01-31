@@ -1,16 +1,15 @@
 # FAQ - TApps
 
+## What are TApps?
+Decentralized apps (dApps) are known as **TApps** in the TEA ecosystem. Each TApp has a token associated with it that's issued on a bonding curve, a mechanism that rewards its token holders as the supply of the TApp token increases. 
+
 ## What types of apps can the TEA Project support, what languages etc?
 
 The apps that run in the TEA Project are called TApps. TApps are nothing but WebAssembly functions plus Javascript front end code with possibly some SQL scripts included. 
 
 TApps don't impose any limits with regard to the programming language that developers can use. All major modern programing languages are currently supported by WebAssembly.
 
-TApps are not smart contracts, which means that developers don't need to learn Solidity or write "smart contracts". All they need is the same tools they used to write web and mobile apps. Even SQL is supported!
-
-## What are TApps?
-Decentralized apps (dApps) are known as **TApps** in the TEA ecosystem. Each TApp has a token associated with it that's issued on a bonding curve, which means early buyers reap more rewards as the supply of the TApp Token increases. For more information about TApps, visit this [collection of links explaining TApps](../_tapps/README.md).
-
+TApps are not smart contracts, which means that developers don't need to learn Solidity or write "smart contracts". All they need is the same tools they used to write web and mobile apps, and even SQL is supported.
 
 ## Are TApps EVM Compatible?
 

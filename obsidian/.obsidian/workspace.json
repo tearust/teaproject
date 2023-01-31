@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_ecosystem/public_service.md",
+                "file": "_mining/public_service.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_tapps/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_tapps/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_tapps/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_mining/README.md"
+                "file": "_tapps/README.md"
               }
             }
           }
@@ -204,15 +204,15 @@
   },
   "active": "27b653c1327136d3",
   "lastOpenFiles": [
-    "_mining/Mining-With-Own-Hardware.md",
-    "_mining/Mining-Required-Open-Ports.md",
-    "_mining/hosting_profitability.md",
-    "_mining/Mining-Contest-Disclosure-Agreement.md",
-    "_mining/README.md",
-    "_mining/TEA-Mining.md",
-    "_mining/State Maintainer Nodes.md",
-    "_mining/Mining-Withdraw-TEA-Funds-from-Controller-Account.md",
-    "_mining/Mining-Controller-Account.md",
-    "_faq/FAQ-Mining.md"
+    "_tapps/Developers.md",
+    "_tapps/FAQ-TApps.md",
+    "_tapps/README.md",
+    "_tapps/TApps - Core.md",
+    "_tapps/TApps-Creating-a-TApp.md",
+    "_tapps/TApp-TEA-Party.md",
+    "_tapps/TEAfluencer.md",
+    "_tapps/TEA-Browser-Wallet.md",
+    "_tapps/TApps.md",
+    "_ecosystem/README.md"
   ]
 }
