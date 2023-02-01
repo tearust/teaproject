@@ -9,12 +9,9 @@ If you are an accredited investor (e.g. a VC), please contact us at  info@teapro
  
 If you’re an individual, so far the best way is to join the various epoch competitions. Your earned testnet TEA tokens can be converted into COFFEE which can be converted into mainnet TEA.
 
-More information on our mainnet CML and TEA as well as how to invest is available [in our wiki](https://github.com/tearust/teaproject/wiki/Where-to-buy-TEA-token-and-CML%3F).
-
-
 ## TEA Project Tokens
-- [TEA & CML tokens](../_token/FAQ-Tokens.md)
-- [TApp & CML entity tokens](../_token/TApp-Token-Supply-and-Demand.md) 
+- [[FAQ-Tokens|TEA & CML tokens]]
+- [[TApp-Token-Supply-and-Demand|TApp & CML entity tokens]]
 
 ## TEA Project Structure
 - [Governance Structure](Governance-Structure.md)

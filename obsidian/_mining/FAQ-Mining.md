@@ -51,8 +51,8 @@ Similar to how Amazon calculates computing costs, we compute how much CPU instru
 You can move your CML license using the [CML transfer option](https://github.com/tearust/teaproject/wiki/CML-Migration-(Transfer)).
 
 ## Mining contest links
-- [Epochs](../_epochs/README.md)
-- [CML Seed Auctions](../_token/cml-tokens/Marketplace-Auctions.md)
-- [TEA Browser Wallet](../_tapps/TEA-Browser-Wallet.md)
+- [[_epochs/README|Epochs]]
+- [[Marketplace-Auctions|CML Seed Auctions]]
+- [[TEA-Browser-Wallet|TEA Browser Wallet]]
 
 Note that all contestants must read and agree to the [Mining Contest Disclosure Agreement](https://github.com/tearust/teaproject/wiki/Mining-Contest-Disclosure-Agreement).

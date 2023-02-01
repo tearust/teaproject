@@ -12,7 +12,7 @@ The two buttons useful for migrating a CML are the following:
 * **Migrate miner** - Use this button to migrate your CML to a new machine (e.g. your old machine provider has unreliable uptime). The machine will have to be shut down first before this button becomes active. 
 * **Shut down miner** - Shut down an active miner before beginning the migration process.
 
-# The CML Migration Process
+## The CML Migration Process
 
 After shutting down your mining CML, click **Migrate miner**. You'll be presented with this screen:
 
@@ -32,6 +32,6 @@ Moving onto the final **Migrate** step, you'll have to copy the shell script com
 
 And don't forget to start up your miner after you're done migrating.
 
-## CML Transfer for Marketplace Sales
+## CML transfer for marketplace sales
 
 The owner of a CML is the only one who can commit a migrate transaction for it. If the CML is sold, only the new owner can trigger the migration event. The new owner runs the migrate command to bring their newly bought CML to their own machine. If the new buyer doesn't migrate the CML to their own hardware, the previous owner (seller) will continue earning revenue from this CML as long as they keep their machine running. So when the new owner issues a **Shut down miner** command, they're really stopping the CML from mining on the machine and not physically shutting down the mining hardware.

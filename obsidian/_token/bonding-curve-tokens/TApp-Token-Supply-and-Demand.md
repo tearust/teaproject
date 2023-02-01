@@ -1,3 +1,4 @@
+# TApp Token Supply & Demand
 ## Bonding Curve Tokens
 One possible avenue for an enduser to increase the size of assets in their wallet is to become an investor of TApp or CML tokens. These tokens are issued on a bonding curve and increase in value the more people invest in them. Stated differently, price is correlated with supply.
 
@@ -10,10 +11,10 @@ These consume actions are always net of the [bonding curve theta](Bonding-Curve-
 
 The bonding curve will be in constant changing as long as there are buy/sell events on the token as well as consume actions originating from the entity that the token represents. For example, every buy and consume event will make the price (and supply) increase by a bit.
 
-# TApp Token Strategy
+## TApp Token Strategy
 Using your TEA to invest in the bonding curve of TApps is one way to participate in the growth of the TEA ecosystem as exemplified by its apps. If you invest in a popular TApp or often-used CML node, it'll make much more than just holding onto the TEA. As more people buy the TApp or CML token, then the the market cap of your bonding curve token will increase. This represents a gain in value for all token holders. Conversely, a net sell of TApp or CML bonding curve tokens will reduce the overall market cap as well as the actual price of the tokens.
 
-# TApp Tokens in Wallet Expand on Consume Actions
+## TApp Tokens in Wallet Expand on Consume Actions
 
 > Why do my tokens keep increasing in value even when no one has bought anymore?
 

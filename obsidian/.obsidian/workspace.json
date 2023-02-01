@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_tapps/TApps-Creating-a-TApp.md",
                 "mode": "source",
                 "source": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_tapps/TApps-Creating-a-TApp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_tapps/TApps-Creating-a-TApp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_mining/README.md"
+                "file": "_tapps/TApps-Creating-a-TApp.md"
               }
             }
           }
@@ -216,15 +216,15 @@
   },
   "active": "f24d514cdbd6a1d4",
   "lastOpenFiles": [
-    "_mining/remote-attestation.md",
-    "_mining/state-maintainer-nodes.md",
-    "_token/tea-tokens/README.md",
-    "_token/tea-tokens/Billing-system-between-layer1-layer2.md",
-    "_token/README.md",
-    "_mining/Mining-With-Own-Hardware.md",
-    "_mining/Mining-Required-Open-Ports.md",
-    "_mining/hosting_profitability.md",
-    "_mining/availability-attestation.md",
-    "_mining/FAQ-Mining.md"
+    "_tapps/TApps-Core.md",
+    "_1_ecosystem/README.md",
+    "_z_z_appendix/What_makes_a_Web3_application.md",
+    "_z_z_appendix/The_future_and_innovation_of_layer2.md",
+    "_z_z_appendix/README.md",
+    "_z_faq/The-TEA-Project-Core-Team.md",
+    "_z_faq/TEA-Social-Media.md",
+    "_z_faq/TEA-Security.md",
+    "_z_faq/README.md",
+    "_z_faq/Governance-Structure.md"
   ]
 }

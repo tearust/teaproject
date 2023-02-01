@@ -2,7 +2,7 @@
 
 TEA tokens are the primary utility token for the TEA Project. TEA is used as gas on the TEA network and is necessary for signing transactions. TEA is also the currency that's exchanged by consumers in order to use TApps.
 
-TEA can be purchased on Ethereum's layer-1 and shuttled [between Layer1 & Layer2](_token/Billing-system-between-layer1-layer2.md). The total supply of TEA tokens is 100 million. 
+TEA can be purchased on Ethereum's layer-1 and shuttled [between Layer1 & Layer2](Billing-system-between-layer1-layer2.md). The total supply of TEA tokens is 100 million. 
 
 ## How to Obtain TEA Tokens
 

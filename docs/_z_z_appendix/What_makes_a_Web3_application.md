@@ -58,5 +58,3 @@ Can user data be censored in a Web3 architecture like the TEA Project? Not from 
 And TEA Project TApps don't require a domain name or even a traditional host for the front-end as the IPFS CID for the TApp is loaded from the nearest miner's IP address. TEA Project TApps also feature a [traditional 3-tier architecture](https://teaproject.medium.com/the-tapps-3-tier-decentralized-tech-stack-43d2872f609b) that makes app development straightforward. Additionally, all database queries are sent to distributed and decentralized nodes instead of a central database server.
 
 Against the backdrop of centralized app stores, the TEA Project will have its own TApp store that will not censor any TApps from being offered there. Economic incentives ensure that miner nodes will only host TApps that are used by consumers and make the miner money.
-
-(need to add conclusion / call to action)
