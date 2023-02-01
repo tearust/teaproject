@@ -1,3 +1,5 @@
+# TApps
+
 TApps are rich decentralized applications that run on the TEA network. Due to the TEA Project's unique two layer architecture, TApps are able to run at cloud computing speeds while being hosted on distributed TEA mining nodes. TApps are coded in WebAssembly and securely interact with customer data in TPM-protected trusted enclaves. 
 
 From the end-users perspective, two steps are needed before deploying any TApp for use:

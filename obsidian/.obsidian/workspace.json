@@ -31,12 +31,8 @@
             "id": "0a2d48b08487061d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_z_appendix/The_future_and_innovation_of_layer2.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -69,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_token/README.md",
+                "file": "_mining/TEA-Mining.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_token/README.md",
+                "file": "_mining/TEA-Mining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_token/README.md",
+                "file": "_mining/TEA-Mining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_token/README.md"
+                "file": "_mining/TEA-Mining.md"
               }
             }
           }
@@ -204,15 +200,15 @@
   },
   "active": "27b653c1327136d3",
   "lastOpenFiles": [
-    "_tapps/TEAfluencer.md",
-    "_tapps/TEA-Browser-Wallet.md",
-    "_tapps/TApps-Creating-a-TApp.md",
-    "_tapps/TApps-Core.md",
-    "_tapps/TApp-TEA-Party.md",
-    "_tapps/README.md",
-    "_tapps/Developers.md",
-    "_tapps/FAQ-TApps.md",
-    "_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md",
-    "_token/bonding-curve-tokens/TApps-Tokens-List.md"
+    "_mining/State Maintainer Nodes.md",
+    "_mining/README.md",
+    "_mining/Mining-Required-Open-Ports.md",
+    "_mining/Mining-With-Own-Hardware.md",
+    "_z_faq/README.md",
+    "_z_faq/FAQ-Technical.md",
+    "_z_faq/Governance-Structure.md",
+    "_z_faq/TEA-Social-Media.md",
+    "_z_faq/TEA-Security.md",
+    "_token/README.md"
   ]
 }

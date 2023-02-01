@@ -1,5 +1,7 @@
 # Epochs
 
+Each of the development stages of the TEA Project are referred to as **epochs**. Epochs 2 - 10 were on Polkadot's testnet, while Epochs 11 - 13 were on Ethereum's Goerli testnet.
+
 - [Epoch 2](Epoch-02.md) was the first epoch where contestants participated in the TEA mining contest. 
 - [Epoch 3](https://teaproject.medium.com/the-tea-projects-epoch-3-mining-contest-e6246de64ee1) introduced the concept of COFFEE as CML coupons were no longer free. A more in-depth post detailing the changes from epoch 2 are available [here](Epoch-03.md).
 - [Epoch 4](https://teaproject.medium.com/tea-project-whats-new-in-epoch-4-d0728418ea3a) introduced TApps (and their tokens) which could be created by contestants to earn a portion of its revenue.

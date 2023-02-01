@@ -1,4 +1,4 @@
-## TEA Governance Structure 
+# TEA Governance Structure 
 - The TEA community is governed by a DAO management structure. 
 - The TEA Project DAO encourages decentralized decision making through granting voting rights to locked T tokens. 
 - All decisions are made by the DAO solely through voting. 

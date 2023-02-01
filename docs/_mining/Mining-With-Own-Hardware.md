@@ -8,7 +8,7 @@ You'll need the following to start mining:
 * An amount of TEA to fund the creation of your initial CML investment tokens.
 * A mining machine to host the CML.
 
-## Obtaining First CML
+## Obtaining a CML
 
 A Camellia seed (CML) is an NFT that gives mining rights when planted into a machine. The lifespan of a Camellia seed varies from a few weeks during testnet to approximately 2 years after mainnet launches. Camellia seeds can be purchased through the **Seed Auction** TApp in the TApp Store wallet. 
 

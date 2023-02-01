@@ -1,8 +1,9 @@
 # Tokens
-The TEA Project's tokens are designed to incentivize behavior that rewards participants in the TEA ecosystem. We'll often touch on tokenomics when describing the various tokens in the TEA Project to help explain why we've designed the tokens the way that we did.
+The TEA Project's tokens are designed to incentivize behavior that rewards participants in the TEA ecosystem. We'll often discuss tokenomics when describing the various tokens in the TEA Project to help explain why we've designed the tokens the way that we did.
 
-## TEA and CML
+{% hint style="info" %}
 The two main tokens of the TEA ecosystem are TEA and CML.
+{% endhint %}
 
 ### TEA Token
 **TEA** is a fungible ERC-20 token that's used as a utility token on the TEA platform. TEA is used to both pay gas fees as well as a payment token for using TApps.
@@ -11,7 +12,7 @@ TEA has a 100M total supply and is not inflationary - no tokens will be minted b
 
 <img width="578" alt="tea-token" src="https://user-images.githubusercontent.com/86096370/213342482-55b9be9b-2d01-44a2-a141-493d4b40e3a5.png">
 
-More information is available in our - [TEA token section](_token/README.md).
+More information is available in our - [TEA token section](_token/README.md) as well as our [tokens FAQ](FAQ-Tokens.md).
 
 ### CML Token
 CML (Camellia) is an NFT token (ERC-721) that functions as a mining license on the TEA network. Miners plant a CML NFT into their mining machines to make it active on the TEA network. The supply of CML is determined via demand for computing resources on the network: more demand for computing resources would indicate a shortage of hosting nodes which would prompt the TEA DAO to issue more CML NFTs. More info on Camellia is available in our [CML token section](cml-tokens/README.md).
@@ -30,11 +31,5 @@ These bonding curve token profits can be better visualized as the remaining prof
 More info on TApp and CML miner tokens are available in our [bonding curve section](bonding-curve-tokens/README.md).
 
 
-## Token Pages
 
-- [Marketplace Auctions](_token/Marketplace-Auctions.md)
-- [Billing System Between Layer1 & Layer2](_token/Billing-system-between-layer1-layer2.md)
-- [CML Transfers](_token/CML-Migration-(Transfer).md)
-- [TApp Token Supply & Demand](_token/TApp-Token-Supply-and-Demand.md)
-- [TApp Token Bonding Curve](_token/Bonding-curve.md)
-- [Bonding Curve Theta](_token/Bonding-Curve-Theta.md)
+
