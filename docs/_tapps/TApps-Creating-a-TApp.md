@@ -32,4 +32,4 @@ When someone uses the TApp, the following actions happen:
 * The remainder of the usage fee is used to buy the TApp's tokens on the bonding curve.
 * Whatever amount of TApp tokens the above process creates are distributed proportionally to the TApp's existing token holders.
 
-More info is available in [this post](../_token/bonding-curve-tokens/Bonding-Curve-Theta.md) for the bonding curve and theta.
+More information is available on [bonding curve theta](../_token/bonding-curve-tokens/Bonding-Curve-Theta.md) as well as more information on [TApp token supply](../_token/TApp-Token-Supply-and-Demand.md).

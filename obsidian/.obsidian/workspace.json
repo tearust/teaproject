@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tapps/README.md",
+                "file": "_token/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tapps/README.md",
+                "file": "_token/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tapps/README.md",
+                "file": "_token/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tapps/README.md"
+                "file": "_token/README.md"
               }
             }
           }
@@ -204,15 +204,15 @@
   },
   "active": "27b653c1327136d3",
   "lastOpenFiles": [
-    "_tapps/Developers.md",
-    "_tapps/FAQ-TApps.md",
-    "_tapps/README.md",
-    "_tapps/TApps - Core.md",
-    "_tapps/TApps-Creating-a-TApp.md",
-    "_tapps/TApp-TEA-Party.md",
     "_tapps/TEAfluencer.md",
     "_tapps/TEA-Browser-Wallet.md",
-    "_tapps/TApps.md",
-    "_ecosystem/README.md"
+    "_tapps/TApps-Creating-a-TApp.md",
+    "_tapps/TApps-Core.md",
+    "_tapps/TApp-TEA-Party.md",
+    "_tapps/README.md",
+    "_tapps/Developers.md",
+    "_tapps/FAQ-TApps.md",
+    "_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md",
+    "_token/bonding-curve-tokens/TApps-Tokens-List.md"
   ]
 }
