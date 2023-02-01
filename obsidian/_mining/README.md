@@ -1,8 +1,8 @@
 # Mining
 
-TEA Project uses the terms **mining** and **running a hosting node** interchangeably. The TEA network's [TApps](../_tapps/README.md) run on hosting nodes that are controlled by individual miners on the TEA ecosystem. Any particular TApp may use multiple hosting nodes in the process of carrying out the computing tasks required by a TApp.
+TEA Project uses the terms **mining** and **running a hosting node** interchangeably. The TEA network's [[_tapps/README]] run on hosting nodes that are controlled by individual miners on the TEA ecosystem. Any particular TApp may use multiple hosting nodes in the process of carrying out the computing tasks required by a TApp.
 
-Interested miners can start hosting a node on the TEA network by [purchasing a CML NFT](../_token/cml-tokens/Marketplace-Auctions.md) and planting it into a compatible machine. Given that our machines require a hardware security module, GPS, and a publicly-accessible IP, [AWS Nitro](https://aws.amazon.com/ec2/nitro/) are the first machines that meet our requirement and are currently accessible to the public.
+Interested miners can start hosting a node on the TEA network by [[Marketplace-Auctions|purchasing a CML NFT]] and planting it into a compatible machine. Given that our machines require a hardware security module, GPS, and a publicly-accessible IP, [AWS Nitro](https://aws.amazon.com/ec2/nitro/) are the first machines that meet our requirement and are currently accessible to the public.
 
 Miners are paid a gas fee by end-users who use the miners' machines when they wish to run a TApp. CML hosting nodes are chosen algorithmically based on many factors including uptime, computing power, and any special hardware that a particular TApp might use. 
 
