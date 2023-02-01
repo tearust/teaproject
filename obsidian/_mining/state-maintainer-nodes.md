@@ -1,3 +1,4 @@
+# State Maintainer Nodes
 TEA's state machine is collectively run by a special group of machines known as the **state maintainer nodes**. TApps can store their current state by paying a memory tax that's shared among the state maintainer node operators. This memory tax together with TApp state transaction fees and a state subscription fee that some CML nodes pay comprise the state maintainers' total revenue.
 
 ![TEA_Economy](https://user-images.githubusercontent.com/86096370/213603062-895dc8c3-f478-4d85-8e1e-5fb44832bd79.png)
