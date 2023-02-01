@@ -21,7 +21,7 @@ There might be mayn reasons, but first make sure you followed all the instructio
 
 ## Why does my planted CML have a "pending" status?
 
-Your node is in pending status because other TEA nodes have tried and failed in contacting your node to verify its integrity. This process is called "remote attestation", or RA for short. There might be many reasons that cause it to fail. The most common reason is that your server ports are not open to the public internet. We have a [troubleshooting guide](https://github.com/tearust/teaproject/wiki/Mining:-Required-Open-Ports) you can consult to help resolve this sort of issue. 
+Your node is in pending status because other TEA nodes have tried and failed in contacting your node to verify its integrity. This process is called "remote attestation", or RA for short. There might be many reasons that cause it to fail. The most common reason is that your server ports are not open to the public internet. We have a [troubleshooting guide](Mining-Required-Open-Ports.md) you can consult to help resolve this sort of issue. 
 
 The solution may be simple or complicated. Some users mistakenly turn on Ubuntu Firewall (ufw), or it could be that your cloud service provider blocks all ports by default. Sometimes the fix is as simple as restarting the TEA docker services. But to find out you'll have to go step by step through the troubleshooting guide to diagnose the issue.
 
@@ -47,10 +47,12 @@ As long as you provide some kind of service, someone (DAO, end user, or tapp dev
 ##   How are computing resources measured?
 Similar to how Amazon calculates computing costs, we compute how much CPU instructionsm memory usage, network traffic etc. are used during computational tasks. We've also learned from how Ethereum uses gas (such as gas limit to prevent DDoS attacks) to provide safeguards in a decentralized compute environment. Generally speaking, the more complicated tasks you run, the more you pay. If you do not have enough funds to pay at runtime, your task may be interrupted and dropped in the middle of execution.
 
-# Mining Contest Guides
+## Can I move my CML license to a new machine?
+You can move your CML license using the [CML transfer option](https://github.com/tearust/teaproject/wiki/CML-Migration-(Transfer)).
+
+## Mining contest links
 - [Epochs](../_epochs/README.md)
-- [CML Seed Auctions](../_token/Marketplace-Auctions.md)
+- [CML Seed Auctions](../_token/cml-tokens/Marketplace-Auctions.md)
 - [TEA Browser Wallet](../_tapps/TEA-Browser-Wallet.md)
-- [TEA mining helpful links](../_mining/TEA-Mining.md)
 
 Note that all contestants must read and agree to the [Mining Contest Disclosure Agreement](https://github.com/tearust/teaproject/wiki/Mining-Contest-Disclosure-Agreement).

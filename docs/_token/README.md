@@ -14,7 +14,7 @@ TEA has a 100M total supply and is not inflationary - no tokens will be minted b
 
 <img width="578" alt="tea-token" src="https://user-images.githubusercontent.com/86096370/213342482-55b9be9b-2d01-44a2-a141-493d4b40e3a5.png">
 
-More information is available in our - [TEA token section](_token/README.md) as well as our [tokens FAQ](FAQ-Tokens.md).
+More information is available in our [TEA token section](_token/README.md) as well as our [tokens FAQ](FAQ-Tokens.md).
 
 ### CML Token
 

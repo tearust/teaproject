@@ -1,4 +1,4 @@
-# How to Mine With Your Own Hardware
+# How to CML Mine
 Contestants can now use their own computer hardware to mine on the TEA network. This will require running an installation script to setup your mining machine. 
 
 You'll need the following to start mining:
