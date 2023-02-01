@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_token/README.md",
+                "file": "_mining/state-maintainer-nodes.md",
                 "mode": "source",
                 "source": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_token/README.md",
+                "file": "_mining/state-maintainer-nodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_token/README.md",
+                "file": "_mining/state-maintainer-nodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_token/README.md"
+                "file": "_mining/state-maintainer-nodes.md"
               }
             }
           }
@@ -216,15 +216,15 @@
   },
   "active": "f24d514cdbd6a1d4",
   "lastOpenFiles": [
-    "_z_faq/README.md",
-    "_mining/README.md",
-    "_mining/FAQ-Mining.md",
-    "_mining/state-maintainer-nodes.md",
     "_mining/remote-attestation.md",
-    "_mining/hosting_profitability.md",
     "_mining/Mining-With-Own-Hardware.md",
     "_mining/Mining-Required-Open-Ports.md",
-    "_mining/public_service.md",
-    "_mining/TEA-Mining.md"
+    "_mining/hosting_profitability.md",
+    "_mining/availability-attestation.md",
+    "_mining/FAQ-Mining.md",
+    "_mining/TEA-Mining.md",
+    "_1_ecosystem/README.md",
+    "_token/README.md",
+    "_z_faq/README.md"
   ]
 }
