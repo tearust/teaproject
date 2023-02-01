@@ -216,15 +216,15 @@
   },
   "active": "f24d514cdbd6a1d4",
   "lastOpenFiles": [
+    "_token/tea-tokens/README.md",
+    "_token/tea-tokens/Billing-system-between-layer1-layer2.md",
+    "_token/README.md",
+    "_mining/state-maintainer-nodes.md",
     "_mining/remote-attestation.md",
     "_mining/Mining-With-Own-Hardware.md",
     "_mining/Mining-Required-Open-Ports.md",
     "_mining/hosting_profitability.md",
     "_mining/availability-attestation.md",
-    "_mining/FAQ-Mining.md",
-    "_mining/TEA-Mining.md",
-    "_1_ecosystem/README.md",
-    "_token/README.md",
-    "_z_faq/README.md"
+    "_mining/FAQ-Mining.md"
   ]
 }

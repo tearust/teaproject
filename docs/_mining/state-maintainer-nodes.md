@@ -11,4 +11,4 @@ Instead of CML, miners wishing to become state maintainers must secure licenses 
 1. The Harberger Tax collected from these state maintainers is equal to a percentage of this self-valuation price which is set independently by each state maintainer.
 1. This price is also the price which anyone can buy the seat away from the existing state maintainer seat holder. Any of the state maintainer seat licenses can be purchased away from the existing maintainers by bidding 1T higher than the self-valuation price listed in the Harberger Auction TApp.
 
-This presents a Harberger Tax dilemma for each seat holder: price it too low and the seat will be purchased away from them. Price it too high and they’ll have to pay a larger tax burden. More information on revenue and expenses is available [in our core TApps article](../_tapps/tapps-core).
+This presents a Harberger Tax dilemma for each seat holder: price it too low and the seat will be purchased away from them. Price it too high and they’ll have to pay a larger tax burden. More information on revenue and expenses is available in our core TApps article: [TApps-Core](../_tapps/TApps-Core.md).
