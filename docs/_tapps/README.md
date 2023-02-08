@@ -13,6 +13,7 @@ Developers interested in coding and deploying their own TApps can reference the 
 
 * [Developer methodology](Developers.md) introduces some important concepts for developers new to developing for the TEA ecosystem. It also discusses the TEA tech stack, including WebAssembly and IPFS.
 * [Creating a TApp](TApps-Creating-a-TApp.md) shows how to deploy a TApp to the TEA Project once it's been compiled to WebAssembly format.
+* [TEA-Billing](TEA-Billing.md) is the base document with information and related links for understanding TEA's billing system.
 
 You can learn more about other concepts involved with TApps by visiting the [TApps FAQ](FAQ-TApps.md). 
 
