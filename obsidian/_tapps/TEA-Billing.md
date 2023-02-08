@@ -22,5 +22,5 @@ The following two types of billing are charged to the TApp, specifically to the 
 
 The above txn fee and memory tax are the fees paid by the TApp to use the state machine. These two payments go into a collection pool that are paid out at regular intervals to the state maintainers.
 
-- The unit of billing and frequency of billing are covered more in [[TEA-Billing-Rate-Time]].
+- The unit of billing and frequency of billing are covered more in [TEA-Billing-Rate-Time](TEA-Billing-Rate-Time.md).
 - Developers can learn about the differences between WASM and native functions in [[TEA-Billing-WASM-Native]].
