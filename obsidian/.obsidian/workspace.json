@@ -81,14 +81,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tapps/TApps-Creating-a-TApp.md",
+                "file": "_1_ecosystem/README.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1768979bb0052403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_1_ecosystem/Profitability.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tapps/TApps-Creating-a-TApp.md",
+                "file": "_1_ecosystem/Profitability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tapps/TApps-Creating-a-TApp.md",
+                "file": "_1_ecosystem/Profitability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tapps/TApps-Creating-a-TApp.md"
+                "file": "_1_ecosystem/Profitability.md"
               }
             }
           }
@@ -214,17 +226,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f24d514cdbd6a1d4",
+  "active": "1768979bb0052403",
   "lastOpenFiles": [
-    "_tapps/TApps-Core.md",
     "_1_ecosystem/README.md",
+    "_tapps/TEA-Billing.md",
+    "_tapps/TEA-Billing-WASM-Native.md",
+    "_tapps/TApps-Creating-a-TApp.md",
+    "_tapps/TApps-Core.md",
     "_z_z_appendix/What_makes_a_Web3_application.md",
     "_z_z_appendix/The_future_and_innovation_of_layer2.md",
     "_z_z_appendix/README.md",
     "_z_faq/The-TEA-Project-Core-Team.md",
-    "_z_faq/TEA-Social-Media.md",
-    "_z_faq/TEA-Security.md",
-    "_z_faq/README.md",
-    "_z_faq/Governance-Structure.md"
+    "_z_faq/TEA-Social-Media.md"
   ]
 }
