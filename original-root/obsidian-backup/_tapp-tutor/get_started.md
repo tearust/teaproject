@@ -19,7 +19,7 @@ As is the case with all TApps, the TEA Party showcases the special features that
 
 - No one, including the host miner, can control or censor the content. The content is owned and protected by its creator's private key. A miner can choose to stop hosting the TApp, but it cannot selectively choose what content to show or hide.
 
-- There's no free lunch. Every action that costs any computing resources needs to be paid by someone. In TEA Party's particular case, every message sent needs to be paid for. Additional charges also apply to store the message or to notify the recipient. For further information, see [[Where_the_message_is_stored?]]
+- There's no free lunch. Every action that costs any computing resources needs to be paid by someone. In TEA Party's particular case, every message sent needs to be paid for. Additional charges also apply to store the message or to notify the recipient. For further information, see [[teaproject/original-root/obsidian-backup/_tapp-tutor/Where_the_message_is_stored?]]
 
 In order to get the features above, the underlying technical layer is very different from the existing cloud computing and blockchain tech stacks. It's a new tech stack that's based on recent technologies.  However, the developers do not need to understand the complicated low level distributed system, they can build application **as if** it is still a centralized cloud computing architecture. This is the **charm of the TEA Project**.
 
@@ -50,8 +50,8 @@ The basic workflow would look like this:
 # Storage
 There are three types of storage options for different use cases.
 - [[OrbitDb]]: Based on IPFS / used for large blob storage. It's running on the [[hosting_CML]].
-- [[state|State]]: Usually used to store account balance. It runs inside the [[State_Machine]].
-- [[GlueSQL]]: Distributed SQL server instances. It's located inside the [[State_Machine]].
+- [[state|State]]: Usually used to store account balance. It runs inside the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]].
+- [[GlueSQL]]: Distributed SQL server instances. It's located inside the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]].
 
 ## Comparison between the three storage options
 
@@ -67,7 +67,7 @@ There are three types of storage options for different use cases.
 |-------------|-------| ------|---------------|-------------|-------|
 | Clicks the app to start | Start a web app | N/A | Go to a domain name, usually https://yourapp.com | Click the app name in your TEA wallet, you'll receive a list of hosting CMLs. Click any of them | Cloud webapp has a centralized http/https domain name, but TEA doesn't have such a centralized control. Every hosting miner are seperate from each other |
 | Show the UI in the browser | Load front-end code in the browser | N/A | Download the [[front_end]] code (js/html/css) from a webserver | Download the front end from IPFS or any decentralized storage | TEA doesn't have a traditional web server. The front-end code and all static resources are stored in IPFS or some other decentralized storage. User will use the CID (hash) as a key to load the front-end code directly in the browser |
-| Show dynamic content, such as list of all messages | Query database | Any client to query the block state | Browser sends request to the back-end server, back-end server then queries database for data. Send data all the way back to the browser to show on the UI | Browser request to hosting CML. The [[back_end_actor]] handles the request and then sends a P2P request to [[State_Machine_Replica]]. [[state_machine_actor]] queries the [[State_Machine]] then sends the data all the way back to the [[front_end]] | Depends on what type of content the UI queries. Some content can be directly queried from a hosting CML's local OrbitDB instance. Accounting information needs go to the state machine. The TEA project also provides a Glue SQL database if the data is stored in an SQL database. |
+| Show dynamic content, such as list of all messages | Query database | Any client to query the block state | Browser sends request to the back-end server, back-end server then queries database for data. Send data all the way back to the browser to show on the UI | Browser request to hosting CML. The [[back_end_actor]] handles the request and then sends a P2P request to [[State_Machine_Replica]]. [[state_machine_actor]] queries the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]] then sends the data all the way back to the [[front_end]] | Depends on what type of content the UI queries. Some content can be directly queried from a hosting CML's local OrbitDB instance. Accounting information needs go to the state machine. The TEA project also provides a Glue SQL database if the data is stored in an SQL database. |
 |  Create or update dynamic content, such as post new messages or extend existing messages | Send command to modify state | Send transaction to any ETH miner and wait for a new block |The same as above | [[front_end]] sends command to the [[back_end_actor]]. [[back_end_actor]] generates a transaction (or calls a command) and sends it to a [[State_Machine_Replica]] via P2P. The statemachine replica puts this transaction into the [[conveyor]] and then waits a grace period until the sequence of transactions reaches a consensus between more than 50% of replicas. Then load this transaction to the [[back_end_actor]] to execute the transaction which will update the state | There are many state machine replicas that keep a consistent state among them. So the Proof of Time is required to sync between replicas. |
 
 
@@ -104,8 +104,8 @@ TEA Project runs [[The_future_and_innovation_of_layer2#Layer1 Agnostic|on top of
 ## Hardware
 The TEA Project is very different from many other blockchain projects. TEA relies on two types of hardware in order to reach a special type of consensus: 
 
-- [[TPM]]
-- [[GPS]]
+- [[teaproject/original-root/obsidian-backup/_tapp-tutor/TPM]]
+- [[teaproject/original-root/obsidian-backup/_tapp-tutor/GPS]]
 
 Please click the above links to learn more about how and why the TEA Project uses these technologies.
 

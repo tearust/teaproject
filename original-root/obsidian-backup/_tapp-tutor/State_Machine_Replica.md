@@ -1,4 +1,4 @@
-[[State_Machine]] is the database tier that contains multiple replications. Every replication is a **State Machine Replica**.
+[[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]] is the database tier that contains multiple replications. Every replication is a **State Machine Replica**.
 
 Every replica is a standalone state machine CML node. It syncs with the other state machine CML nodes. 
 

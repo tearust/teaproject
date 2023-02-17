@@ -56,8 +56,8 @@ The basic workflow would look like this:
 There are three types of storage options for different use cases.
 
 * [OrbitDb](OrbitDb.md): Based on IPFS / used for large blob storage. It's running on the [hosting_CML](hosting_CML.md).
-* [State](state.md): Usually used to store account balance. It runs inside the [State_Machine](State_Machine.md).
-* [GlueSQL](GlueSQL.md): Distributed SQL server instances. It's located inside the [State_Machine](State_Machine.md).
+* [State](state.md): Usually used to store account balance. It runs inside the [State_Machine](teaproject/tapp-tutor/State_Machine.md).
+* [GlueSQL](GlueSQL.md): Distributed SQL server instances. It's located inside the [State_Machine](teaproject/tapp-tutor/State_Machine.md).
 
 ## Comparison between the three storage options
 
@@ -73,7 +73,7 @@ There are three types of storage options for different use cases.
 |-----------|----|---------------|------------|-----------|----|
 |Clicks the app to start|Start a web app|N/A|Go to a domain name, usually https://yourapp.com|Click the app name in your TEA wallet, you'll receive a list of hosting CMLs. Click any of them|Cloud webapp has a centralized http/https domain name, but TEA doesn't have such a centralized control. Every hosting miner are seperate from each other|
 |Show the UI in the browser|Load front-end code in the browser|N/A|Download the [front_end](front_end.md) code (js/html/css) from a webserver|Download the front end from IPFS or any decentralized storage|TEA doesn't have a traditional web server. The front-end code and all static resources are stored in IPFS or some other decentralized storage. User will use the CID (hash) as a key to load the front-end code directly in the browser|
-|Show dynamic content, such as list of all messages|Query database|Any client to query the block state|Browser sends request to the back-end server, back-end server then queries database for data. Send data all the way back to the browser to show on the UI|Browser request to hosting CML. The [back_end_actor](back_end_actor.md) handles the request and then sends a P2P request to [State_Machine_Replica](State_Machine_Replica.md). [state_machine_actor](state_machine_actor.md) queries the [State_Machine](State_Machine.md) then sends the data all the way back to the [front_end](front_end.md)|Depends on what type of content the UI queries. Some content can be directly queried from a hosting CML's local OrbitDB instance. Accounting information needs go to the state machine. The TEA project also provides a Glue SQL database if the data is stored in an SQL database.|
+|Show dynamic content, such as list of all messages|Query database|Any client to query the block state|Browser sends request to the back-end server, back-end server then queries database for data. Send data all the way back to the browser to show on the UI|Browser request to hosting CML. The [back_end_actor](back_end_actor.md) handles the request and then sends a P2P request to [State_Machine_Replica](State_Machine_Replica.md). [state_machine_actor](state_machine_actor.md) queries the [State_Machine](teaproject/tapp-tutor/State_Machine.md) then sends the data all the way back to the [front_end](front_end.md)|Depends on what type of content the UI queries. Some content can be directly queried from a hosting CML's local OrbitDB instance. Accounting information needs go to the state machine. The TEA project also provides a Glue SQL database if the data is stored in an SQL database.|
 |Create or update dynamic content, such as post new messages or extend existing messages|Send command to modify state|Send transaction to any ETH miner and wait for a new block|The same as above|[front_end](front_end.md) sends command to the [back_end_actor](back_end_actor.md). [back_end_actor](back_end_actor.md) generates a transaction (or calls a command) and sends it to a [State_Machine_Replica](State_Machine_Replica.md) via P2P. The statemachine replica puts this transaction into the [conveyor](conveyor.md) and then waits a grace period until the sequence of transactions reaches a consensus between more than 50% of replicas. Then load this transaction to the [back_end_actor](back_end_actor.md) to execute the transaction which will update the state|There are many state machine replicas that keep a consistent state among them. So the Proof of Time is required to sync between replicas.|
 
 ## The requirements for building TApps
@@ -114,8 +114,8 @@ TEA Project runs [on top of different kinds of blockchains](../../_z_appendix/Th
 
 The TEA Project is very different from many other blockchain projects. TEA relies on two types of hardware in order to reach a special type of consensus: 
 
-* [TPM](TPM.md)
-* [GPS](GPS.md)
+* [TPM](teaproject/tapp-tutor/TPM.md)
+* [GPS](teaproject/tapp-tutor/GPS.md)
 
 Please click the above links to learn more about how and why the TEA Project uses these technologies.
 

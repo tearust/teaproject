@@ -13,6 +13,6 @@ But private messages aren't saved in plain text. The hosting nodes will encrypt 
 Because only TEA Party hosting nodes have the [[App_AES_Key]] in their own enclave, other apps or users cannot get the content of these messages.
 
 ## Cost
-OrbitDB /IPFS is very cheap compared to using the [[State_Machine]] which exclusively uses RAM to store the state. For more details, please read [[OrbitDb#Cost]].
+OrbitDB /IPFS is very cheap compared to using the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]] which exclusively uses RAM to store the state. For more details, please read [[OrbitDb#Cost]].
 
 

@@ -2,7 +2,7 @@ Every TApp has an AES key.
 This AES key is used to encrypt/decrypt any data stored to hosting nodes' local IPFS or OrbitDB databases.
 
 ## Generating the app's AES key
-When a TApp is first created in the TAppStore, the GenreateAesKeyTxn is created and then executed in the [[State_Machine]].
+When a TApp is first created in the TAppStore, the GenreateAesKeyTxn is created and then executed in the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]].
 
 During execution, a random AES key is generated in the state.
 

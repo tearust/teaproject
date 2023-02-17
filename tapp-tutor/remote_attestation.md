@@ -6,7 +6,7 @@ If we send a bunch of code and data to a computer, how do we know the computer i
 
 Trusted computing was invented to solve this problem. The computer itself can detect the integrity (for example, **secured boot**) or detect another computer's integrity (this is called **remote attestation**).
 
-Validation of integrity is basically comapring the hash of a hardware/firmware/software stack with a series of known correct hash values. If any of these values changes and no longer matches what they're supposed to be, the remote attestatation has failed. Those verifable hash values are provided by the [TPM](TPM.md) security chips.
+Validation of integrity is basically comapring the hash of a hardware/firmware/software stack with a series of known correct hash values. If any of these values changes and no longer matches what they're supposed to be, the remote attestatation has failed. Those verifable hash values are provided by the [TPM](teaproject/tapp-tutor/TPM.md) security chips.
 
 The attestors are selected randomly by the layer1 blockchain. This is out of human control. Every individual attestor made its own decision seperately, and the result was sent to layer1. Layer1 smart contracts runs a BFT algorithm to determine if a candidate is trustable or not. The attestors and layer1 works as members of jury duty and judge the node under inspection. 
 

@@ -85,7 +85,7 @@ console.log('message => ', opts)
 
 You might have noiticed that the most improtant line related to TEA is the line `await _axios.post('/tapp/loadMessageList'` for querying mesages, and this line `await txn.txn_request('postMessage', opts);` for posting messages.
 
-You might also have noticed that this line `await _axios.post('/tapp/postFreeMessage',` also looks like it's sending a command, but why isn't it using `txn.txn_request()`? Well, posting a message does look like a command, but the free message doesn't cost anything. Therefore there is no state change (no money transfer). It can be comfortably handled by the [hosting_CML](hosting_CML.md) alone without notifying the [State_Machine](State_Machine.md). No matter if it's [queries](queries.md) or [commands](commands.md), they are concepts related to the [State_Machine](State_Machine.md) and not your application. 
+You might also have noticed that this line `await _axios.post('/tapp/postFreeMessage',` also looks like it's sending a command, but why isn't it using `txn.txn_request()`? Well, posting a message does look like a command, but the free message doesn't cost anything. Therefore there is no state change (no money transfer). It can be comfortably handled by the [hosting_CML](hosting_CML.md) alone without notifying the [State_Machine](teaproject/tapp-tutor/State_Machine.md). No matter if it's [queries](queries.md) or [commands](commands.md), they are concepts related to the [State_Machine](teaproject/tapp-tutor/State_Machine.md) and not your application. 
 
 ## txn.txn_request
 
@@ -298,7 +298,7 @@ let step_2_rs = null;
     };
 ````
 
-The result of step2 is the txn_hash. Now the front-end has the txn hash and the back-end has sent the txn to the [State_Machine](State_Machine.md). But we haven't got the result yet. In order to get the result, the front-end needs to ask the [back_end_actor](back_end_actor.md) to initialize a series of [queries](queries.md) to the [State_Machine](State_Machine.md) to get the result of the transaction. Step3 performs this "initialization" request.
+The result of step2 is the txn_hash. Now the front-end has the txn hash and the back-end has sent the txn to the [State_Machine](teaproject/tapp-tutor/State_Machine.md). But we haven't got the result yet. In order to get the result, the front-end needs to ask the [back_end_actor](back_end_actor.md) to initialize a series of [queries](queries.md) to the [State_Machine](teaproject/tapp-tutor/State_Machine.md) to get the result of the transaction. Step3 performs this "initialization" request.
 
 ````
 step_3_rs = await _axios.post('/tapp/queryHashResult', {
@@ -308,7 +308,7 @@ step_3_rs = await _axios.post('/tapp/queryHashResult', {
     
 ````
 
-Now, the [back_end_actor](back_end_actor.md) receives the request and starts querying the [State_Machine](State_Machine.md) for the result. Because this is an async call, the back-end cannot get the result immediately. It will keep polling several times to get the result. When the back-end receives the result, it will cache it in memory for a short period of time, waiting for the [front_end](front_end.md) to fetch it. Step4 actually did the "fetching" job.
+Now, the [back_end_actor](back_end_actor.md) receives the request and starts querying the [State_Machine](teaproject/tapp-tutor/State_Machine.md) for the result. Because this is an async call, the back-end cannot get the result immediately. It will keep polling several times to get the result. When the back-end receives the result, it will cache it in memory for a short period of time, waiting for the [front_end](front_end.md) to fetch it. Step4 actually did the "fetching" job.
 
 ````
 step_4_rs = await _axios.post('/tapp/query_result', {
@@ -326,7 +326,7 @@ step_4_rs = await _axios.post('/tapp/query_result', {
         
 ````
 
-There are a few meaningful parameters in the step\_ r_rs result. For example, do I need to wait and query again? This happens if the [back_end_actor](back_end_actor.md) has not received the result from the [State_Machine](State_Machine.md) yet. 
+There are a few meaningful parameters in the step\_ r_rs result. For example, do I need to wait and query again? This happens if the [back_end_actor](back_end_actor.md) has not received the result from the [State_Machine](teaproject/tapp-tutor/State_Machine.md) yet. 
 
 For most txns, as long as step4 has received the answer, the whole process is done. But for some txns, there are some follow-up tasks after the result. This is what step5 is supposed to do.
 

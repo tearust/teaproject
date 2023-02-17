@@ -5,7 +5,7 @@ This AES key is used to encrypt/decrypt any data stored to hosting nodes' local 
 
 ## Generating the app's AES key
 
-When a TApp is first created in the TAppStore, the GenreateAesKeyTxn is created and then executed in the [State_Machine](State_Machine.md).
+When a TApp is first created in the TAppStore, the GenreateAesKeyTxn is created and then executed in the [State_Machine](teaproject/tapp-tutor/State_Machine.md).
 
 During execution, a random AES key is generated in the state.
 

@@ -17,4 +17,4 @@ Because only TEA Party hosting nodes have the [App_AES_Key](App_AES_Key.md) in t
 
 ## Cost
 
-OrbitDB /IPFS is very cheap compared to using the [State_Machine](State_Machine.md) which exclusively uses RAM to store the state. For more details, please read [OrbitDb > Cost](OrbitDb.md#cost).
+OrbitDB /IPFS is very cheap compared to using the [State_Machine](teaproject/tapp-tutor/State_Machine.md) which exclusively uses RAM to store the state. For more details, please read [OrbitDb > Cost](OrbitDb.md#cost).

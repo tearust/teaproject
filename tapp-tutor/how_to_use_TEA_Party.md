@@ -33,7 +33,7 @@ The code and data are running inside a hardware protected [enclave](enclave.md).
 
 ## No centralized database
 
-Not only is the hosting of TApps fully decentralized, the database is also fully decentralized as well. The database layer is probably not something you can see from the front end. But if you read the full developer documentation, you'll understand how the [State_Machine](State_Machine.md) and [OrbitDb](OrbitDb.md) work together to provide [storage](_developers/tapp-tutor/README.md#Storage) for the application data.
+Not only is the hosting of TApps fully decentralized, the database is also fully decentralized as well. The database layer is probably not something you can see from the front end. But if you read the full developer documentation, you'll understand how the [State_Machine](teaproject/tapp-tutor/State_Machine.md) and [OrbitDb](OrbitDb.md) work together to provide [storage](_developers/tapp-tutor/README.md#Storage) for the application data.
 
 ## Tokenomics driven
 

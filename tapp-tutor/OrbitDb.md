@@ -15,7 +15,7 @@ IPFS is open to the public. Anything stored in the IPFS can be accessed by anyon
 
 The data used in one applicaiton is encrypted using this application AES key inside enclave. When the data is saved to the OrbitDB, it has been encrypted. It will be decrypted when again loaded into the enclave by the same application. Other application cnanot decrypt because they do not have such [App_AES_Key](App_AES_Key.md).
 
-The [App_AES_Key](App_AES_Key.md) is stored inside the [State_Machine](State_Machine.md) which is consider the top security of the whole TEA Project network. When a new applicaiton host instance starts, it will request such a AES key to the [State_Machine](State_Machine.md). After a restricted scurity check, the instance can receive such AES key. Because the AES key only live inside enclave (both state machine or hosting nodes.), it is unknown to outside world.
+The [App_AES_Key](App_AES_Key.md) is stored inside the [State_Machine](teaproject/tapp-tutor/State_Machine.md) which is consider the top security of the whole TEA Project network. When a new applicaiton host instance starts, it will request such a AES key to the [State_Machine](teaproject/tapp-tutor/State_Machine.md). After a restricted scurity check, the instance can receive such AES key. Because the AES key only live inside enclave (both state machine or hosting nodes.), it is unknown to outside world.
 
 ## Sync
 
@@ -25,10 +25,10 @@ Because all of these instances share the same [App_AES_Key](App_AES_Key.md), the
 
 ## Cost
 
-Since OrbitDB lives outside of the [enclave](enclave.md) and is stored on a hard disk (actually IPFS), using it would be much cheaper compared to the [State_Machine](State_Machine.md) (whose data stays inside the RAM of the [enclave](enclave.md)). Of course, the [State_Machine](State_Machine.md) would be a much more limited resource and be much more expensive than hard disk space outside of the enclave.
+Since OrbitDB lives outside of the [enclave](enclave.md) and is stored on a hard disk (actually IPFS), using it would be much cheaper compared to the [State_Machine](teaproject/tapp-tutor/State_Machine.md) (whose data stays inside the RAM of the [enclave](enclave.md)). Of course, the [State_Machine](teaproject/tapp-tutor/State_Machine.md) would be a much more limited resource and be much more expensive than hard disk space outside of the enclave.
 
 ## Eventual consistency
 
 OrbitDB provides [**eventual consistency**](https://en.wikipedia.org/wiki/Eventual_consistency), which means you could get temporary inconsistency across all nodes. Your TApp has to handle this possible scenario in its business and UI logic.
 
-If your data is very time sensitive and requires [**strong consistency**](https://en.wikipedia.org/wiki/Strong_consistency), please use the more expensive [State_Machine](State_Machine.md) instead.
+If your data is very time sensitive and requires [**strong consistency**](https://en.wikipedia.org/wiki/Strong_consistency), please use the more expensive [State_Machine](teaproject/tapp-tutor/State_Machine.md) instead.

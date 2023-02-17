@@ -1,6 +1,6 @@
 # Magic of the State Machine
 
-From a 10k foot view, all blockchains are nothing but different types of [State_Machine](State_Machine.md)s.  This machine accepts a user tx as input, and then executes some kind of logic (for example, a smart contract) to update the [state](state.md). Every block is a new update of the state. Any node can rebuild the latest state by recalculating from the genesis block. This recalculation is also part of the validation process.
+From a 10k foot view, all blockchains are nothing but different types of [State_Machine](teaproject/tapp-tutor/State_Machine.md)s.  This machine accepts a user tx as input, and then executes some kind of logic (for example, a smart contract) to update the [state](state.md). Every block is a new update of the state. Any node can rebuild the latest state by recalculating from the genesis block. This recalculation is also part of the validation process.
 
 TEA Proejct is also a state machine, but a very different type of state machine. There's no block, there's no TPS, no smart contracts, nand no validators. It's actually more likely a distributed database. 
 
@@ -10,4 +10,4 @@ To achieve this, the most important thing is the sequence of all transactions (s
 
 The sequence of the transactions are guaranteed by the [conveyor](conveyor.md). The algorithm is also called **proof of time**.
 
-This unique way of thinking makes TEA Project a unique platform. Of course, this is based on the trust from layer1 and [remote_attestation](remote_attestation.md). Otherwise, any [hosting_CML](hosting_CML.md) nodes can cheat the [State_Machine_Replica](State_Machine_Replica.md) with wrong [GPS](GPS.md) timestamps and cauase the whole system to stop working. 
+This unique way of thinking makes TEA Project a unique platform. Of course, this is based on the trust from layer1 and [remote_attestation](remote_attestation.md). Otherwise, any [hosting_CML](hosting_CML.md) nodes can cheat the [State_Machine_Replica](State_Machine_Replica.md) with wrong [GPS](teaproject/tapp-tutor/GPS.md) timestamps and cauase the whole system to stop working. 

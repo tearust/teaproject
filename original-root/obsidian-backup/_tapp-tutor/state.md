@@ -6,4 +6,4 @@ In a traditional cloud computing architecture, the database is most likely used 
 
 In the TEA Project, we don't store the application state in the blockchain. Instead, the state is stored in a group of [[State_Machine_Replica]]s. We use a new [[consensus#Proof of Time|Proof of Time]] hardware consensus to achieve super fast speed (relative to traditional blockchain) and processing power without sacrificing security or scalability.  
 
-Please keep reading the [[State_Machine]] and [[consensus]] for more details.
+Please keep reading the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]] and [[consensus]] for more details.

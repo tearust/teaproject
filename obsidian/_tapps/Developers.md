@@ -19,8 +19,6 @@ Just like today's internet is a large set of links to different webpages hosted 
 - [TEA app developers compile to WebAssembly](https://medium.com/@teaproject/tea-and-webassembly-89991a83bbd1) which allows devs to code in their preferred language before compiling to WASM.
 - Developers will also want to familiarize themselves with how the [[TApp-Token-Supply-and-Demand|bonding curve works]], in particular the [[Bonding-Curve-Theta|theta percentage]] that goes directly to developers. 
 
-In addition to the extensive use of open-source software, the TEA Project has developed unique technologies to support its multi-layered blockchain model. There is currently no outsourcing of development.
-
 Open-source technologies used by the TEA Project include:
 
 * IPFS

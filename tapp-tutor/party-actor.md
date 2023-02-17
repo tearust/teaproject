@@ -63,7 +63,7 @@ Tea project uses a modified version of rust-based lib P2P protocol between nodes
 
 The [hosting_CML](hosting_CML.md) use `libp2p_back_message` to handle libP2P messages. In our Tea party sample code, the only usage of this function is to receive response message to its own memory cache `help::set_mem_cache(&body.uuid, content)?;`.
 
-The memory cache is used to temporarily store the response/error message from the [State_Machine](State_Machine.md).  When the [front_end](front_end.md) sends a query for the result of any command, the hosting CML's back end actor will check this temporary store to get recently received results and get back to the [front_end](front_end.md).
+The memory cache is used to temporarily store the response/error message from the [State_Machine](teaproject/tapp-tutor/State_Machine.md).  When the [front_end](front_end.md) sends a query for the result of any command, the hosting CML's back end actor will check this temporary store to get recently received results and get back to the [front_end](front_end.md).
 
 ## Interaction with OrbitDB
 
@@ -108,11 +108,11 @@ The rest of the code is easy to understand. The data response from the OrbitDB p
 
 ## Interaction with State Machine
 
-Usually there are two kinds of requests that need to be sent to the [State_Machine](State_Machine.md) to handle. They're either [queries](queries.md) or [commands](commands.md).
+Usually there are two kinds of requests that need to be sent to the [State_Machine](teaproject/tapp-tutor/State_Machine.md) to handle. They're either [queries](queries.md) or [commands](commands.md).
 
 ## Command example:  post_message
 
-The function `post_message` sends a txn (we sometimes call it sending [commands](commands.md)) to the [State_Machine](State_Machine.md)).  The following code sends the txn:
+The function `post_message` sends a txn (we sometimes call it sending [commands](commands.md)) to the [State_Machine](teaproject/tapp-tutor/State_Machine.md)).  The following code sends the txn:
 
 ````
 	send_txn(
