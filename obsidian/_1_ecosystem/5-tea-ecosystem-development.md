@@ -1,9 +1,8 @@
 # TEA Ecosystem Development
 
+The TEA ecosystem is an interdependent network that includes a variety of participants. Each are incentivized to act in their own best interest but in doing so also help strengthen the entire TEA Project ecosystem.
 
-
-
-
-- Miners: They own hardware mining machines, purchase CML (NFT, it's like software license), provide computing services and get rewarded with TEA. Read more in [[_mining/README|basic concepts for miners]].
-- Developers: They use the TEA framework to develop TApps which run on mining machines and provide services to earn revenue which would be distributed to investors and miners according to smart contracts on a bonding curve. You can read more about [[Developers|basic concepts for developers]].
-- Investors: Users with TEA funds can invest in mining machines, TApps or even CML and TEA in order to get ROI. Investors can learn more about investing in [[TApp-Token-Supply-and-Demand|entity tokens]].
+- **Miners**: They own hardware mining machines, purchase CML (NFT, it's like software license), provide computing services and get rewarded with TEA. Read more in [[_mining/README|basic concepts for miners]].
+- **Developers**: They use the TEA framework to develop TApps which run on mining machines and provide services to earn revenue which would be distributed to investors and miners according to smart contracts on a bonding curve. You can read more about [[Developers|basic concepts for developers]].
+- **Investors**: Users with TEA funds can invest in mining machines and especially TApps (through their bonding curve tokens) in order to get ROI. For example, each TApp will have its own TApp token that investors can purchase as if investing in a stock. Each TApp token represents a share in the TApp and gives the holder dividends in the form of more TApp tokens issued to its holders whenever someone uses the TApp. As these tokens are issued on a bonding curve, the earliest TApp token investors will enjoy the largest amount of price appreciation. Investors can learn more about investing in [[TApp-Token-Supply-and-Demand|entity tokens]].
+- **End-users** Concurrent to attracting developers to the platform, the TEA Project will actively market emerging TApps to consumers. We imagine the TEA Project being an ideal ecosystem for existing cloud apps looking to migrate and benefit from decentralization and data privacy. We look forward to the types of decentralized apps that will flourish on the TEA Project network. We also want to play an active part in welcoming consumers looking to make the leap from the centralized web 2.0 world to the TEA Project and Web3.

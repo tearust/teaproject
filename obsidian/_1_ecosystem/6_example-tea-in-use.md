@@ -3,10 +3,12 @@ The TEA Project is looking to disrupt the world of cloud computing by enabling d
 
 Let's look at the economic incentives for a hypothetical Tensorflow image recognition TApp running on the TEA network:
 
-  -   The **developer** uploads their Tensorflow image recognition analysis TApp to IPFS.
+-   The **developer** uploads their Tensorflow image recognition analysis TApp to IPFS.
 -   A **photographer** uploads their pictures to IPFS.
 -   A **researcher** wants to use the **developer's** TApp with the **photographer's** pictures.
 -   A random **miner** is selected to host the Tensorflow TApp and the pictures within the protected enclave of their mining machine.
+
+![1 Example_TEA_Use_Case](https://user-images.githubusercontent.com/86096370/219790724-db85a7c6-5c59-42b9-9550-7c00f63aa69a.png)
 
 In economic terms, the **researcher** pays to use the TApp. The payment flows through the **miner** who provided the node to perform the secure and private calculation, the **photographer** who is paid for the use of their pictures, and the **developer** who is paid for the usage of their code. Every transaction enriches a wide variety of participants in the TEA ecosystem and helps sustain and incentivize further usage.
 

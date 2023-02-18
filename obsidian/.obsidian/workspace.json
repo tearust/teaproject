@@ -165,14 +165,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_1_ecosystem/2_roots-of-trust.md",
+                "file": "_1_ecosystem/3_how-rot-combine-for-compute.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cc9822dadbbcf7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_1_ecosystem/1_tea-decentralized-compute.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -238,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_1_ecosystem/2_roots-of-trust.md",
+                "file": "_1_ecosystem/1_tea-decentralized-compute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_1_ecosystem/2_roots-of-trust.md",
+                "file": "_1_ecosystem/1_tea-decentralized-compute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_1_ecosystem/2_roots-of-trust.md"
+                "file": "_1_ecosystem/1_tea-decentralized-compute.md"
               }
             }
           }
@@ -299,17 +311,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8071d5862017efd6",
+  "active": "cc9822dadbbcf7a5",
   "lastOpenFiles": [
-    "_token/bonding-curve-tokens/Bonding-Curve-Theta.md",
-    "_1_ecosystem/5-tea-ecosystem-development.md",
+    "_1_ecosystem/7_profitability.md",
     "_1_ecosystem/6_example-tea-in-use.md",
+    "_1_ecosystem/5-tea-ecosystem-development.md",
+    "_1_ecosystem/4_tea-technical-details.md",
+    "_1_ecosystem/3.5_wasm.md",
+    "_1_ecosystem/3_how-rot-combine-for-compute.md",
     "_1_ecosystem/2_roots-of-trust.md",
     "_1_ecosystem/1_tea-decentralized-compute.md",
-    "_1_ecosystem/3_how-rot-combine-for-compute.md",
-    "_1_ecosystem/4_tea-technical-details.md",
-    "_1_ecosystem/7_profitability.md",
     "_1_ecosystem/README.md",
-    "_token/README.md"
+    "_z_z_appendix/What_makes_a_Web3_application.md"
   ]
 }
