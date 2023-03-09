@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e42ffaef29a6a5f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "77ed82eae4e1b504",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0a2d48b08487061d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "622dd3ff8abed30b",
             "type": "leaf",
             "state": {
@@ -49,18 +25,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_mining/README.md",
+                "file": "_1_ecosystem/README.md",
                 "mode": "source",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "27b653c1327136d3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -184,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_1_ecosystem/3.5_wasm.md",
+                "file": "_1_ecosystem/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_1_ecosystem/3.5_wasm.md",
+                "file": "_1_ecosystem/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_1_ecosystem/3.5_wasm.md"
+                "file": "_1_ecosystem/README.md"
               }
             }
           }
@@ -311,9 +279,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc9822dadbbcf7a5",
+  "active": "3d0e920880f8b4c3",
   "lastOpenFiles": [
-    "_1_ecosystem/1_tea-decentralized-compute.md",
     "_1_ecosystem/7_profitability.md",
     "_1_ecosystem/6_example-tea-in-use.md",
     "_1_ecosystem/5-tea-ecosystem-development.md",
@@ -321,6 +288,11 @@
     "_1_ecosystem/3.5_wasm.md",
     "_1_ecosystem/3_how-rot-combine-for-compute.md",
     "_1_ecosystem/2_roots-of-trust.md",
+    "_1_ecosystem/1_tea-decentralized-compute.md",
+    "_z_faq/FAQ-Technical.md",
+    "_z_faq/FAQ-Links.md",
+    "_mining/README.md",
+    "_token/README.md",
     "_1_ecosystem/README.md",
     "_z_z_appendix/What_makes_a_Web3_application.md"
   ]

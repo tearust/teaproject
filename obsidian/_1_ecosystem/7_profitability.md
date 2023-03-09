@@ -23,7 +23,7 @@ There are multiple ways of achieving profitability in the TEA ecosystem. Being a
 
 ### Become a state maintainer node
 
- - State maintainers earn revenue from txn fees and the memory tax paid by TApps.
+- State maintainers earn revenue from txn fees and the memory tax paid by TApps.
 - They pay for the right to run a state maintainer node.
 - They pay a Harberger Tax based on their self-valuation price that goes to CML nodes and the TEA DAO.
 

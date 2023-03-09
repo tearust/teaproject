@@ -1,12 +1,8 @@
-# How TEA's 3 RoT Make Compute Happen
+# Decentralized Compute Through TEA's Roots of Trust
 
-In the TEA project, dApps code runs on a layer-2 WebAssembly runtime inside the hardware protected (TPM) enclaves. These enclaves generate Proof of Trust data handled by blockchain consensus on layer-1. In TEA, blockchain doesn't use consensus to verify the result of dApps code, but the execution environment where the code runs. 
+One of the enduring problems of decentralized systems is how to circumvent the slow processing speeds inherent with consensus. The TEA Project avoids slower forms of consensus through the use of three roots of trust: blockchain, trusted hardware, and time. These three roots of trust are used to create two separate consensus algorithms:
 
-TEA Project TApps combine decentralization, speed, and security through its two-layer blockchain design.
+* **Proof of Trust**: TEA’s compute layer consensus verifies the trust data from the onboard hardware security modules (HSM) of its compute nodes, with the resulting status written to the Ethereum blockchain. A central TEA premise is that if the execution environment can be trusted, then the execution result can be trusted as well.
+* **Proof of Time**: The TEA Project’s state machine runs a separate consensus based on time. TEA uses the timestamps as reported by the compute nodes’ atomic clocks (from GPS) units to order transactions on its state machine. The consensus rule is that all nodes sort the transactions by the timestamps, which are trustable as governed by the HSM that protect each reporting node's hardware. Because of this consensus logic, geographically disparate nodes will all reach the same state regarding the ordering of transactions.
 
-* The layer-1 blockchain (Ethereum) keeps trust data on the mining nodes running on layer-2. This layer deals with Byzantine fault and ensures that all layer-2 nodes are validated as trustworthy.
-* TEA Project's layer-2 can ignore Byzantine faults as the decentralized mining nodes on layer-2 have already gained trust from layer-1. Each layer-2 mining node has a TPM-protected enclave where the encrypted app code interacts with encrypted customer data where neither the miners or the developers have access to the customer's data.
-
-![layer-2-nodes](https://user-images.githubusercontent.com/86096370/219816105-09c468d5-0ad0-454f-9c19-ad1e6100aa19.png)
-
-Circumventing slow processing speeds inherent with BFT is an endemic problem of decentralized systems. TEA's layer-1 blockchain still uses Byzantine fault tolerance. The longer times needed to reach consensus on TEA's layer-1 won't interfere with the faster speeds required on its layer-2. The TEA network only needs to use the Proof of Trust (PoT) data on layer-1 to reach a consensus on the trustability of nodes on layer-2.
+It could be said that these two new consensus mechanisms are the TEA Project's main innovations that unlock a full-speed decentralized web for apps that require data security and censorship-resistance. By combining blockchain with IPFS, GPS and trusted hardware, the TEA Project can meet the needs of large-scale, high-frequency apps while ensuring permission-less decentralization and data privacy protection.
