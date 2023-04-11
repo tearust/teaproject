@@ -1,8 +1,0 @@
-# Decentralized Compute Through TEA's Roots of Trust
-
-One of the enduring problems of decentralized systems is how to circumvent the slow processing speeds inherent with consensus. The TEA Project avoids slower forms of consensus through the use of three roots of trust: blockchain, trusted hardware, and time. These three roots of trust are used to create two separate consensus algorithms:
-
-* **Proof of Trust**: TEA’s compute layer consensus verifies the trust data from the onboard hardware security modules (HSM) of its compute nodes, with the resulting status written to the Ethereum blockchain. A central TEA premise is that if the execution environment can be trusted, then the execution result can be trusted as well.
-* **Proof of Time**: The TEA Project’s state machine runs a separate consensus based on time. TEA uses the timestamps as reported by the compute nodes’ atomic clocks (from GPS) units to order transactions on its state machine. The consensus rule is that all nodes sort the transactions by the timestamps, which are trustable as governed by the HSM that protect each reporting node's hardware. Because of this consensus logic, geographically disparate nodes will all reach the same state regarding the ordering of transactions.
-
-It could be said that these two new consensus mechanisms are the TEA Project's main innovations that unlock a full-speed decentralized web for apps that require data security and censorship-resistance. By combining blockchain with IPFS, GPS and trusted hardware, the TEA Project can meet the needs of large-scale, high-frequency apps while ensuring permission-less decentralization and data privacy protection.

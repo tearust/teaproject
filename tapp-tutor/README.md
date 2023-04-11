@@ -8,7 +8,7 @@
 
 * How to use TEA Party as a boilerplate to build your own TApps.
 
-The TEA Party TApp is a useful social media application. Users can post messages to a public board as well as send private messages with notifications. See [how_to_use_TEA_Party](how_to_use_TEA_Party.md) for more information.
+The TEA Party TApp is a useful social media application. Users can post messages to a public board as well as send private messages with notifications. See [how_to_use_TEA_Party](teaproject/tapp-tutor/how_to_use_TEA_Party.md) for more information.
 
 ## TApps are designed for Web3
 
@@ -127,7 +127,7 @@ If you want to host your application in a production environment, you'll need a 
 
 In this section, we'll walk through the TEA Party application's sample code. 
 
-Please continue reading the [code_walkthrough](code_walkthrough.md).
+Please continue reading the [code_walkthrough](teaproject/tapp-tutor/code_walkthrough.md).
 
 ## Basic workflow
 
@@ -195,7 +195,7 @@ sequenceDiagram
 ## The magical Proof of Time state machine
 
 In this section, we'll explain how the distributed state machine works, including how it handles consensus among different replicas.
-Keep reading about the [magic_of_state_machine](magic_of_state_machine.md).
+Keep reading about the [magic_of_state_machine](teaproject/tapp-tutor/magic_of_state_machine.md).
 
 ## Understand WebAssembly Runtime
 

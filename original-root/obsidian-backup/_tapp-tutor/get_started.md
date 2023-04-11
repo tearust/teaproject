@@ -1,15 +1,15 @@
-**TEA Party** is a demo [[What_makes_a_Web3_application| Web3.0]] application running on the TEA Project. 
+**TEA Party** is a demo [[teaproject/original-root/obsidian-backup/_tapp-tutor/What_makes_a_Web3_application| Web3.0]] application running on the TEA Project. 
 
 # The goal of TEA Party
 We built the TEA Party TApp to show: 
 
-- What a typical [[What_makes_a_Web3_application|Web3.0]] App (We call them TApps) looks like.
+- What a typical [[teaproject/original-root/obsidian-backup/_tapp-tutor/What_makes_a_Web3_application|Web3.0]] App (We call them TApps) looks like.
 
 - The building blocks of a typical TApp.
 
 - How to use Tea Party as a boilerplate to build your own TApps.
 
-The TEA Party TApp is a useful social media application. Users can post messages to a public board as well as send private messages with notifications. See [[how_to_use_TEA_Party]] for more information.
+The TEA Party TApp is a useful social media application. Users can post messages to a public board as well as send private messages with notifications. See [[teaproject/original-root/obsidian-backup/_tapp-tutor/how_to_use_TEA_Party]] for more information.
 
 
 # TApp is designed for Web3
@@ -96,10 +96,10 @@ The TEA Project doesn't require the developer to use the Rust programming langua
 ## Architecture knowledge
 
 ## Layer2 without Rollups
-The TEA Project is considered a layer2 solution, but it has been designed with completely different mindset in comparison with existing roll-up solutions. We focus on providing a trustable computing infrastructure, hence why there's [[The_future_and_innovation_of_layer2#We Trust the Result by Verifying the Environment|no need to verify the computing results]]. This allows the dApps running on our infrastructure to run at full speed, similar to cloud computing.
+The TEA Project is considered a layer2 solution, but it has been designed with completely different mindset in comparison with existing roll-up solutions. We focus on providing a trustable computing infrastructure, hence why there's [[teaproject/original-root/obsidian-backup/_tapp-tutor/The_future_and_innovation_of_layer2#We Trust the Result by Verifying the Environment|no need to verify the computing results]]. This allows the dApps running on our infrastructure to run at full speed, similar to cloud computing.
 
 ## Layer2 decoupled with layer1
-TEA Project runs [[The_future_and_innovation_of_layer2#Layer1 Agnostic|on top of different kinds of blockchains]] interchangeably due to there being no rollup required. The layer 1 blockchain provides one of the three Roots of Trust, with the other two roots of trust coming from hardware. 
+TEA Project runs [[teaproject/original-root/obsidian-backup/_tapp-tutor/The_future_and_innovation_of_layer2#Layer1 Agnostic|on top of different kinds of blockchains]] interchangeably due to there being no rollup required. The layer 1 blockchain provides one of the three Roots of Trust, with the other two roots of trust coming from hardware. 
 
 ## Hardware
 The TEA Project is very different from many other blockchain projects. TEA relies on two types of hardware in order to reach a special type of consensus: 
@@ -117,7 +117,7 @@ If you want to host your application in a production environment, you'll need a 
 
 In this section, we'll walk through the TEA Party application's sample code. 
 
-Please continue reading the [[code_walkthrough]].
+Please continue reading the [[teaproject/original-root/obsidian-backup/_tapp-tutor/code_walkthrough]].
 
 # Basic workflow
 In this section, we'll learn the basic workflow between all three tiers: how a user action get processed from the front-end to the state machine layer and back to the user.
@@ -183,7 +183,7 @@ sequenceDiagram
 
 # The magical Proof of Time state machine
 In this section, we'll explain how the distributed state machine works, including how it handles consensus among different replicas.
-Keep reading about the [[magic_of_state_machine]].
+Keep reading about the [[teaproject/original-root/obsidian-backup/_tapp-tutor/magic_of_state_machine]].
 
 # Understand WebAssembly Runtime
 In this section, we'll go through how the WebAssembly code runs inside the [[mini-runtime]]. 

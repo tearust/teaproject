@@ -8,7 +8,7 @@ Youtube video tutorial:
 
 
 ## Why is TEA Party a typical Web3 application?
-Before we get into this question, please read [[What_makes_a_Web3_application]] first.
+Before we get into this question, please read [[teaproject/original-root/obsidian-backup/_tapp-tutor/What_makes_a_Web3_application]] first.
 
 Web3 applications are different than web 2.0 applications in multiple ways:
 
