@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_mining/Mining-With-AWS.md",
+                "file": "_mining/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_mining/Mining-With-AWS.md",
+                "file": "_mining/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_mining/Mining-With-AWS.md",
+                "file": "_mining/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_mining/Mining-With-AWS.md"
+                "file": "_mining/README.md"
               }
             }
           }
@@ -233,9 +233,12 @@
   },
   "active": "61788a6bfaf82301",
   "lastOpenFiles": [
-    "_mining/README.md",
     "_mining/Mining-With-AWS.md",
     "_mining/Mining-With-Own-Hardware.md",
+    "_mining/README.md",
+    "_tapps/TApp-TEA-Party.md",
+    "_tapps/README.md",
+    "_1_ecosystem/README.md",
     "_mining/FAQ-Mining.md",
     "_mining/availability-attestation.md",
     "_mining/hosting_profitability.md",
@@ -246,7 +249,6 @@
     "_1_ecosystem/2_roots-of-trust.md",
     "_1_ecosystem/3_how-rot-combine-for-compute.md",
     "_1_ecosystem/5-tea-ecosystem-development.md",
-    "_1_ecosystem/README.md",
     "_1_ecosystem/z_litepaper.md",
     "_1_ecosystem/7_profitability.md",
     "_1_ecosystem/6_example-tea-in-use.md",
