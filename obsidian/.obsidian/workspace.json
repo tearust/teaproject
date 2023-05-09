@@ -8,98 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1768979bb0052403",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_mining/README.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "61788a6bfaf82301",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_mining/README.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "ac8a70f8fedc46bc",
+            "id": "de0b0150b1fea354",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "_1_ecosystem/README.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1c88d73eab3c3cf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_1_ecosystem/README.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5c19d6e51ea02e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_1_ecosystem/README.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ca46b592425fdf05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_1_ecosystem/4_tea-technical-details.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4f713f522facafcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_1_ecosystem/README.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cc9822dadbbcf7a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_1_ecosystem/3.5_wasm.md",
-                "mode": "source",
-                "source": true
+                "currentVersion": "1.2.7"
               }
             }
           }
@@ -149,6 +71,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "cf7c1fa12d0f4d76",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -170,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_mining/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_mining/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_mining/README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -231,14 +157,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61788a6bfaf82301",
+  "active": "de0b0150b1fea354",
   "lastOpenFiles": [
+    "_mining/README.md",
+    "Untitled.md",
+    "_1_ecosystem/README.md",
     "_mining/Mining-With-AWS.md",
     "_mining/Mining-With-Own-Hardware.md",
-    "_mining/README.md",
     "_tapps/TApp-TEA-Party.md",
     "_tapps/README.md",
-    "_1_ecosystem/README.md",
     "_mining/FAQ-Mining.md",
     "_mining/availability-attestation.md",
     "_mining/hosting_profitability.md",
@@ -257,7 +184,6 @@
     "_1_ecosystem/Untitled.md",
     "_z_faq/FAQ-Technical.md",
     "_z_faq/FAQ-Links.md",
-    "_token/README.md",
-    "_z_z_appendix/What_makes_a_Web3_application.md"
+    "_token/README.md"
   ]
 }

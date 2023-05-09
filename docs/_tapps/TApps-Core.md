@@ -53,3 +53,19 @@ TEA Fluencer functions as many different things depending on the user.
 * For endusers, it's a faucet that gives them the initial funds to participate in the TEA ecosystem.
 
 We have a separate article for more information [about TEA Fluencer](TEAfluencer.md).
+
+## Deep Links
+
+The TEA Project has a built-in redirect service to reach some of our core TApps. The shortened URLs along with their redirects are as follows:
+
+### Show Nodes from which to launch Leaderboard
+
+[https://alpha.teaproject.org/#/app/leaderboard](https://alpha.teaproject.org/#/app/leaderboard)
+
+### Launch Leaderboard using Node 0
+
+[https://alpha.teaproject.org/#/node/0/leaderboard](https://alpha.teaproject.org/#/node/0/leaderboard)
+
+### Launch TAppStore using Node 0
+
+[https://wallet.teaproject.org/#/node/0](https://wallet.teaproject.org/#/node/0)
