@@ -5,9 +5,9 @@
 You will need to setup mining machine then, follow the steps in the [mining guide for the current epoch](https://www.youtube.com/playlist?list=PLOhw_qkI0ILWh5HDI8ZiFARjfkfvNPqev).
 
 ## Do I need a Raspberry Pi to mine?
-Currently, all mining is simulated as we’re on testnet. When mainnet launches, the TEA Project will require mining machines that have TPM chips on-board and run a specially designed NixOS. At this early stage, you cannot use your existing PC for mining even though your PC already has a TPM chip on the motherboard. Initially, AWS Nitro will be the first approved mining machine. The next available will be IoT mining machines such as a customized Raspberry Pi.
+Currently, all mining is simulated as we’re on testnet. When mainnet launches, the TEA Project will require mining machines that have TPM chips on-board and run a specially designed NixOS. At this early stage, you cannot use your existing PC for mining even though your PC already has a TPM chip on the motherboard. 
 
-When mainnet starts, only AWS Nitro will be used. Mining with an RPi is on our roadmap for after mainnet launches, but there's no ETA on when that will be.
+When mainnet starts, only AWS Nitro will be the first approved mining machines. Mining with a customized Raspberry Pi is on our roadmap for after mainnet launches, but there's no ETA on when that will be.
 
 ## What can I do with a CML?
 
@@ -16,8 +16,7 @@ CML is an NFT of the TEA Project that serves as a mining license. When users cho
 Note that after planting into a mining machine, each CML will have a life span of approximately 2 weeks during the testnet epochs. This is an accelerated schedule specifically for the testnet as mainnet CML will have a lifespan of approximately 2 years.
 
 ## Why isn't my planted CML listed on wallet.teaproject.org? 
-There might be mayn reasons, but first make sure you followed all the instructions. One step that's sometimes missed is the "create entity" step. If you don't create an entity, there's no way to pay you. Your entity is similar to a company owned by you that accepts your clients' payments.
-
+There might be many reasons, but first make sure you followed all the instructions. One step that's sometimes missed is the "create entity" step after you plant your CML. If you don't create an entity, there's no way to pay you. Your entity is similar to a company owned by you that accepts your clients' payments.
 
 ## Why does my planted CML have a "pending" status?
 
@@ -29,7 +28,7 @@ The solution may be simple or complicated. Some users mistakenly turn on Ubuntu 
 There will be an nitial limit of 10k CML for the first two years after mainnet launch. The supply of CML will be controlled algorithmically by the DAO according to supply and demand after year 2. After the mainnet starts, the DAO will start to generate CML seeds and put them into the marketplace for auction.
 
 ## Do I need to do anything special to run RA?
-RA (remote attestation) is mandatory to all TEA nodes. Anytime you run an active TEA node, it will run RA automatically. Of course, you will get paid by running such a public service. There's no way for an active node to stop doing RA.
+RA (remote attestation) is mandatory for all TEA nodes. Anytime you run an active TEA node, it will run RA automatically. Of course, you'll get paid by running such a public service. There's no way for an active node to stop doing RA.
 
 ## Is there another option besides running CML nodes? 
 
@@ -43,9 +42,8 @@ There are two kinds of services, public services and private services. Public se
 
 As long as you provide some kind of service, someone (DAO, end user, or tapp developer) will ultimately pay you.
 
-
 ##   How are computing resources measured?
-Similar to how Amazon calculates computing costs, we compute how much CPU instructionsm memory usage, network traffic etc. are used during computational tasks. We've also learned from how Ethereum uses gas (such as gas limit to prevent DDoS attacks) to provide safeguards in a decentralized compute environment. Generally speaking, the more complicated tasks you run, the more you pay. If you do not have enough funds to pay at runtime, your task may be interrupted and dropped in the middle of execution.
+Similar to how Amazon calculates computing costs, we compute how much CPU instructions, memory usage, network traffic etc. are used during computational tasks. We've also learned from how Ethereum uses gas (such as using gas limits to prevent DDoS attacks) to provide safeguards in a decentralized compute environment. Generally speaking, the more complicated the task is that you run, the more you pay. If you don't have enough funds to pay at runtime, your task may be interrupted and dropped in the middle of execution.
 
 ## Can I move my CML license to a new machine?
 You can move your CML license using the [CML transfer option](https://github.com/tearust/teaproject/wiki/CML-Migration-(Transfer)).

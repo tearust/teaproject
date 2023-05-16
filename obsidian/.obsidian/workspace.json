@@ -11,22 +11,15 @@
             "id": "61788a6bfaf82301",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "de0b0150b1fea354",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.7"
+                "file": "_1_ecosystem/README.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_1_ecosystem/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_1_ecosystem/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_1_ecosystem/README.md"
+              }
             }
           }
         ]
@@ -157,33 +154,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de0b0150b1fea354",
+  "active": "61788a6bfaf82301",
   "lastOpenFiles": [
-    "_mining/README.md",
-    "Untitled.md",
-    "_1_ecosystem/README.md",
-    "_mining/Mining-With-AWS.md",
-    "_mining/Mining-With-Own-Hardware.md",
-    "_tapps/TApp-TEA-Party.md",
+    "_token/README.md",
+    "_token/FAQ-Tokens.md",
+    "_token/bonding-curve-tokens/tapp-tokens.md",
+    "_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md",
+    "_token/bonding-curve-tokens/CML-mining-tokens.md",
+    "_token/bonding-curve-tokens/Bonding-Curve-Theta.md",
+    "_token/bonding-curve-tokens/README.md",
+    "_tapps/TEAfluencer.md",
+    "_tapps/TEA-Browser-Wallet.md",
+    "_tapps/TEA-Billing.md",
     "_tapps/README.md",
+    "_tapps/FAQ-TApps.md",
+    "_tapps/Developers.md",
+    "_mining/state-maintainer-nodes.md",
+    "_mining/remote-attestation.md",
+    "_mining/README.md",
+    "_mining/Mining-With-Own-Hardware.md",
+    "_mining/Mining-Required-Open-Ports.md",
+    "_mining/hosting_profitability.md",
     "_mining/FAQ-Mining.md",
     "_mining/availability-attestation.md",
-    "_mining/hosting_profitability.md",
-    "_mining/Mining-Required-Open-Ports.md",
-    "_mining/remote-attestation.md",
-    "_mining/state-maintainer-nodes.md",
-    "_1_ecosystem/1_tea-decentralized-compute.md",
-    "_1_ecosystem/2_roots-of-trust.md",
-    "_1_ecosystem/3_how-rot-combine-for-compute.md",
-    "_1_ecosystem/5-tea-ecosystem-development.md",
-    "_1_ecosystem/z_litepaper.md",
-    "_1_ecosystem/7_profitability.md",
-    "_1_ecosystem/6_example-tea-in-use.md",
-    "_1_ecosystem/4_tea-technical-details.md",
-    "_1_ecosystem/3.5_wasm.md",
-    "_1_ecosystem/Untitled.md",
-    "_z_faq/FAQ-Technical.md",
-    "_z_faq/FAQ-Links.md",
-    "_token/README.md"
+    "_epochs/Epoch-05.md",
+    "_epochs/Epoch-04.md",
+    "Untitled.md",
+    "_1_ecosystem/README.md",
+    "_mining/Mining-With-AWS.md"
   ]
 }

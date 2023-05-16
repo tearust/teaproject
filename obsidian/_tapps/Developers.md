@@ -15,7 +15,7 @@ In web 2.0, you'll have to open-source your code as a library so that other deve
 Just like today's internet is a large set of links to different webpages hosted on different servers, Web3 applications would also consist of a bunch of links to different API calls underneath the facade of the app. The full application could be composed by thousands of those smaller components that are written by different developers. They're all **linked** instead of **included (as in open-source libraries)**.  Pay by use becomes the new business model. 
 
 ## Developer links and more info
-
+- Our [dev docs](https://dev.teaproject.org) will be the main resource for developers. We also have a step by step [tutorial for building a TApp](https://dev.teaproject.org/020_tutorial).
 - [TEA app developers compile to WebAssembly](https://medium.com/@teaproject/tea-and-webassembly-89991a83bbd1) which allows devs to code in their preferred language before compiling to WASM.
 - Developers will also want to familiarize themselves with how the [[TApp-Token-Supply-and-Demand|bonding curve works]], in particular the [[Bonding-Curve-Theta|theta percentage]] that goes directly to developers. 
 
