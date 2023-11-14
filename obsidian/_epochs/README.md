@@ -1,4 +1,4 @@
-# Alpha release and previous epochs
+# Test net (Epochs)
 
 ## Current Epoch - Alpha release
 
