@@ -77,6 +77,12 @@ There might be the third way from the marketing promotion air drop using TEA Par
 
 Owning a SEAT is one of the fastest way to earn TEA mining income. However you will also need to share to cost of running a state machine. In Alpha release, the cost is AWS Nitro machine rental fee. However own a SEAT will need to share the cost of AWS Nitro rental by paying USDT. To make this possible, top up and withdraw USDT is added as a new feature. There is no other feature open to USDT payment rather than sharing AWS Nitro cost. TEA is the only utility token used in TEA ecosystem. 
 
+#### Hot upgrade
+
+For most minor system upgrades, when the new version of WebAssembly code releases, the upgrade happens gracefully as if it was a regular transaction. In most cases, the end user will not notice the upgrade happened. 
+
+However, for some major upgrade a "warm" upgrade are required. That means all users will get a notice about the up coming upgrades. During the upgrade, all transactions would be on hold till upgrade is completed. 
+
 ### Notes to test users
 
 Make sure you are still using **Goerli** testnet. This is NOT **Mainnet**. If you set your metamask connects to ETH Mainnet, you cannot join the Alpha release.
