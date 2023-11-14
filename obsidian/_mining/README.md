@@ -10,28 +10,29 @@ In addition to gas fees, CML hosting miners are paid for a public service they p
 
 Besides hosting TApps, community members can also participate in [helping run TEA's state maintainer nodes](state-maintainer-nodes.md). For further questions on mining, please [consult our mining FAQ](FAQ-Mining.md) or contact us [in our Telegram channel](https://t.me/teaprojectorg).
 
-# Knowledges prerequisites
+## Knowledges prerequisites
 
 - Create AWS account
 - Basic TEA operation on Web. Starting with alpha.teaproject.org. 
 - Know basic operation on CML seed auction, Miner's portal.
 - Know how to check log in TAppStore
 
-# Installation steps
+## Installation steps
 
+- Make sure you connect to ETH "Goerli"  testnet
 - Ask TEA dev team for at least 100 T as a startup fund
 - Go to **Seed auction tapp** to buy a CML seed. If there is no seed available, you will need to ask the TEA Dev Team or for the next day when new seems coming up
 - Contact TEA Dev Team, provide your own Metamask testing address, ask for  a machine_id
 - Follow the instruction at https://github.com/tearust/nitro-build/blob/main/README.md
 
-# Verification on your work
+## Verification on your work
 - You should see the CML seeds you owned in CML seeds auction tApp.
 - Go to Miner's portal app to verify your node is up running.
 - Go to alpha.teaproject.org, you should see your node besides the CML0. 
 - If all above works as expected, your node is up running
 - After a few hours, check the account balance in TAppStore.  If anything wrong, go to the TAppStore check logs
 
-# Hosting node software updates, failed to do so will cause "offline"
+## Hosting node software updates, failed to do so will cause "offline"
 - When there is a new update on the Hosting node software, there will be an announcement in TEA telegram. 
 - It is your responsibility to read the announcement and follow the instruction to update your nodes. Mostly just running a scripts similar to what you did when install at the first time
 - If you failed to do the update, after a few hours / days, your node will be removed from the "active list". The status should look like "offline" in alpha.teaproject.org. You may see this too in the Miner's Portal TApp. 

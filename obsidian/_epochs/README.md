@@ -1,12 +1,14 @@
-# Current Epoch - Alpha release
+# Alpha release and previous epochs
 
-## Website
+## Current Epoch - Alpha release
+
+### Website
 
 https://alpha.teaproject.org
 
 Plan to start testing by the end of Oct 2023.
 
-## What is Alpha release
+### What is Alpha release
 
 Unlikely previous epochs, Alpha release runs the same code base as the to-be-released mainnet. It also runs on the same hardware platform as the to-be-released mainnet. Even after the mainnet launched, the alpha will be still running as a parallel testnet, like Goerli testnet of Ethereum. 
 
@@ -14,7 +16,7 @@ Will there be a Beta release in the future? This is still under discussion.
 
 Tester miners of Alpha release are by invitation only.  Regardless you are a new tester or existing testers from previous epochs, you will need to contact us to get invitation tokens to start testing.
 
-## Alpha vs previous epochs comparison chart 
+### Alpha vs previous epochs comparison chart 
 
 | Feature | Previous epochs | Alpha version | To-be-launched Mainnet |
 | --------| -----------------| -------------|-----------|
@@ -25,8 +27,27 @@ Tester miners of Alpha release are by invitation only.  Regardless you are a new
 | Nodes hardware requirement | Digital ocean Ok | AWS Nitro only | AWS Nitro only |
 | Real hardware trust | Faked placeholder | Yes | Yes |
 
-## New features
-### Payment channel support for P2P applications
+### New features
+
+#### Mobile friendly UI
+
+Alpha release supports Mobile phone!
+
+To use the mobile version, you can install Metamask App to your iOS or Android devices. Use the embedded browser to open https://alpha.teaproject.org. The Metamask app will ask your approval to connect your current crypto account to the URL.
+
+![[Pasted image 20231113212252.png]]
+
+and 
+
+![[Pasted image 20231113212511.png]]
+
+A few tips:
+- Make sure you connect ETH testnet "Goerli"
+- Make sure you allow Metamask to connect your account to the URL when promoted
+- The Mobile UI is optimized to phone use case. That means a few features are removed from mobile UI due to limited screen size. You can access full featured TApps on computer web.
+- Metamask supports portait mode only.
+
+#### Payment channel support for P2P applications
 
 This is similar to Lightning network on BTC. Two users play together on P2P apps, they can setup a payment channel, then transfer fund in between without constantly submit transactions. No matter how many times or how much fund they transfer in between, there would be only two or three transactions submitted to the network during the whole life time of payment channel. 
 
@@ -40,7 +61,7 @@ Compare with the traditional subscription model, this can be considered "pay as 
 
 A community built Zoom-like "TEA Party" application will be release right after Alpha. It uses the payment channel feature. Host can setup a billing policy when creating a video conference room that either the guests pay a small amount of tip to host per minute, or the host pay the guests by minutes. 
 
-### Referral program and new user voucher
+#### Referral program and new user voucher
 
 Alpha is very close to the main net. To simulating how the new user get on board the platform, a new user voucher and referral program are designed. 
 
@@ -52,15 +73,19 @@ Another way is to get referred by another existing TEA user. Once login from the
 
 There might be the third way from the marketing promotion air drop using TEA Party app. This has not determined yet.
 
-### Top up / withdraw USDT to share state machine nodes cost for SEAT owners
+#### Top up / withdraw USDT to share state machine nodes cost for SEAT owners
 
 Owning a SEAT is one of the fastest way to earn TEA mining income. However you will also need to share to cost of running a state machine. In Alpha release, the cost is AWS Nitro machine rental fee. However own a SEAT will need to share the cost of AWS Nitro rental by paying USDT. To make this possible, top up and withdraw USDT is added as a new feature. There is no other feature open to USDT payment rather than sharing AWS Nitro cost. TEA is the only utility token used in TEA ecosystem. 
 
-## Notes to test miners
+### Notes to test users
+
+Make sure you are still using **Goerli** testnet. This is NOT **Mainnet**. If you set your metamask connects to ETH Mainnet, you cannot join the Alpha release.
+
+### Notes to test miners
 
 You used cheaper Digital ocean servers to run TEA Node in previous epochs because we want to lower down the test cost. **However, this is no longer the case**. From Alpha, we need to test in the same hardware environment as Mainnet. You **HAVE TO** run TEA nodes on AWS Nitro servers.
 
-## Notes to the SEAT holder/investor
+### Notes to the SEAT holder/investor
 
 Besides running a host nodes, owning a SEAT is also very good way to earn TEA from the state machines. 
 
@@ -68,7 +93,7 @@ There will be three state machine nodes running in Alpha, so three seats are ava
 
 
 
-# Historical Epochs
+## Historical Epochs (Obsolete)
 
 Each of the development stages of the TEA Project are referred to as **epochs**. Epochs 2 - 10 were on Polkadot's testnet, while Epochs 11 - 13 were on Ethereum's Goerli testnet. 
 
@@ -86,19 +111,7 @@ Each of the development stages of the TEA Project are referred to as **epochs**.
 - [Epoch 11](Epoch-11.md) marks the TEA Project's move to the Ethereum blockchain as our layer-1. In addition, Epoch 11 refines are hosting model such that end-users are responsible for picking the hosting node to run TApps, not the TApp developers. 
 - [Epoch 12](https://teaproject.medium.com/tea-projects-epoch-12-launch-1c1790621bba) is the official launch of TEA Project on Ethereum (Epoch 11 was more of a testing stage). Epoch 12 also re-introduces the TEA Fluencer app as the main entry point for new users seeking a faucet to join the contest.
 
-## What are the TEA Project Epochs?
+## What are the TEA Project Epochs(Obsolete)?
 The TEA Project will be running on testnets through Epoch 14. The different testing phases are broken up into **epochs** with Epoch 11 marking our transition to Ethereum's Goerli testnet. Each epoch has its own contest associated with it where end-users compete to gain testnet TEA tokens which can be redeemed for mainnet TEA vouchers (COFFEE).
 
-## How long is each testnet epoch, and how does it compare to mainnet?
 
-The testnet epochs are on an accelerated schedule during contests with 10 blocks per minute.
-
-We originally compressed 2 years time into 14 days, using the accelerated shedule of 14 (days) * 24 (hours) * 60 (minutes) * 10 (blocks per minute) during the testnet. But the epochs have evolved to last varying lengths of time as the team will move to a new epoch only once they feel enough progress has been made.
-
-## How to Participate in an Epoch
-
-Each of our epochs is open to community members where they can earn testnet TEA and exchange them for COFFEE, which are our mainnet TEA vouchers. To participate in a testnet epoch to earn COFFEE tokens redeemable for mainnet TEA:
-
-1. Set up an Ethereum address using the MetaMask wallet.
-2. Use the **TEA Fluencer** TApp to quote retweet the listed tweet and activate the testnet TEA faucet.
-3. Use the **Leader Board** TApp to register for the current epoch competition. Registering on the Leader Board will ensure that your testnet TEA tokens are counted for distribution of COFFEE rewards and for rollover into the next epoch.
