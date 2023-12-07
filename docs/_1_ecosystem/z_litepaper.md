@@ -69,7 +69,7 @@ To ensure a healthy token economy that incentivizes behavior supporting the TEA 
 
 ### 1. The TEA Utility Token
 
-Our first token, TEA, is a utility token with a supply of 100 million tokens (hard cap / no inflation) pre-allocated in the genesis block. TEA is also given as a reward to miners for running public services (e.g. remote attestation) on the TEA network. 
+Our first token, [TEA](../_token/tea-tokens/README.md), is a utility token with a supply of 100 million tokens (hard cap / no inflation) pre-allocated in the genesis block. TEA is also given as a reward to miners for running public services (e.g. remote attestation) on the TEA network. 
 
 TEA has a variety of uses on the platform:
 
