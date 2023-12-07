@@ -12,10 +12,10 @@ TEA has a 100M total supply and is not inflationary - no tokens will be minted b
 
 <img width="578" alt="tea-token" src="https://user-images.githubusercontent.com/86096370/213342482-55b9be9b-2d01-44a2-a141-493d4b40e3a5.png">
 
-More information is available in our [[_token/tea-tokens/README|TEA token section]] as well as our [tokens FAQ](FAQ-Tokens.md).
+More information is available in our [[_3_token/tea-tokens/README|TEA token section]] as well as our [tokens FAQ](FAQ-Tokens.md).
 
 ### CML Token
-CML (Camellia) is an NFT token (ERC-721) that functions as a mining license on the TEA network. Miners plant a CML NFT into their mining machines to make it active on the TEA network. The supply of CML is determined via demand for computing resources on the network: more demand for computing resources would indicate a shortage of hosting nodes which would prompt the TEA DAO to issue more CML NFTs. More info on Camellia is available in our [[_token/cml-tokens/README|CML token section]].
+CML (Camellia) is an NFT token (ERC-721) that functions as a mining license on the TEA network. Miners plant a CML NFT into their mining machines to make it active on the TEA network. The supply of CML is determined via demand for computing resources on the network: more demand for computing resources would indicate a shortage of hosting nodes which would prompt the TEA DAO to issue more CML NFTs. More info on Camellia is available in our [[_3_token/cml-tokens/README|CML token section]].
 
 ## Bonding Curve Tokens
 TEA token rewards for developers who deploy TApps and CML miners who run hosting nodes are paid out via bonding curve tokens.
@@ -28,7 +28,7 @@ These bonding curve token profits can be better visualized as the remaining prof
 
 ![TEA_Economy](https://user-images.githubusercontent.com/86096370/213603062-895dc8c3-f478-4d85-8e1e-5fb44832bd79.png)
 
-More info on TApp and CML miner tokens are available in our [[_token/bonding-curve-tokens/README|bonding curve section]].
+More info on TApp and CML miner tokens are available in our [[_3_token/bonding-curve-tokens/README|bonding curve section]].
 
 
 

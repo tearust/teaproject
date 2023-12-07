@@ -1,4 +1,4 @@
-# TEA Project Example Use Case
+# TEA Project Example Use Cases
 
 The TEA Project is looking to disrupt the world of cloud computing by enabling decentralized apps to run on the blockchain at cloud computing speeds. Because we no longer have the cloud servers of web 2.0, we must incentivize miners to provide the underlying infrastructure. IPFS is the actual storage infrastructure for storing both encrypted app and client data, which miners will host within their protected enclaves when their node is selected for a task.
 

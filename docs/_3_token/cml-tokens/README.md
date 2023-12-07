@@ -15,7 +15,7 @@ The primary use case for CML is to run a hosting node on the TEA network. Prospe
 
 Endusers wishing to use TApps pay a gas fee to the CML miners who host the nodes. A transaction would extract a gas payment from the enduser which would be shared among all the nodes that were used to run the TApp's code.
 
-The revenue paid to CML miners does not go directly to their wallets. The revenue flow instead goes into a **CML miner token** that's unique to each CML miner. This token is issued on a [bonding curve](../bonding-curve-tokens/README.md) where supply and price is correlated. 
+The revenue paid to CML miners does not go directly to their wallets. The revenue flow instead goes into a **CML miner token** that's unique to each CML miner. This token is issued on a [bonding curve](_3_token/bonding-curve-tokens/README.md) where supply and price is correlated. 
 
 Let's step through a real life example to see how this would play out.
 

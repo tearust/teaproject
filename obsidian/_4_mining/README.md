@@ -1,6 +1,6 @@
 # Mining
 
-TEA Project uses the terms **mining** and **running a hosting node** interchangeably. The TEA network's [TApps](../_tapps/README.md) run on hosting nodes that are controlled by individual miners on the TEA ecosystem. Any particular TApp may use multiple hosting nodes in the process of carrying out the computing tasks required by a TApp.
+TEA Project uses the terms **mining** and **running a hosting node** interchangeably. The TEA network's [TApps](_5_tapps/README.md) run on hosting nodes that are controlled by individual miners on the TEA ecosystem. Any particular TApp may use multiple hosting nodes in the process of carrying out the computing tasks required by a TApp.
 
 Interested miners can start hosting a node on the TEA network by [[Marketplace-Auctions|purchasing a CML NFT]] and planting it into a compatible machine. Given that our machines require a hardware security module, GPS, and a publicly-accessible IP, [AWS Nitro](https://aws.amazon.com/ec2/nitro/) are the first machines that meet our requirement and are currently accessible to the public. During our previous testing epochs, miners were allowed to run simulated nodes using DigitalOcean droplets. But since Alpha release, digital ocean VM is **no longer allowed**.
 

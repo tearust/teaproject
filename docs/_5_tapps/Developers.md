@@ -22,7 +22,7 @@ Just like today's internet is a large set of links to different webpages hosted 
 
 * Our [dev docs](https://dev.teaproject.org) will be the main resource for developers. We also have a step by step [tutorial for building a TApp](https://dev.teaproject.org/020_tutorial).
 * [TEA app developers compile to WebAssembly](https://medium.com/@teaproject/tea-and-webassembly-89991a83bbd1) which allows devs to code in their preferred language before compiling to WASM.
-* Developers will also want to familiarize themselves with how the [bonding curve works](../_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md), in particular the [theta percentage](../_token/bonding-curve-tokens/Bonding-Curve-Theta.md) that goes directly to developers. 
+* Developers will also want to familiarize themselves with how the [bonding curve works](../_3_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md), in particular the [theta percentage](../_3_token/bonding-curve-tokens/Bonding-Curve-Theta.md) that goes directly to developers. 
 
 Open-source technologies used by the TEA Project include:
 

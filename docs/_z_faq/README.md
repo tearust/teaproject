@@ -12,8 +12,8 @@ If you’re an individual, so far the best way is to join the various epoch comp
 
 ## TEA Project Tokens
 
-* [TEA & CML tokens](../_token/FAQ-Tokens.md)
-* [TApp & CML entity tokens](../_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md)
+* [TEA & CML tokens](../_3_token/FAQ-Tokens.md)
+* [TApp & CML entity tokens](../_3_token/bonding-curve-tokens/TApp-Token-Supply-and-Demand.md)
 
 ## TEA Project Structure
 
