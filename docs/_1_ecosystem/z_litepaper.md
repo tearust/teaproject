@@ -83,7 +83,7 @@ The 100 million tokens minted at genesis will be allocated with different vestin
 
 ### 2. The CML NFT with Mining Privileges
 
-Camellia * (CML)* is a non-fungible token (NFT) that's used by TEA miners to activate their mining machines. The CML tokens essentially act as both an ID mechanism for their mining nodes as well as an access key that allows them to mine on the TEA network. To run a node on the TEA platform, miners must associate a special NFT with their machine that acts as a mining license. The CML that is associated with a mining machine tracks that machine's features (e.g. ram and presence of graphics card) as well as behavior (e.g. uptime). This information on each CML ID is stored in the ERC-721 token’s metadata. In a scenario where the miner wishes to upgrade their hardware, moving the CML to their new machine also transfers its metadata such as its trust score. 
+Camellia is [(CML)](../_token/cml-tokens/README.md) a non-fungible token (NFT) that's used by TEA miners to activate their mining machines. The CML tokens essentially act as both an ID mechanism for their mining nodes as well as an access key that allows them to mine on the TEA network. To run a node on the TEA platform, miners must associate a special NFT with their machine that acts as a mining license. The CML that is associated with a mining machine tracks that machine's features (e.g. ram and presence of graphics card) as well as behavior (e.g. uptime). This information on each CML ID is stored in the ERC-721 token’s metadata. In a scenario where the miner wishes to upgrade their hardware, moving the CML to their new machine also transfers its metadata such as its trust score. 
 
 There are two different types of mining privileges on the TEA Project platform:
 
