@@ -5,7 +5,7 @@
 Web3 architecture is a dramatic departure from what most devs are used to from web2. Unfortunately, the lack of viable web3 development frameworks has been a bottleneck for widespread deployment of decentralized apps. That's where the TEA Project comes in. Just as Ruby on Rails ushered in the web 2.0 era by allowing full-scale internet applications to be built rapidly, the TEA Project aims to provide a similar development framework for web3 that allows developers to quickly get their dApps up and running.
 
 {% hint style="info" %}
-Please read  [[2_example-tea-in-use]] to see how TEA Project helps Peer-to-peer WebRTC video conferencing apps and Realtime multiplayer games to be profit on Web3.
+Please read  [[2_example-tea-in-use| use cases]] to see how TEA Project helps Peer-to-peer WebRTC video conferencing apps and Realtime multiplayer games to be profit on Web3.
 {% endhint %}
 
 The current Web3 landscape sees many developers cobbling together hybrid dApps because the blockchain layer is too slow for running rich dApps. The TEA Project doesn't focus on smart contracts as they have two major limitations: 
@@ -123,9 +123,12 @@ Stated simply, when either a TApp or CML node is used, its bonding curve token h
 
 ## TEA Ecosystem Development
 
-The TEA ecosystem is an interdependent network that includes a variety of participants. The TEA Project incentivizes each of its participants through a carefully designed token economy. Each participant is incentivized to act in their own best interest but in doing so also help strengthen the entire TEA Project ecosystem.
+The TEA ecosystem is an interdependent network that includes various participants. The TEA Project incentivizes each participants through a carefully designed token economy. Each participant is incentivized to act in their best interest, thereby helping strengthen the entire TEA Project ecosystem.
 
-- **Miners**: They own hardware mining machines, purchase CML (NFT, it's like software license), provide computing services and get rewarded with TEA. Read more in [[_4_mining/README|basic concepts for miners]].
-- **Developers**: They use the TEA framework to develop TApps which run on mining machines and provide services to earn revenue which would be distributed to investors and miners according to smart contracts on a bonding curve. You can read more about [[Developers|basic concepts for developers]].
+- **Miners**: They own/rent hardware mining machines, purchase CML (NFT, similar to software license), provide computing services and get rewarded with TEA. Read more in [[_4_mining/README|basic concepts for miners]].
+- **Developers**: They use the TEA framework to develop TApps that run on mining machines and provide services to earn revenue. The revenue is distributed to investors and miners according to setting of the bonding curve. You can read more about [[Developers|basic concepts for developers]].
 - **Investors**: Users with TEA funds can invest in mining machines and especially TApps (through their bonding curve tokens) in order to get ROI. For example, each TApp will have its own TApp token that investors can purchase as if investing in a stock. Each TApp token represents a share in the TApp and gives the holder dividends in the form of more TApp tokens issued to its holders whenever someone uses the TApp. As these tokens are issued on a bonding curve, the earliest TApp token investors will enjoy the largest amount of price appreciation. Investors can learn more about investing in [[TApp-Token-Supply-and-Demand|entity tokens]].
-- **End-users** Concurrent to attracting developers to the platform, the TEA Project will actively market emerging TApps to consumers. We imagine the TEA Project being an ideal ecosystem for existing cloud apps looking to migrate and benefit from decentralization and data privacy. We look forward to the types of decentralized apps that will flourish on the TEA Project network. We also want to play an active part in welcoming consumers looking to make the leap from the centralized web 2.0 world to the TEA Project and web3.
+- **Community leaders** have special roles in TEA ecosystem. Many TApps are designed for them to gain a profit by hosting a venue such as game room or class room. Hosts can create their own bonding curve tokens that will be used in their game rooms or class rooms. 
+- **End-users**: Concurrently attracting developers to the platform, the TEA Project will actively market emerging TApps to consumers. 
+- 
+We envision the TEA Project as an ideal ecosystem for existing cloud apps looking to migrate and benefit from decentralization and data privacy. We look forward to the types of decentralized apps that will flourish on the TEA Project network. We also aim to play an active part in welcoming consumers looking to transition from the centralized web 2.0 world to the TEA Project and web3.
