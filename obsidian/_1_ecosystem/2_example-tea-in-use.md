@@ -24,11 +24,29 @@ Realtime multiplayers games (e.g. the first and most famous Agar.io) are popular
 
 Most of these games follow the Web2 era business model: In-app-Ads. Why do not we apply Blockchain era's **Play-to-earn** model to these already popular games? One of the biggest challenges is that blockchains or even advanced layer-2 can hardly handle constant game state change in realtime, at least when under a reasonable cost constraint. Another naive idea is to convert those realtime multiplayers game to peer-to-peer game, so that one of peers acts as "host" that run the so-called-server code while other peers join as guest peers. This idea can partially solve the blockchain cost problem by submitted a combined-transaction at much less frequency. However, when there is real financial incentive, trust of the host peer would become a new challenge. It is too easy for the host to cheat other players for profit, and other players would never know.
 
-TEA Project has a perfect solution on this. The so-called-server logic runs in the hardware enclave inside a TEA Project host node. All TEA Projects mining nodes will use Remote Attestation to monitor any other nodes to make sure no alter in the enclave.
+TEA Project has a perfect solution on this. The so-called server logic runs in the hardware enclave inside TEA Project host nodes. All TEA Projects mining nodes will use Remote Attestation to guarantee the game logic to be alter free. 
 
 TEA Project's built-in tokenomics can also bring in **bonding curve**, **lightning network** features to the game for free. 
 
-Migrating existing IO games to TEA Project is very easy. 
+Migrating existing IO games to TEA Project is nothing but rewriting into WebAssembly on the server side.  Because of the billing system, the game developers no longer concern about setting up server in the cloud or paying for the rent. The new Web3 style tokenomics allow miners to charge gas fee from players directly. 
+
+
+{% hint style="info" %}
+### How does it work?
+Let's assume there is a TEA-enhanced Agar.io game (Let's call it TeaAgar), see how developer, miners and players work in this new ecosystem.
+
+1. the game developer compiles the server logic into WebAssembly then upload to Developer's portal. 
+2. Alice is an experienced Agar player and also a community influencer. She creates a bonding curve token called "Alice wonderland" in TAppStore. This token will be used as the currency in the the game room she is going to create in next step. 
+3. Alice goes to the TeaAgar TApp page and create a new TeaAgar room called "Alice's Agar Room". She shares the invitation link to her community.
+4. Bob is Alice's community follower. He click the link and enter Alice's Agar Room. Assuming he already has some TEA token. If not, he will need to earn some TEA first. He needs to buy some Alice Wonderland token which will be used in this game room. Buying this token will increase the token price and total value.
+5. Bob and other players play Agar.io in this game room. Every points they earn in the game are actually a Alice Wonderland token. They can see the token balance increase or decrease in real time.
+6. Based on the game logic design, the developer can get a cut from all game assets transfer or time-based / activity-based charge.
+7. The miner machine which run the WebAssembly code charge gas fee from players directly. That means Bob and other players will pay gas fee in TEA to the miners who provide the server(TEA nodes) they are connecting to.
+8. When Bob decide to leave the game, he can withdraw the Alice Wonderland token he earned in the game. He can either sell those token to TEA or other stable coin(e.g. USDT),  or simply keep the token as is if he prefer to see the token price increase in the future.
+
+During this new tokenomics design, game developers do not need to rent and setup a server, neither do the miners. Players pay TEA as gas for consuming miner's server computing resources. Players earn (or maybe lose) game token while enjoying the game. Game developers earn profit from game activity, it could be transaction based or time-based, it is just regular game logic. There is no reason for developers to inject in-app-Ads to make a living.  
+
+{% endhint %}
 
 ## CBDC cross-border payment and exchange
 
@@ -52,7 +70,7 @@ In economic terms, the **researcher** pays to use the TApp. The payment flows 
 
 {% hint style="info" %}
 
-###TEA's Paradox: No one has to trust anyone else
+### TEA's Paradox: No one has to trust anyone else
 
 Because the TEA Project is able to provide the underlying trust, there's no longer any trust required between all four parties.
 
