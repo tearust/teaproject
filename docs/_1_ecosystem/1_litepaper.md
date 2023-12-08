@@ -4,6 +4,10 @@
 
 Web3 architecture is a dramatic departure from what most devs are used to from web2. Unfortunately, the lack of viable web3 development frameworks has been a bottleneck for widespread deployment of decentralized apps. That's where the TEA Project comes in. Just as Ruby on Rails ushered in the web 2.0 era by allowing full-scale internet applications to be built rapidly, the TEA Project aims to provide a similar development framework for web3 that allows developers to quickly get their dApps up and running.
 
+{% hint style="info" %}
+Please read  [2_example-tea-in-use](2_example-tea-in-use.md) to see how TEA Project helps Peer-to-peer WebRTC video conferencing apps and Realtime multiplayer games to be profit on Web3.
+{% endhint %}
+
 The current Web3 landscape sees many developers cobbling together hybrid dApps because the blockchain layer is too slow for running rich dApps. The TEA Project doesn't focus on smart contracts as they have two major limitations: 
 
 1. They're limited in the type of algorithms they can execute.
