@@ -9,7 +9,7 @@ The current Web3 landscape sees many developers cobbling together hybrid dApps b
 1. They're limited in the type of algorithms they can execute.
 1. They require consensus. 
 
-The TEA Project doesn't use smart contracts as part of its execution layer for dApps. Smart contracts make sense in areas such as DeFi, but they can't possibly be the basis of rich dApps that rival the speed and functionality of current centralized cloud computing applications. 
+The TEA Project isn't limited by use of smart contracts as part of its execution layer for dApps. Smart contracts make sense in areas such as DeFi, but they can't possibly be the basis of rich dApps that rival the speed and functionality of current centralized cloud computing applications. 
 
 ## TEA Project's Decentralized State Machine
 
