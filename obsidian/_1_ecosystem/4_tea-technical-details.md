@@ -40,7 +40,7 @@ TEA Project supports multiple types of Web3 applications
 
 ### Three tiers application architecture
 
-The TEA Project aims to become an ideal onboarding point for developers looking to deploy to the decentralized web. As an infrastructure provider for web3, we designed our ecosystem to look very familiar to developers who will appreciate the straightforward 3-tier architecture that’s similar to cloud computing.
+The TEA Project aims to become an ideal onboarding point for developers looking to deploy to the decentralized web. As an infrastructure provider for Web3, we designed our ecosystem to look familiar to developers who will appreciate the straightforward 3-tier architecture that’s similar to cloud computing.
 
 - The **front-end tier** for TEA decentralized applications utilizes IPFS to host its assets. The TEA Project is agnostic towards the front-end the developer wishes to use (JavaScript, HTML, CSS, etc.).
 - The **server tier** manages dev code compiled to WASM, allowing developers to use their existing programming languages and set WASM as the output target.
