@@ -29,8 +29,9 @@ On a PC, Metamask functions as a browser extension. When a TApp requires a user 
 
 ## Entry point: Alpha is testnet, Beta is mainnet
 
-https://alpha.teaproject.org is Alpha testnet entry point URL
-https://beta.teaproject.org is the mainnet entry point URL.
+- https://alpha.teaproject.org is Alpha testnet entry point URL
+- https://beta.teaproject.org is the mainnet entry point URL.
+
 {% hint style="info" %}
 
 **Why beta?**
@@ -81,9 +82,9 @@ Every row in this table represents a hosting node provided by a TEA miner. When 
 
 The IP address corresponds to the hosting node, while the lengthy hash in the screenshot, depicted as `mey32oBSYMPPjxYjeSCDwZsFM3m9SWodq25pLa9gy9cji`, is referred to as CID (Content ID) in the **IPFS** protocol. This CID represents the current hash of the **TAppStore** application's front-end code. It's important to note that this CID may change whenever the TAppStore undergoes an update.
 
-## Common Features in Most TApps
+## Common Login Features in Most TApps
 
-While each TApp has its unique characteristics, many share common features like login/logout and checking account balances. This section will provide explanations on how to use these shared features.
+While each TApp has its unique characteristics, many share common features like login/logout.
 
 #### Before login
 {% tabs %}
@@ -139,23 +140,40 @@ After successfully logging in, you will notice that the "login" button has chang
 {% endtab %}
 {% endtabs %}
 
-### Account page
+## Switching between tabs
 
 
-## System TApps
-### TAppStore
-### Harberger Auction
+{% tabs %}
+{% tab title="Phone" %}
+Click the upper right corner menu button
+![[Pasted image 20231213121452.png]]
+{% endtab %}
 
-### Seeds Auction
-## Utility TApps
-### TEAFluencer
-### Miner's portal
+{% tab title="Web" %} 
+Switch between tab bar
+![[Pasted image 20231213121238.png]]
+{% endtab %}
+{% endtabs %}
 
-### Developer portal
+## User's manual for "out-of-box" TApps
 
-### Leader board
+- [[_1_TAppStore]]
+- [[_2_Harberger Auction]]
+- [[_3_Seeds Auction]]
+- [[_4_TeaFluencer]]
+- [[_5_Miners Portal]]
+- [[_6_Developers Portal]]
+- [[_7_Leaderboard]]
+- [[_8_Tea Party]]
 
-## Commercial TApps
 
-### TEA Party
+
+
+
+
+
+
+
+
+
 
