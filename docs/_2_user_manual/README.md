@@ -75,7 +75,7 @@ Click on the login icon to review all necessary authentication steps. If you agr
 
 ![200](Pasted%20image%2020231212175621.png)
 
-![200](Pasted%20image%2020231212175737.png)
+![Pasted image 20231213094135.png](Pasted%20image%2020231213094135.png)
 
 {% endtab %}
 {% tab title="Web" %} 
