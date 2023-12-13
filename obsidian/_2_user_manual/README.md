@@ -74,14 +74,14 @@ Click on the login icon to review all necessary authentication steps. If you agr
 
 ![[Pasted image 20231212175621.png|200]]
 
-![[Pasted image 20231213094135.png]]
+![[Pasted image 20231212175737.png|200]]
 
 {% endtab %}
 {% tab title="Web" %} 
 
 ![[Pasted image 20231212180550.png]]
 
-![[Pasted image 20231212180727.png|200]]
+![[Pasted image 20231213094900.png]]
 
 {% endtab %}
 {% endtabs %}
