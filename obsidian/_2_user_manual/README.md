@@ -25,7 +25,7 @@ The PC Web interface (on the left) provides more detailed information compared t
 
 On a PC, Metamask functions as a browser extension. When a TApp requires a user to sign a transaction, the Metamask extension will pop up. On mobile, the browser is a window within the Metamask app. To use a TApp, you must click the browser icon to switch to the browser window and then launch the TApp inside. When the TApp prompts the user to sign a transaction, Metamask will switch to the wallet window to complete the signing process.
 
-![[Pasted image 20231212151010.png]]
+![[Pasted image 20231212151010.png|200]]
 
 ## Entry point: Alpha is testnet, Beta is mainnet
 
@@ -51,7 +51,7 @@ While each TApp has its unique characteristics, many share common features like 
 {% tabs %}
 {% tab title="Phone" %}
 
-![[Pasted image 20231212175457.png]]
+![[Pasted image 20231212175457.png|200]]
 
 If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [[Metamask connect]].
 {% endtab %}
@@ -72,16 +72,16 @@ Click on the login icon to review all necessary authentication steps. If you agr
 {% tabs %}
 {% tab title="Phone" %}
 
-![[Pasted image 20231212175621.png]]
+![[Pasted image 20231212175621.png|200]]
 
-![[Pasted image 20231212175737.png]]
+![[Pasted image 20231212175737.png|200]]
 
 {% endtab %}
 {% tab title="Web" %} 
 
 ![[Pasted image 20231212180550.png]]
 
-![[Pasted image 20231212180727.png]]
+![[Pasted image 20231212180727.png|200]]
 
 {% endtab %}
 {% endtabs %}
@@ -92,7 +92,7 @@ Click on the login icon to review all necessary authentication steps. If you agr
 
 Upon successful login, you will observe that the icon has changed to your wallet icon.
 
-![[Pasted image 20231212180106.png]]
+![[Pasted image 20231212180106.png|200]]
 
 {% endtab %}
 
