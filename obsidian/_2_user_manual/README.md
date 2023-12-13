@@ -71,11 +71,7 @@ Click on the login icon to review all necessary authentication steps. If you agr
 
 {% tabs %}
 {% tab title="Phone" %}
-
-![[Pasted image 20231212175621.png|200]]
-
-![[Pasted image 20231212175737.png|200]]
-
+![[Pasted image 20231213095359.png]]
 {% endtab %}
 {% tab title="Web" %} 
 
