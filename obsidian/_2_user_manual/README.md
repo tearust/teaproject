@@ -31,7 +31,6 @@ On a PC, Metamask functions as a browser extension. When a TApp requires a user 
 
 https://alpha.teaproject.org is Alpha testnet entry point URL
 https://beta.teaproject.org is the mainnet entry point URL.
-
 {% hint style="info" %}
 
 **Why beta?**
@@ -42,6 +41,45 @@ Regardless of its label as "beta" or "not a beta," it functions as the mainnet, 
 
 {% endhint %}
 
+
+
+{% tabs %}
+{% tab title="Phone" %}
+![[Pasted image 20231213101341.png]]
+{% endtab %}
+{% tab title="Web" %}
+![[Pasted image 20231213101502.png]]
+{% endtab %}
+{% endtabs %}
+
+In the TEA Project, connecting to the Web 3 world requires selecting a **hosting node** as your designated **gateway**, distinguishing it from the conventional Web 2 approach.
+
+{% hint style="info" %}
+
+** How can I select a hosting node? **:
+
+Regardless of the hosting node you choose, you can expect nearly identical user experiences, as only those passing the **remote attestation** are featured on the list—ensuring security and reliability.
+
+However, each node may vary in performance and capability. Note the **market cap** column in the table, akin to the valuation of a publicly listed company (in this case, the node). Typically, nodes with superior performance garner higher profits, attracting more investors and thus achieving a higher market cap. The hosting list table is organized based on market cap rankings.
+
+If you have no specific preferences, opting for the top-ranked hosting nodes should suffice.
+
+Upon connecting to a hosting node, your gas fee becomes its revenue. The current billing model measures gas fees solely based on the consumption of executing code, irrespective of the hosting node. This model may evolve in the future to distribute workload based on available free memory or CPU usage.
+
+{% endhint %}
+
+Every row in this table represents a hosting node provided by a TEA miner. When you click and connect to a hosting node, you will be redirected to the TEA mini-runtime service running on that specific node. You may observe that the URL has changed in your browser's address bar.
+
+{% tabs %}
+{% tab title="Phone" %}
+![[Pasted image 20231213102240.png]]
+{% endtab %}
+{% tab title="Web" %}
+![[Pasted image 20231213102345.png]]
+{% endtab %}
+{% endtabs %}
+
+The IP address corresponds to the hosting node, while the lengthy hash in the screenshot, depicted as `mey32oBSYMPPjxYjeSCDwZsFM3m9SWodq25pLa9gy9cji`, is referred to as CID (Content ID) in the **IPFS** protocol. This CID represents the current hash of the **TAppStore** application's front-end code. It's important to note that this CID may change whenever the TAppStore undergoes an update.
 
 ## Common Features in Most TApps
 
