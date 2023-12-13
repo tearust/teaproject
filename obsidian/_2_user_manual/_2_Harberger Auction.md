@@ -1,2 +1,2 @@
-# Harberger Auction
+# Harberger auction
 
