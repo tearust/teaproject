@@ -8,6 +8,7 @@ This design significantly bolsters the security of TApps beyond the standards se
 
 ## How to connect?
 In Metamask, go to the account page and click "connect".
+
 ![[Pasted image 20231212202946.png]]
   
 If one of your accounts is not connected to a URL, Metamask may unexpectedly switch to another connected account. This less-than-ideal solution can occasionally lead to user confusion. Therefore, it is advisable to always verify that the displayed address in the UI precisely matches your intended login before proceeding.
