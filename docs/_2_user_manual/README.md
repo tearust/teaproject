@@ -2,19 +2,19 @@
 
 Quick links:
 
-\*\*System "out-of-box" TApps:
+**System "out-of-box" TApps:**
 
 * [TEA Appstore](_1_TAppStore.md) - The entry point to all other TApps, account and investment operations
 * [Harberger auction](_2_Harberger%20Auction.md) - Buy a **SEAT** share the revenue from state machines
-* *Seeds auction* - Buy a CML Seed become a TEA hosting node miner
-* *TeaFluencer* - Earn some TEA credits by doing some task for KOLs
-* *Miner's portal* - Portal to TEA miners
-* *Developer's portal* - Portal to TEA application developers
-* *Leaderboard* - Join the TEA mining competition, see who wins the most
+* [Seeds auction](_3_Seeds%20Auction.md) - Buy a CML Seed become a TEA hosting node miner
+* [TeaFluencer](_4_TeaFluencer.md) - Earn some TEA credits by doing some task for KOLs
+* [Miner's portal](_5_Miners%20Portal.md) - Portal to TEA miners
+* [Developer's portal](_6_Developers%20Portal.md) - Portal to TEA application developers
+* [Leaderboard](_7_Leaderboard.md) - Join the TEA mining competition, see who wins the most
 
-\*\*Community build "commercial" TApps
+**Community build "commercial" TApps**
 
-* *TEA Party* - A zoom-like peer to peer video conferencing app that supports payment channel
+* [TEA Party](_8_Tea%20Party.md) - A zoom-like peer to peer video conferencing app that supports payment channel
 
 ## TApplication on Web and Mobile
 

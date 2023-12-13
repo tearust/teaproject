@@ -2,7 +2,7 @@
 
 Quick links:
 
-**System "out-of-box" TApps:
+**System "out-of-box" TApps:**
 - [[_1_TAppStore|TEA Appstore]] - The entry point to all other TApps, account and investment operations
 - [[_2_Harberger Auction|Harberger auction]] - Buy a **SEAT** share the revenue from state machines
 - [[_3_Seeds Auction|Seeds auction]] - Buy a CML Seed become a TEA hosting node miner
@@ -11,7 +11,7 @@ Quick links:
 - [[_6_Developers Portal|Developer's portal]] - Portal to TEA application developers
 - [[_7_Leaderboard|Leaderboard]] - Join the TEA mining competition, see who wins the most
 
-**Community build "commercial" TApps
+**Community build "commercial" TApps**
 - [[_8_Tea Party|TEA Party]] - A zoom-like peer to peer video conferencing app that supports payment channel
 
 
