@@ -1,4 +1,6 @@
+````
 # User's manual
+````
 
 Coming soon...
 
@@ -45,7 +47,8 @@ Regardless of its label as "beta" or "not a beta," it functions as the mainnet, 
 
 While each TApp has its unique characteristics, many share common features like login/logout and checking account balances. This section will provide explanations on how to use these shared features.
 
-#### Before login
+<details>
+<summary>Before login confirm the account address</summary>
 
 {% tabs %}
 {% tab title="Phone" %}
@@ -66,7 +69,9 @@ The address on the left is the currently connected address for this web page. Fo
 {% endtab %}
 {% endtabs %}
 
-#### Check auth list and sign
+</details>
+<details>
+<summary>Check auth list and sign</summary>
 
 Click on the login icon to review all necessary authentication steps. If you agree with all requested authorizations, proceed to sign this login transaction using Metamask's **sign** button. For more information about requested authorizations, refer to [tapp auth](tapp%20auth.md).
 
@@ -87,7 +92,9 @@ Click on the login icon to review all necessary authentication steps. If you agr
 {% endtab %}
 {% endtabs %}
 
-#### After log in
+</details>
+<details>
+<summary> Confirm after a successful log in</summary>
 
 {% tabs %}
 {% tab title="Phone" %}
@@ -106,6 +113,8 @@ After successfully logging in, you will notice that the "login" button has chang
 
 {% endtab %}
 {% endtabs %}
+
+</details>
 
 ### Account page
 
