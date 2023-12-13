@@ -24,7 +24,7 @@ The PC Web interface (on the left) provides more detailed information compared t
 
 On a PC, Metamask functions as a browser extension. When a TApp requires a user to sign a transaction, the Metamask extension will pop up. On mobile, the browser is a window within the Metamask app. To use a TApp, you must click the browser icon to switch to the browser window and then launch the TApp inside. When the TApp prompts the user to sign a transaction, Metamask will switch to the wallet window to complete the signing process.
 
-![200](Pasted%20image%2020231212151010.png)
+![100](Pasted%20image%2020231212151010.png)
 
 ## Entry point: Alpha is testnet, Beta is mainnet
 
