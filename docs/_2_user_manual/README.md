@@ -4,17 +4,17 @@ Quick links:
 
 \*\*System "out-of-box" TApps:
 
-* [\_1_TAppStore](_1_TAppStore.md) - The entry point to all other TApps, account and investment operations
-* [\_2_Harberger Auction](_2_Harberger%20Auction.md) - Buy a **SEAT** share the revenue from state machines
-* *\_3_Seeds Auction* - Buy a CML Seed become a TEA hosting node miner
-* *\_4_TeaFluencer* - Earn some TEA credits by doing some task for KOLs
-* *\_5_Miners Portal* - Portal to TEA miners
-* *\_6_Developers Portal* - Portal to TEA application developers
-* *\_7_Leaderboard* - Join the TEA mining competition, see who wins the most
+* [TEA Appstore](_1_TAppStore.md) - The entry point to all other TApps, account and investment operations
+* [Harberger auction](_2_Harberger%20Auction.md) - Buy a **SEAT** share the revenue from state machines
+* *Seeds auction* - Buy a CML Seed become a TEA hosting node miner
+* *TeaFluencer* - Earn some TEA credits by doing some task for KOLs
+* *Miner's portal* - Portal to TEA miners
+* *Developer's portal* - Portal to TEA application developers
+* *Leaderboard* - Join the TEA mining competition, see who wins the most
 
 \*\*Community build "commercial" TApps
 
-* *\_8_Tea Party*
+* *TEA Party* - A zoom-like peer to peer video conferencing app that supports payment channel
 
 ## TApplication on Web and Mobile
 
@@ -104,7 +104,7 @@ While each TApp has its unique characteristics, many share common features like 
 
 ![200](Pasted%20image%2020231212175457.png)
 
-If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [Metamask connect](Metamask%20connect.md).
+If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [\_a_Metamask connect](_a_Metamask%20connect.md).
 {% endtab %}
 
 {% tab title="Web" %} 
@@ -113,14 +113,14 @@ If you are not logged in, you'll find the login button in the upper right corner
 
 ![Pasted image 20231212180253.png](Pasted%20image%2020231212180253.png)
 
-The address on the left is the currently connected address for this web page. For additional information about the Metamask connect feature, visit [Metamask connect](Metamask%20connect.md).
+The address on the left is the currently connected address for this web page. For additional information about the Metamask connect feature, visit [\_a_Metamask connect](_a_Metamask%20connect.md).
 
 {% endtab %}
 {% endtabs %}
 
 #### Check auth list and sign
 
-Click on the login icon to review all necessary authentication steps. If you agree with all requested authorizations, proceed to sign this login transaction using Metamask's **sign** button. For more information about requested authorizations, refer to [tapp auth](tapp%20auth.md).
+Click on the login icon to review all necessary authentication steps. If you agree with all requested authorizations, proceed to sign this login transaction using Metamask's **sign** button. For more information about requested authorizations, refer to [\_a_tapp auth](_a_tapp%20auth.md).
 
 {% tabs %}
 {% tab title="Phone" %}
