@@ -1,6 +1,20 @@
 # User's manual
 
-Coming soon...
+Quick links:
+
+\*\*System "out-of-box" TApps:
+
+* [\_1_TAppStore](_1_TAppStore.md) - The entry point to all other TApps, account and investment operations
+* [\_2_Harberger Auction](_2_Harberger%20Auction.md) - Buy a **SEAT** share the revenue from state machines
+* *\_3_Seeds Auction* - Buy a CML Seed become a TEA hosting node miner
+* *\_4_TeaFluencer* - Earn some TEA credits by doing some task for KOLs
+* *\_5_Miners Portal* - Portal to TEA miners
+* *\_6_Developers Portal* - Portal to TEA application developers
+* *\_7_Leaderboard* - Join the TEA mining competition, see who wins the most
+
+\*\*Community build "commercial" TApps
+
+* *\_8_Tea Party*
 
 ## TApplication on Web and Mobile
 
@@ -154,14 +168,3 @@ Switch between tab bar
 ![Pasted image 20231213121238.png](Pasted%20image%2020231213121238.png)
 {% endtab %}
 {% endtabs %}
-
-## User's manual for "out-of-box" TApps
-
-* [\_1_TAppStore](_1_TAppStore.md)
-* [\_2_Harberger Auction](_2_Harberger%20Auction.md)
-* *\_3_Seeds Auction*
-* *\_4_TeaFluencer*
-* *\_5_Miners Portal*
-* *\_6_Developers Portal*
-* *\_7_Leaderboard*
-* *\_8_Tea Party*
