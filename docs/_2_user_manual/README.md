@@ -1,6 +1,6 @@
 # User's manual
 
-Quick links:
+## Quick links:
 
 **System "out-of-box" TApps:**
 

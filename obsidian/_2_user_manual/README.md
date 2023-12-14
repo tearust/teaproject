@@ -1,6 +1,6 @@
 # User's manual
 
-Quick links:
+## Quick links:
 
 **System "out-of-box" TApps:**
 - [[_1_TAppStore|TEA Appstore]] - The entry point to all other TApps, account and investment operations
