@@ -4,7 +4,7 @@ TApps are rich decentralized applications that run on the TEA network. Due to th
 
 From the end-users perspective, two steps are needed before deploying any TApp for use:
 
-1. A spending limit for the TApp must be set. This ensures that a TApp can't spend more than what you've alloted for that TApp. As money is spent in the TApp, the spending limit is reduced. In this way it functions like an allowance that can be spent, with the end-user able to bump it up at any time.
+1. A spending limit for the TApp must be set. This ensures that a TApp can't spend more than what you've allocated for that TApp. As money is spent in the TApp, the spending limit is reduced. In this way it functions like an allowance that can be spent, with the end-user able to bump it up at any time.
 2. A node must be selected to run the TApp. Because of TEA's architecture, TApps are "hosted" in IPFS waiting for deployment. Because IPFS is just storage, the node that the end-user requests will download the compiled TApp binary from IPFS and execute in the node together with any data that the end-user provides.
 
 The list of available TApps is available through the [TEA Browser Wallet](TEA-Browser-Wallet.md). 
