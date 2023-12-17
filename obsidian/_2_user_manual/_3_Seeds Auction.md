@@ -1,3 +1,0 @@
-# Seeds auction
-
-Coming soon...

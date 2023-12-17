@@ -1,2 +1,0 @@
-# Harberger auction
-

@@ -1,4 +1,0 @@
-# Mining Contest Disclosure Agreement
-- Contestants should understand that they are testing beta software. There will be bugs, including bugs that may affect your earnings in the contest. Any errors occurred during epochs are an important first step in perfecting the underlying software and should be considered part of participating in the contest.
-- The CML and TEA tokens are not the same as what will be released on the mainnet. Participants of the mining contests should not expect any of these to carryover to mainnet.
-- If you sign up using our form, you will be required to use a valid email. We will only use this email to notify you about contest matters (such as rewards) and possibly an announcement for the next epoch's contest. We will not send general marketing messages to your email.

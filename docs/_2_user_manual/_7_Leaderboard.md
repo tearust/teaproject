@@ -1,3 +1,0 @@
-# Leader board
-
-Coming soon...
