@@ -5,6 +5,7 @@
 **System "out-of-box" TApps:**
 - [[_1_TAppStore_0_account|TEA Appstore-Account]] - The entry point to all other TApps, account page
 - [[_1_TAppStore_1_tapps|TEA Appstore-TApps list]] - The entry point to all other TApps.
+- [[_1_TAppStore_2_Investments| TEA Appstore-Investments]] - The entry point to all bonding curve token investments.
 - [[_2_Harberger Auction|Harberger auction]] - Buy a **SEAT** share the revenue from state machines
 - [[_3_Seeds Auction|Seeds auction]] - Buy a CML Seed become a TEA hosting node miner
 - [[_4_TeaFluencer|TeaFluencer]] - Earn some TEA credits by doing some task for KOLs

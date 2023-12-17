@@ -6,6 +6,7 @@
 
 * [TEA Appstore-Account](_1_TAppStore_0_account.md) - The entry point to all other TApps, account page
 * [TEA Appstore-TApps list](_1_TAppStore_1_tapps.md) - The entry point to all other TApps.
+* [ TEA Appstore-Investments](_1_TAppStore_2_Investments.md) - The entry point to all bonding curve token investments.
 * [Harberger auction](_2_Harberger%20Auction.md) - Buy a **SEAT** share the revenue from state machines
 * [Seeds auction](_3_Seeds%20Auction.md) - Buy a CML Seed become a TEA hosting node miner
 * [TeaFluencer](_4_TeaFluencer.md) - Earn some TEA credits by doing some task for KOLs

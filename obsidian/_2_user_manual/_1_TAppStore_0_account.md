@@ -162,3 +162,24 @@ Following a successful Withdrawal, you can locate it in the Transaction list:
 ![[Pasted image 20231216212036.png]]
 
 
+## Log
+
+Log is a standalone tab which is not part of the **Account** tab. 
+
+Whether triggered by your actions or automatic cron jobs, the majority of transactions associated with your account can be accessed in the Log tab.
+
+Whether triggered by your actions or automatic cron jobs, the majority of transactions associated with your account can be accessed in the Log tab.
+
+![[Pasted image 20231217153846.png]]
+
+The logs are categorized by date (UTC). Due to space constraints on the hosting node, older logs may be removed to accommodate new ones. It is advisable to create your offline copy for reference.
+
+## TEA Vesting 
+
+  
+Access to this tab is restricted to TEA Project Venture Capital Investors only.
+
+![[Pasted image 20231217153822.png]]
+
+  
+In accordance with your vesting schedule, a portion of your TEA tokens will be unlocked each month. To claim these tokens (TEA as ERC20)from the **Vesting smart contract** and transfer them to your own address, click the "unlock" option under the Release action. This process involves a layer1 (Ethereum) transaction, requiring you to sign the transaction using Metamask and cover the associated ETH gas fee for the Ethereum network.
