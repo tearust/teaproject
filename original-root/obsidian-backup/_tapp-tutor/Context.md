@@ -1,0 +1,7 @@
+Context (in the state machine) records a list of operations that execute [[commands]], which **should** be applied to the [[state]] if committed. But before the final commit, the state itself is not changed, and only to-be-changed operations are stored in the context.
+
+The goal of context is an atomic commit. All the operations are either committed successfully or not committed at all. 
+
+During the execution of [[commands]] in the [[state_machine_actor]]s, all operations will be inspected to make sure they would be successfully commited. This is very important. All operations inside context need to be guaranteed successful. If any operation would fail, this command is aborted and the context will be dropped. In that case, nothing will be committed, and the state will not change at all.
+
+In order to make sure that all operations inside a context are guaranteed to be committed successfully, we require commands to be executed in a single thread. All execution functions are **pure functional functions**. That means all required parameters have been included in the function parameters, and there are no additional external inputs or conditions. The function result is deterministic. **Deterministic** is an important requirement in the [[state_machine_actor]] handler functions. If determinism is not guaranteed, the [[teaproject/original-root/obsidian-backup/_tapp-tutor/State_Machine]] in a different [[State_Machine_Replica]] may not sync. In other words, the state machine **cannot reach consensus** and will cause the [[state]] to be out of sync.  
