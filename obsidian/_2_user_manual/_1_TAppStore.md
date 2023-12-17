@@ -50,6 +50,7 @@ However, for transactions involving the Ethereum blockchain, the delay could ext
 ## Transfer TEA
 
 You can transfer TEA token from your layer2 address to another layer2 address. If you want to transfer layer1 TEA token, you can use Metamask directly because it operates on Ethereum blockchain. 
+
 ![[Pasted image 20231216202517.png]]
 
 {% hint style="info" %}
@@ -65,11 +66,14 @@ In the case of TEA Project, once your TEA tokens are transferred to layer2, you 
 Your recent transfer transactions are listed here:
 {% tabs %}
 {% tab title="Phone" %}
+
 ![[Pasted image 20231216203622.png]]
 
 {% endtab %}
 {% tab title="Web" %}
+
 ![[Pasted image 20231216202800.png]]
+
 {% endtab %}
 {% endtabs %}
 
@@ -77,12 +81,16 @@ Your recent transfer transactions are listed here:
 You can view and export the detail into JSON format
 {% tabs %}
 {% tab title="Phone" %}
+
 ![[Pasted image 20231216203411.png]]
+
 {% endtab %}
 {% tab title="Web" %}
+
 ![[Pasted image 20231216203135.png]]
 
 ![[Pasted image 20231216203150.png]]
+
 {% endtab %}
 {% endtabs %}
 In this example, the JSON text is: 
@@ -107,10 +115,13 @@ This JSON text can be used for verification of its existence using the "Query" e
 You can provide the JSON text to anyone who wishes to confirm the existence of a transaction. This is particularly useful when transferring funds to a client. By sharing this JSON text, your client can verify that the transaction has indeed been executed within the TEA Project.
 
 When your client clicks the "Query Transaction" button and pastes the JSON text:
+
 ![[Pasted image 20231216204126.png]]
 
 A hash value is calculated from the JSON text, representing the unique identifier of the transaction:
+
 ![[Pasted image 20231216204150.png]]
+
 Your client has two options for verifying the transaction:
 - **Search from Memory:** Ideal for transactions executed within the last 30 minutes. This is the fastest and most cost-effective method for verification.
 - **Search from File:** Suitable for transactions executed more than 30 minutes ago. This search may be slower and more resource-intensive.
@@ -137,16 +148,16 @@ This process may take an extended duration (up to 15 minutes) to see the balance
 
 During the Withdrawal operation, as certain TEA miners cover the Ethereum gas fee for you, you will be obligated to pay this "Ethereum gas fee" to the miner. The exact amount is variable, contingent on the real-time exchange rate between TEA and ETH, calculated at the time of the transaction or queried from a preset value.
 
-![Ethereum Gas Fee Confirmation](Pasted image 20231216211554.png)
+![[Pasted image 20231216211554.png]]
 
 Upon confirming the value, it will be displayed before you proceed to "Confirm."
 
-![Ethereum Gas Fee Confirmation - Value Display](Pasted image 20231216211743.png)
+![[Pasted image 20231216211743.png]]
 
 In the provided screenshot, the value is 97 TEA, though this figure may differ during your withdrawal. Keep in mind that you are responsible for covering this fee.
 
 Following a successful Withdrawal, you can locate it in the Transaction list:
 
-![Successful Withdrawal in Transaction List](Pasted image 20231216212036.png)
+![[Pasted image 20231216212036.png]]
 
 
