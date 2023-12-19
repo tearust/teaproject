@@ -47,10 +47,7 @@ When a user transfers funds in layer2, they can send it either to an ETH address
 
 ## TEA Fluencer
 
-TEA Fluencer functions as many different things depending on the user.
-
-* For influencers, it's a template where they can create their own TApp to promote a tweet and help onboard new users onto the TEA Project.
-* For endusers, it's a faucet that gives them the initial funds to participate in the TEA ecosystem.
+When you're new to the TEA Project, we assume that you don't have any TEA tokens in your wallet. TEA tokens are the utility tokens used to pay gas fees on the TEA Project network, similar to how ETH works on the Ethereum network. By engaging in actions such as quoting and retweeting, you can earn a certain amount of testnet credit. This credit is designed to help you get started by covering gas fees whenever a transaction occurs on the TEA Project network.
 
 We have a separate article for more information [about TEA Fluencer](TEAfluencer.md).
 

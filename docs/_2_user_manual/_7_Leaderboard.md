@@ -1,3 +1,3 @@
 # Leader board
 
-Coming soon...
+Leaderboard will be retired when TEA Project mainnet (beta) launch.

@@ -39,10 +39,7 @@ Once the CML seed is in a user's account, they can plant it into a mining machin
 When a user transfers funds in layer2, they can send it either to an ETH address or an email address. If someone is sent a transfer through their email address, they'll get an email notification to claim their TEA tokens. The email wallet allows these users to login to TEA's layer2 without needing to setup a MetaMask wallet. They simply need to do the requested one-time passcode verification everytime they wish to login to their email wallet.
 
 ## TEA Fluencer
-TEA Fluencer functions as many different things depending on the user.
-
-- For influencers, it's a template where they can create their own TApp to promote a tweet and help onboard new users onto the TEA Project.
-- For endusers, it's a faucet that gives them the initial funds to participate in the TEA ecosystem.
+When you're new to the TEA Project, we assume that you don't have any TEA tokens in your wallet. TEA tokens are the utility tokens used to pay gas fees on the TEA Project network, similar to how ETH works on the Ethereum network. By engaging in actions such as quoting and retweeting, you can earn a certain amount of testnet credit. This credit is designed to help you get started by covering gas fees whenever a transaction occurs on the TEA Project network.
 
 We have a separate article for more information [about TEA Fluencer](TEAfluencer.md).
 
