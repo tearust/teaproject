@@ -8,7 +8,7 @@ However, due to the lack of a central server, financial transactions between inv
 
 If we consider blockchain as layer-1, the TEA project as the layer-2 on blockchain, we may call the payment channel as layer-3. 
 
-[[TApp-TEA-Party| TEA Party]] is the example app to demonstrate this feature.
+[[_8_Tea Party| TEA Party]] is the example app to demonstrate this feature.
 
 TEA Party allows a host(who create a video chat room, such as a teacher in classroom), get **paid per minute** by the guests(who are invited by the host via a shared URL link, such as students). There is no central server between host and guests. No matter how long the video chat does, there will be only two (or maybe three) payment transactions sent to the TEA Project network at the beginning and ending. Every minute (depending on cost structure set by the host) both host and guests exchange signed payment confirmation messages through the peer to peer network directly. The payment channel algorithm protect both sides from irresponsible behavior or incidentally network disconnection. 
 

@@ -7,7 +7,7 @@ From the end-users perspective, two steps are needed before deploying any TApp f
 1. A spending limit for the TApp must be set. This ensures that a TApp can't spend more than what you've allocated for that TApp. As money is spent in the TApp, the spending limit is reduced. In this way it functions like an allowance that can be spent, with the end-user able to bump it up at any time.
 2. A node must be selected to run the TApp. Because of TEA's architecture, TApps are "hosted" in IPFS waiting for deployment. Because IPFS is just storage, the node that the end-user requests will download the compiled TApp binary from IPFS and execute in the node together with any data that the end-user provides.
 
-The list of available TApps is available through the [TEA Browser Wallet](TEA-Browser-Wallet.md). 
+The list of available TApps is available through the [[_1_TAppStore_1_tapps|TAppStore]].
 
 Developers interested in coding and deploying their own TApps can reference the following resources:
 
@@ -16,10 +16,4 @@ Developers interested in coding and deploying their own TApps can reference the 
 - [[TEA-Billing]] is the base document with information and related links for understanding TEA's billing system.
 
 You can learn more about other concepts involved with TApps by visiting the [TApps FAQ](FAQ-TApps.md). 
-
-## More Info on Specific TApps
-There's a [core set of TApps](TApps-Core.md) that are maintained by the team. These include
-
-- [The TEA Party TApp](TApp-TEA-Party.md). TEA Party is a social messaging app that's also useful for developers to study and learn from.
-- [The TEA Influencer TApp](TEAfluencer.md). TEAfluencer is a TApp template that can be used by any influencer to create their own faucet for the TEA ecosystem. 
 
