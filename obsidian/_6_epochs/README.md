@@ -1,6 +1,26 @@
-# Test net (Epochs)
+# Mainnet and test net (Epochs)
+## Mainnet - Beta soft launch on Jan 1st, 2024
+### Website / entry point
 
-## Current Epoch - Alpha release
+https://beta.teaproject.org
+
+### Beta Release is Equivalent to Mainnet, Not Testnet
+
+All tokens mined and utilized on [https://beta.teaproject.org](https://beta.teaproject.org/) hold real value. The nomenclature "Beta" is employed because the core team intends to frequently update versions within the initial year following the soft launch. Throughout this phase, the core team manages all state machine nodes to ensure swift responses during updates. Once the system attains sufficient stability, anticipated within one or two years, the "beta" label will be discarded in favor of a "hard" launch. If you are a miner operating a "hosting node," please be prepared for regular software updates during the beta period. It is crucial to adhere to provided instructions when notified of updates to prevent mandatory service suspensions.
+
+###  Alpha Release (Testnet) Can Be Ahead by One or Two Versions Compared to Beta Release (Mainnet)
+
+Similar to other Web3 projects, our testnet consistently runs the latest version ahead of its mainnet counterpart. It's common for users to observe new features being unlocked in the alpha version that may still be locked or non-existent in the mainnet, indicating that these features are undergoing testing.
+
+### Emphasizing Learning and Practice on the Alpha Testnet
+
+Considering that all tokens hold real value in the Beta release (mainnet), individuals seeking to explore and experiment with features without incurring any actual financial loss are encouraged to utilize the testnet. It's important to note that any tokens earned on the testnet do not carry real-world value.
+
+### Release notes (latest updates)
+
+Jan 1, 2024, Beta first launch
+
+## Current testnet - Alpha release
 
 ### Website
 
@@ -18,7 +38,7 @@ Tester miners of Alpha release are by invitation only.  Regardless you are a new
 
 ### Alpha vs previous epochs comparison chart 
 
-| Feature | Previous epochs | Alpha version | To-be-launched Mainnet |
+| Feature | Previous epochs | Alpha version | To-be-launched Mainnet(beta) |
 | --------| -----------------| -------------|-----------|
 |Layer 1 running on | Goerli testnet | Goerli testnet | Eth mainnet |
 | Token has actual value | No | No | Yes|
