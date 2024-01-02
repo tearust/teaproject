@@ -13,17 +13,16 @@ The primary use case for CML is to run a hosting node on the TEA network. Prospe
 
 ## Profitability of CML mining
 
-Endusers wishing to use TApps pay a gas fee to the CML miners who host the nodes. A transaction would extract a gas payment from the enduser which would be shared among all the nodes that were used to run the TApp's code.
+End users wishing to use TApps pay a gas fee to the CML miners who host the nodes. 
 
 The revenue paid to CML miners does not go directly to their wallets. The revenue flow instead goes into a **CML miner token** that's unique to each CML miner. This token is issued on a [bonding curve](_3_token/bonding-curve-tokens/README.md) where supply and price is correlated. 
 
 Let's step through a real life example to see how this would play out.
 
-1. An enduser uses **TApp_1** and pays both an app usage fee (paid to the TApp's bonding curve token) and a gas fee (paid to the bonding curve tokens of CML miners used during the process execution.)
-1. **CML 11** and **CML 203** are used to run TApp_1's code for the transaction and therefore share in the gas fee that the enduser paid.
-1. Both **CML 11** and **CML 203** have bonding curve tokens associated with them named, respectively, **CML-$11** and **CML-$203**.
-1. The gas payment is paid in TEA proportionally to both of these CML bonding curve tokens in proportion to how much computational work they performed (CPU cycles consumed, memory and disk space occupied etc.)
+1. An enduser access to **CML 11** and uses **TApp 1**. He pays both an app usage fee (paid to the TApp's bonding curve token) and a gas fee (paid to the bonding curve tokens of CML miners used during the process execution.)
+1. Both **CML 11** and \*\*TApp 1 ** have bonding curve tokens associated with them named, respectively, **CML-11** and \**TApp_1*.
+1. The gas payment is paid in TEA proportionally to all **CML_11** token holders based on the Bonding Curve rules. So does the app usage fee to the **TApp_1** bonding curve and shared to all bonding curve users.
 1. The TEA is injected into these two bonding curve tokens which creates an increased in the supply of both of the tokens.
-1. Owners of **CML-$11** and **CML-$203** tokens all get issued these surplus tokens.
+1. Owners of **CML_11** and **TApp_1** tokens all get issued these surplus tokens. If they want to sell the token at this higher price, they will receive the capital gain.
 
 From the above chain of events, we can deduce that being a CML miner is profitable according to what percentage of their CML's bonding curve token they own. The larger percentage they own, they more they'll get of every gas transaction that uses their mining hardware for running tasks.
