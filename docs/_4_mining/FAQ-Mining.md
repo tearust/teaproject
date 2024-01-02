@@ -38,7 +38,7 @@ RA (remote attestation) is mandatory for all TEA nodes. Anytime you run an activ
 
 ## Is there another option besides running CML nodes?
 
-If you're not a technical person and don't how to navigate the linux command line, you can go to Harberger TApp to "rent" a **state maintainer seat**. You'll earn your income because the state maintainer nodes do the state maintaining work for the public, and you'll be the owner at least temporarily for as long as you're the high bidder for the seat.
+If you're not a technical person and don't how to navigate the linux command line, you can go to [Harberger TApp](../_2_user_manual/_2_Harberger%20Auction.md) to "rent" a **state maintainer seat**. You'll earn your income because the state maintainer nodes do the state maintaining work for the public, and you'll be the owner at least temporarily for as long as you're the high bidder for the seat.
 
 ## Can you elaborate on what kinds of services I can provide to earn TEA?
 

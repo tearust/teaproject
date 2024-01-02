@@ -8,7 +8,7 @@ TEA can be purchased on Ethereum's layer-1 and shuttled [between Layer1 & Layer2
 
 #### Testnet
 
-The TEA Fluencer TApp can be used as a retweet faucet (through Twitter) to secure some testnet TEA to compete in the contest. Testnet TEA can be exchanged for COFFEE which are vouchers for mainnet TEA.
+The TEA Fluencer TApp can be used as a retweet faucet (through Twitter) to secure some testnet TEA to compete in the contest. 
 
 #### Mainnet
 

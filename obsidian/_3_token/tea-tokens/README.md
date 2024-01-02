@@ -6,7 +6,7 @@ TEA can be purchased on Ethereum's layer-1 and shuttled [[Billing-system-between
 ## How to Obtain TEA Tokens
 
 #### Testnet
-The TEA Fluencer TApp can be used as a retweet faucet (through Twitter) to secure some testnet TEA to compete in the contest. Testnet TEA can be exchanged for COFFEE which are vouchers for mainnet TEA.
+The TEA Fluencer TApp can be used as a retweet faucet (through Twitter) to secure some testnet TEA to compete in the contest. 
 
 #### Mainnet
 After mainnet has launched, users will be able to use decentralized exchanges on Ethereum to purchase TEA tokens. Liquidity on centralized exchanges have not yet been formalized.
