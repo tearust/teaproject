@@ -30,7 +30,7 @@ Plan to start testing by the end of Oct 2023.
 
 ### What is Alpha release
 
-Unlikely previous epochs, Alpha release runs the same code base as the to-be-released mainnet. It also runs on the same hardware platform as the to-be-released mainnet. Even after the mainnet launched, the alpha will be still running as a parallel testnet, like Goerli testnet of Ethereum. 
+Unlikely previous epochs, Alpha release runs the same code base as the to-be-released mainnet. It also runs on the same hardware platform as the to-be-released mainnet. Even after the mainnet launched, the alpha will be still running as a parallel testnet, like Sepolia testnet of Ethereum. 
 
 Will there be a Beta release in the future? This is still under discussion.
 
@@ -40,7 +40,7 @@ Tester miners of Alpha release are by invitation only.  Regardless you are a new
 
 | Feature | Previous epochs | Alpha version | To-be-launched Mainnet(beta) |
 | --------| -----------------| -------------|-----------|
-|Layer 1 running on | Goerli testnet | Goerli testnet | Eth mainnet |
+|Layer 1 running on | Goerli testnet | Sepolia testnet | Ethereum mainnet |
 | Token has actual value | No | No | Yes|
 | Billing on CPU usage | Faked placeholder | Yes | Yes|
 |Billing on memory usage | Faked placeholder | Yes | Yes |
@@ -62,7 +62,7 @@ and
 ![[Pasted image 20231113212511.png]]
 
 A few tips:
-- Make sure you connect ETH testnet "Goerli"
+- Make sure you connect ETH mainnet
 - Make sure you allow Metamask to connect your account to the URL when promoted
 - The Mobile UI is optimized to phone use case. That means a few features are removed from mobile UI due to limited screen size. You can access full featured TApps on computer web.
 - Metamask supports portait mode only.

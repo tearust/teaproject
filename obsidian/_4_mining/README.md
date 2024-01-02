@@ -19,7 +19,7 @@ Besides hosting TApps, community members can also participate in [helping run TE
 
 ## Installation steps
 
-- Make sure you connect to ETH "Goerli"  testnet
+- Make sure you connect to ETH mainnet
 - Ask TEA dev team for at least 100 T as a startup fund
 - Go to **Seed auction tapp** to buy a CML seed. If there is no seed available, you will need to ask the TEA Dev Team or for the next day when new seems coming up
 - Contact TEA Dev Team, provide your own Metamask testing address, ask for  a machine_id
