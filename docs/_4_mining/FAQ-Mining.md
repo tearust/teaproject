@@ -2,13 +2,15 @@
 
 ## How to get started as a miner?
 
-You will need to setup mining machine then, follow the steps in the [mining guide for the current epoch](https://www.youtube.com/playlist?list=PLOhw_qkI0ILWh5HDI8ZiFARjfkfvNPqev).
+*Latest update in Jan, 2024*
+
+TEA Project mainnet soft launch in Jan, 2024. Please read [\_4_mining/README](README.md) and [Mining-With-AWS](Mining-With-AWS.md) to understand how the mainnet TEA mining goes.
 
 ## Do I need a Raspberry Pi to mine?
 
-Currently, all mining is simulated as we’re on testnet. When mainnet launches, the TEA Project will require mining machines that have TPM chips on-board and run a specially designed NixOS. At this early stage, you cannot use your existing PC for mining even though your PC already has a TPM chip on the motherboard. 
+*Latest update in Jan, 2024*
 
-When mainnet starts, only AWS Nitro will be the first approved mining machines. Mining with a customized Raspberry Pi is on our roadmap for after mainnet launches, but there's no ETA on when that will be.
+TEA Project mainnet soft launch in Jan, 2024. TEA mining exclusively supports AWS Nitro as the designated secure hardware. For detailed information, refer to [Mining-With-AWS](Mining-With-AWS.md).
 
 ## What can I do with a CML?
 
@@ -16,7 +18,7 @@ CML is an NFT of the TEA Project that serves as a mining license. When users cho
 
 Note that after planting into a mining machine, each CML will have a life span of approximately 2 weeks during the testnet epochs. This is an accelerated schedule specifically for the testnet as mainnet CML will have a lifespan of approximately 2 years.
 
-## Why isn't my planted CML listed on wallet.teaproject.org?
+## Why isn't my planted CML listed on beta.teaproject.org?
 
 There might be many reasons, but first make sure you followed all the instructions. One step that's sometimes missed is the "create entity" step after you plant your CML. If you don't create an entity, there's no way to pay you. Your entity is similar to a company owned by you that accepts your clients' payments.
 
@@ -28,7 +30,7 @@ The solution may be simple or complicated. Some users mistakenly turn on Ubuntu 
 
 ## How many CML will be launched on the mainnet?
 
-There will be an nitial limit of 10k CML for the first two years after mainnet launch. The supply of CML will be controlled algorithmically by the DAO according to supply and demand after year 2. After the mainnet starts, the DAO will start to generate CML seeds and put them into the marketplace for auction.
+There will be an initial limit of 10k CML for the first two years after mainnet launch. The supply of CML will be controlled algorithmically by the DAO according to supply and demand after year 2. After the mainnet starts, the DAO will start to generate CML seeds and put them into the marketplace for auction.
 
 ## Do I need to do anything special to run RA?
 
