@@ -1,4 +1,8 @@
+# Metamask connect
+
 Metamask necessitates that each account explicitly connects to a specific URL before authorizing the signing of messages. This precautionary measure is crucial in preventing web fraud. For instance, if a fraudulent website is created to mimic your banking system, Metamask will refrain from signing any transactions unless you consciously establish a connection with this deceptive URL.
+
+
 
 ## How TApp make Metamask connect safer?
   

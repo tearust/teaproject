@@ -106,7 +106,7 @@ While each TApp has its unique characteristics, many share common features like 
 
 ![200](Pasted%20image%2020231212175457.png)
 
-If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [ Metamask connect](_a_Metamask%20connect.md).
+If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [\_a_Metamask connect](_a_Metamask%20connect.md).
 {% endtab %}
 
 {% tab title="Web" %} 
@@ -115,7 +115,7 @@ If you are not logged in, you'll find the login button in the upper right corner
 
 ![Pasted image 20231212180253.png](Pasted%20image%2020231212180253.png)
 
-The address on the left is the currently connected address for this web page. For additional information about the Metamask connect feature, visit [Metamask connect](_a_Metamask%20connect.md).
+The address on the left is the currently connected address for this web page. For additional information about the Metamask connect feature, visit [\_a_Metamask connect](_a_Metamask%20connect.md).
 
 {% endtab %}
 {% endtabs %}
