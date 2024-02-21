@@ -1,6 +1,7 @@
 # Togar3 Game: Tea Open agar.io for Web3
 
 Togar3 stands for Tea Open agar.io for Web3. It is a web3 modified version of [agar.io game](https://en.wikipedia.org/wiki/Agar.io) based on [Ogar3](https://github.com/Faris90/Ogar3) open source project. 
+{% embed url="https://youtu.be/fKfGEGbq4uY?si=C9gL3RrWAEQsYbBT" %} 
 
 ## Togar3 as an Airdrop
 While Togar3 is a thrilling game experience, it also doubles as an innovative airdrop tool designed to distribute TEA tokens to our valued community members.
@@ -25,6 +26,8 @@ Verify Metamask connection: Once you have Metamask installed, follow [look up ac
 Access the landing page: You likely learned about the Togar3 airdrop from a tweet. Follow the link to reach the landing page. Remember, this URL might change when Togar3 launches on the mainnet.
 Head to TeaFluencer: The landing page will guide you to the TeaFluencer platform at https://alpha.teaproject.org/#/node/0/fluencer/go.
 
+Please watch the short video below
+{% embed url="https://youtu.be/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz" %} 
 ### Step 2: Complete the Game host's Task in TeaFluencer:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NKYdzKNsCWM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -57,8 +60,6 @@ That's it! You've successfully participated in the Togar3 airdrop and are well o
 **What am I gonna do with my game token? **, please continue [reading](#sell-game-token-for-tea).
 
 
-{% embed youtube.com/shorts/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz %}     Airdrop short video
-{% embed url="https://youtu.be/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz" %} Short video
 ## Togar3 vs Ogar3
 Comparing with web2 version Ogar, there are major improvements specificly designed for Web3 concepts:
 - Mass is money: Unlike Ogar3's score system, your mass in Togar3 represents real tokens with monetary value.
@@ -69,10 +70,6 @@ Comparing with web2 version Ogar, there are major improvements specificly design
 - Timed rounds and fresh starts: Each game session lasts 30 minutes per player, with a total round duration of 1 hour (subject to change). At the end, everyone keeps their earned tokens and a new round begins.
 
 ## Togar3 game rules
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fKfGEGbq4uY" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-
-https://youtube.com/shorts/fKfGEGbq4uY?si=C9gL3RrWAEQsYbBT     Game play short video
-
 
 ## Player strategy and tips
 
