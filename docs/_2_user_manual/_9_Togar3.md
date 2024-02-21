@@ -61,6 +61,7 @@ That's it! You've successfully participated in the Togar3 airdrop and are well o
 \*\*What am I gonna do with my game token? \*\*, please continue [reading](#sell-game-token-for-tea).
 
 {% embed youtube.com/shorts/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz %}     Airdrop short video
+{% embed url="https://youtu.be/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz" %} Short video
 
 ## Togar3 vs Ogar3
 

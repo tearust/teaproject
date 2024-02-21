@@ -58,7 +58,7 @@ That's it! You've successfully participated in the Togar3 airdrop and are well o
 
 
 {% embed youtube.com/shorts/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz %}     Airdrop short video
-
+{% embed url="https://youtu.be/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz" %} Short video
 ## Togar3 vs Ogar3
 Comparing with web2 version Ogar, there are major improvements specificly designed for Web3 concepts:
 - Mass is money: Unlike Ogar3's score system, your mass in Togar3 represents real tokens with monetary value.
