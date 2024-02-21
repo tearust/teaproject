@@ -18,6 +18,10 @@
 
 * [TEA Party](_8_Tea%20Party.md) - A zoom-like peer to peer video conferencing app that supports payment channel
 
+**Airdrop game**
+
+* [Togar3 the game for Aridrop](./_9_Togar3.md)
+
 ## TApplication on Web and Mobile
 
 TEA Applications, abbreviated as TApps, feature a user interface akin to conventional Web Apps. They can operate on both computer web browsers and the Metamask browser on mobile phones. While both the PC web and mobile web execute the same logic, the mobile version is customized to suit the smaller screen size. Consequently, you may need additional clicks for more details to be expanded.
@@ -106,7 +110,7 @@ While each TApp has its unique characteristics, many share common features like 
 
 ![200](Pasted%20image%2020231212175457.png)
 
-If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [\_a_Metamask connect](_a_Metamask%20connect.md).
+If you are not logged in, the circled icon will appear as a login icon. The icon displayed on the header bar represents the current Metamask address/account connected to this page. To learn more about the Metamask connect feature, refer to [Metamask connect](_b02_Metamask%20connect.md).
 {% endtab %}
 
 {% tab title="Web" %} 
@@ -115,14 +119,14 @@ If you are not logged in, you'll find the login button in the upper right corner
 
 ![Pasted image 20231212180253.png](Pasted%20image%2020231212180253.png)
 
-The address on the left is the currently connected address for this web page. For additional information about the Metamask connect feature, visit [\_a_Metamask connect](_a_Metamask%20connect.md).
+The address on the left is the currently connected address for this web page. For additional information about the Metamask connect feature, visit [Metamask connect](_b02_Metamask%20connect.md).
 
 {% endtab %}
 {% endtabs %}
 
 #### Check auth list and sign
 
-Click on the login icon to review all necessary authentication steps. If you agree with all requested authorizations, proceed to sign this login transaction using Metamask's **sign** button. For more information about requested authorizations, refer to [TApp authorizations](_a_tapp%20auth.md).
+Click on the login icon to review all necessary authentication steps. If you agree with all requested authorizations, proceed to sign this login transaction using Metamask's **sign** button. For more information about requested authorizations, refer to [TApp authorizations](_b03_tapp%20auth.md).
 
 {% tabs %}
 {% tab title="Phone" %}

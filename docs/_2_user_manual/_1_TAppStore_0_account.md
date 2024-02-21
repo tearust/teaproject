@@ -34,7 +34,7 @@ The displayed address (e.g., 0x4010...46c2 in the screenshot) corresponds to you
 
 **TEA balance:** Represents your layer2 TEA tokens, directly usable in all TApps running on the TEA Project platform.
 
-**TEA credit:** Denotes promotional credit that new users may receive from airdrops or market events. This credit can be used to pay gas fees during the bootstrap period. For more details about credit, refer to [Credit token](_a_credit%20token.md).
+**TEA credit:** Denotes promotional credit that new users may receive from airdrops or market events. This credit can be used to pay gas fees during the bootstrap period. For more details about credit, refer to [Credit token](_b01_credit%20token.md).
 
 **TEA deposit:** Refers to the TEA deposit account, saving your mining deposit in TEA. This deposit is necessary when starting mining or owning a SEAT to cover harberger tax payments.
 
