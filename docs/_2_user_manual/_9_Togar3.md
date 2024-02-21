@@ -28,7 +28,7 @@ Verify Metamask connection: Once you have Metamask installed, follow [look up ac
 Access the landing page: You likely learned about the Togar3 airdrop from a tweet. Follow the link to reach the landing page. Remember, this URL might change when Togar3 launches on the mainnet.
 Head to TeaFluencer: The landing page will guide you to the TeaFluencer platform at https://alpha.teaproject.org/#/node/0/fluencer/go.
 
-Step 2: Complete the Game host's Task in TeaFluencer:
+### Step 2: Complete the Game host's Task in TeaFluencer:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NKYdzKNsCWM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -60,7 +60,7 @@ That's it! You've successfully participated in the Togar3 airdrop and are well o
 
 \*\*What am I gonna do with my game token? \*\*, please continue [reading](#sell-game-token-for-tea).
 
-https://youtube.com/shorts/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz     Airdrop short video
+{% embed youtube.com/shorts/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz %}     Airdrop short video
 
 ## Togar3 vs Ogar3
 
