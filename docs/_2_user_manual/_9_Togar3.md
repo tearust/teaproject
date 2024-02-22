@@ -70,13 +70,54 @@ Comparing with web2 version Ogar, there are major improvements specificly design
 
 * Mass is money: Unlike Ogar3's score system, your mass in Togar3 represents real tokens with monetary value.
 * Solo play: While teaming isn't prevented, Togar3 focuses on individual competition.
+* Your Metamask address is your name.
 * Dynamic mass balance: Larger cells move faster but consume more food, losing the excess to the Food Bank. This bank generates new food when supplies dwindle.
 * Balanced entry fee: Players contribute 300 food (10 mass + 290 to the Food Bank) upon joining. Earning 290 mass breaks even, and the TeaFluencer airdrop covers this fee.
 * Z-transfer for safety: Press Z (or use the mobile transfer button) to save your mass to your bank account, protecting it even if you're eliminated.
 * Timed rounds and fresh starts: Each game session lasts 30 minutes per player, with a total round duration of 1 hour (subject to change). At the end, everyone keeps their earned tokens and a new round begins.
 
-## Togar3 game rules
+## Togar3 game rules and strategies
 
-## Player strategy and tips
+### Basic rules:
+
+**Dominate the Agar.io Food Chain**
+
+Agar.io is a brutal world where size reigns supreme. Imagine a microscopic food chain - the smaller you are, the more likely you become someone's lunch. But fear not, tiny morsel! With the right knowledge and cunning, you can climb the ranks and become the apex predator.
+
+**Know Your Enemies**
+
+* **Giants:** These lumbering behemoths pack a punch, but their slowness makes them sitting ducks. Avoid them unless you have a well-crafted plan (and maybe a few friends).
+* **Equals:** Locked in a stalemate? Size doesn't guarantee victory. Outsmart your opponent with clever maneuvering and strategic use of the arena.
+* **Viruses:** Spiky traps disguised as cells, viruses explode upon contact, sending large prey flying in bite-sized chunks. Use them wisely!
+  **Size Matters**
+* **Growing Pains:** Bigger cells are like luxury yachts - powerful but slow. Remember, the bigger you are, the more energy you burn moving around.
+* **Tiny Terror:** Small cells are the nimble ninjas of Agar.io. They zip around effortlessly, consuming little energy, making them perfect for escapes and surprise attacks.
+  **Master the Tools**
+* **Spike Launcher (W Key):** Feed mass to those spiky viruses. Once they reach a critical size, they explode, sending out deadly spikes. Lure larger enemies into these and watch them split into delicious snacks!
+* **Virus Hideout:** Smaller cells, rejoice! You can safely hide inside viruses, giving you a temporary shield from hungry giants.
+* **Cell Splitter (Space Key):** Feeling sluggish? Split your cell in two for a burst of speed, perfect for catching prey or escaping danger. Remember, though, smaller cells are easier to eat!
+  **Remember**
+* **Don't Eat Viruses (if you're big):** It might seem tempting, but remember, viruses are like ticking time bombs for large cells. One bite and you'll be scattered across the map, predator turned prey.
+* **Split Strategically:** Splitting is a powerful tool, but use it wisely. Splitting for speed can help you catch smaller prey or escape danger, while splitting to consume can help you take down larger enemies.
+
+With these tips and a dash of practice, you'll be dominating the Togar3 food chain in no time! Remember, the key is to be adaptable, strategic, and maybe a little bit ruthless. So go forth, tiny cell, and conquer!
+
+**Some tips and strategies:**
+
+* **Maintain a Reasonable Size:** Growing too large can become costly in terms of movement. Sometimes, you might lose more mass than you can consume. Press Z to transfer excess mass to your game account to reduce size. This also enhances your movement speed, ensuring you retain some mass even after losing some.
+
+* **Split into Smaller Cells:** Splitting into smaller cells allows for faster movement and more efficient feeding, provided you feel safe. Consuming viruses causes your cell to divide, granting you additional mass (100 mass).
+
+* **Utilize Viruses for Protection:** Only larger cells are vulnerable to being split by viruses. If you're a smaller cell being pursued by a larger one, consider maneuvering near a virus to shield yourself from being consumed.
+
+**Time Limit for Each Round:**
+
+The Togar3 server undergoes a restart every few hours, signaling the start of a new round. Upon joining the game, you'll observe the remaining duration of the current round displayed in minutes. Additionally, every player is allotted a specific playtime limit, which can be monitored in the top left corner, indicating the remaining seconds.
+
+Failure to complete your round within the allocated time will prevent you from rejoining until the next server restart.
+
+Upon reaching the time limit, you'll be automatically logged out of the game. However, any remaining mass within your cells will be transferred to your game bank account, where it will be converted into "game tokens" for the TEA Project. These tokens can be redeemed and utilized in subsequent rounds.
 
 ## Sell game token for TEA
+
+You can utilize the [TAppStore Investment](./_1_TAppStore_2_Investments.md) platform to sell your game tokens to TEA. Subsequently, you can seamlessly swap these tokens for any other ERC20 token using the Uniswap protocol.
