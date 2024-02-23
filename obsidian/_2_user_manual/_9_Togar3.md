@@ -135,8 +135,6 @@ Failure to complete your round within the allocated time will prevent you from r
 
 Upon reaching the time limit, you'll be automatically logged out of the game. However, any remaining mass within your cells will be transferred to your game bank account, where it will be converted into "game tokens" for the TEA Project. These tokens can be redeemed and utilized in subsequent rounds.
 
-[<img src="server_restart_soon.png" width="250"/>](server_restart_soon.png)
-
 ## Sell game token for TEA
 You can utilize the [TAppStore Investment](./_1_TAppStore_2_Investments.md) platform to sell your game tokens to TEA. Subsequently, you can seamlessly swap these tokens for any other ERC20 token using the Uniswap protocol.
 
