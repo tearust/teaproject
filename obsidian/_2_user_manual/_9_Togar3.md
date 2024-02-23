@@ -21,6 +21,9 @@ With Togar3, airdrops become an exciting adventure, rewarding players for their 
 Download Metamask: Togar3 is a TEA App, and all TEA Apps require Metamask to run. Follow the [instruction here](./_b02_Metamask%20connect.md) to install Metamask on your computer browser or iOS device (Android support coming soon!).
 Verify Metamask connection: Once you have Metamask installed, follow [look up account here](./_1_TAppStore_0_account.md)d to verify it’s working correctly.
 
+The follow screenshot shows how Togar3 is loaded into Metamask on iPhone.
+[<img src="play_togar3_in_metamask.png" width="250"/>](play_togar3_in_metamask.png)
+
 ### Step 1: Land on the Tea Project Website
 
 Access the landing page: You likely learned about the Togar3 airdrop from a tweet. Follow the link to reach the landing page. Remember, this URL might change when Togar3 launches on the mainnet.
@@ -30,9 +33,9 @@ Please watch the short video below
 {% embed url="https://youtu.be/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz" %} 
 ### Step 2: Complete the Game host's Task in TeaFluencer:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NKYdzKNsCWM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-
 **Earn your food:** Watch the embedded video (or use the provided link) and complete the task (e.g., retweet a post) to earn 300 food, the minimum requirement for the airdrop.
 **Retweet and Apply:** Click the "Visit" button to access the retweet task on Twitter. Use your Twitter account to retweet the specified post and copy the retweet URL. Paste the URL into the "Apply airdrop" section on the TeaFluencer page and confirm.
+[<img src="game_token_in_airdrop.png" width="250"/>](game_token_in_airdrop.png)
 **Enter the Game:** Once confirmed, click the "Enter game" button to launch the Togar3 game.
 
 ### Step 3: Play Togar3 and Claim Your Food
@@ -53,7 +56,7 @@ Remember, your game account is temporary storage. Once you leave the game, your 
 
 ![Token shown in TAppStore Investment](game_token_in_investment.png)
 
-![Token shown in TFluencer Airdrop](game_token_in_airdrop.png)
+![Token shown in TFluencer Airdrop](airdrop_alpha.png)
 
 That's it! You've successfully participated in the Togar3 airdrop and are well on your way to collecting valuable TEA tokens. Enjoy the game and explore the exciting possibilities of the TEA ecosystem!
 
@@ -114,3 +117,7 @@ Upon reaching the time limit, you'll be automatically logged out of the game. Ho
 You can utilize the [TAppStore Investment](./_1_TAppStore_2_Investments.md) platform to sell your game tokens to TEA. Subsequently, you can seamlessly swap these tokens for any other ERC20 token using the Uniswap protocol.
 
 
+
+![alt text](airdrop_alpha.png)
+
+![alt text](airdrop_alpha_detail.png)
