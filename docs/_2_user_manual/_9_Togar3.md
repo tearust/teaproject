@@ -1,4 +1,4 @@
-# Togar3 Game: Tea Open agar.io for Web3
+# Togar3 Game
 
 Togar3 stands for Tea Open agar.io for Web3. It is a web3 modified version of [agar.io game](https://en.wikipedia.org/wiki/Agar.io) based on [Ogar3](https://github.com/Faris90/Ogar3) open source project. 
 {% embed url="https://youtu.be/fKfGEGbq4uY?si=C9gL3RrWAEQsYbBT" %} 
@@ -10,35 +10,38 @@ While Togar3 is a thrilling game experience, it also doubles as an innovative ai
 Unlike traditional airdrops where token acquisition relies solely on chance, Togar3 offers a more engaging and interactive approach:
 
 * Forget passive drops: Instead of directly distributing TEA tokens, we airdrop "food" and "bots" within the game itself. Players then compete with each other and AI-controlled bots to collect this valuable in-game currency.
-* Food = value: Each piece of food functions as a "bonding-curve" token, meaning its value increases as more players acquire it. This creates a dynamic in-game economy where players can strategically collect and sell their food for TEA tokens on the TEA Project platform.
+* Food = value: Each piece of food functions as a "bonding-curve" token, (1 game token = 5000 food mass) meaning its value increases as more players acquire it. This creates a dynamic in-game economy where players can strategically collect and sell their food for TEA tokens on the TEA Project platform.
 * Unlock your TEA: Once you've accumulated TEA tokens, the possibilities are endless! Use them to cover gas fees, swap them for other ERC20 tokens on Uniswap, or explore the various utilities offered within the TEA ecosystem.
 
 With Togar3, airdrops become an exciting adventure, rewarding players for their skills and engagement within the game world. So, are you ready to join the fun and claim your share of the TEA bounty? Dive into Togar3 today!
 
 ## Tutorial
 
-**Ready to join the Togar3 airdrop and collect your share of TEA tokens?** This guide will walk you through the simple steps to get started.
-
 ### Before you start
 
 Download Metamask: Togar3 is a TEA App, and all TEA Apps require Metamask to run. Follow the [instruction here](./_b02_Metamask%20connect.md) to install Metamask on your computer browser or iOS device (Android support coming soon!).
 Verify Metamask connection: Once you have Metamask installed, follow [look up account here](./_1_TAppStore_0_account.md)d to verify it’s working correctly.
 
-The follow screenshot shows how Togar3 is loaded into Metamask on iPhone.
+If you are new to the TEA Project, read [TEA documents](https://docs.teaproject.org/_2_user_manual) to learn how to use TApps.
+
+The follow screenshot shows Togar3 loaded into Metamask on iPhone.
 
 [<img src="play_togar3_in_metamask.png" width="250"/>](play_togar3_in_metamask.png)
 
 ### Step 1: Land on the Tea Project Website
 
 Access the landing page: You likely learned about the Togar3 airdrop from a tweet. Follow the link to reach the landing page. Remember, this URL might change when Togar3 launches on the mainnet.
-Head to TeaFluencer: The landing page will guide you to the TeaFluencer platform at https://alpha.teaproject.org/#/node/0/fluencer/go.
+Head to TeaFluencer: The landing page will guide you to the [TeaFluencer platform](https://alpha.teaproject.org/#/node/0/fluencer/go)
+
+* If you are testing in alpha testnet, the URL is https://alpha.teaproject.org/#/node/0/fluencer/go
+* If you are playing in mainnet (beta), the URL is https://beta.teaproject.org/#/node/0/fluencer/go
 
 Please watch the short video below
 {% embed url="https://youtu.be/NKYdzKNsCWM?si=hnwEW1TAbq-bKMgz" %} 
 
 ### Step 2: Complete the Game host's Task in TeaFluencer:
 
-* **Earn your food:** Watch the embedded video (or use the provided link) and complete the task (e.g., retweet a post) to earn 300 food, the minimum requirement for the airdrop. You will need to login TeaFluencer app. 
+* **Earn your food:** Watch the embedded video and complete the task (e.g., retweet a post) to earn 300 food(equv to 0.06 game token), the minimum requirement for the airdrop. You will need to login TeaFluencer app before run the task. 
 
 [<img src="airdrop_alpha.png" width="250"/>](airdrop_alpha.png)
 
@@ -50,7 +53,7 @@ For detail of the task, and related game room, click anywhere in this row
 
 [<img src="retweet_url_in_airdrop.png" width="250"/>](retweet_url_in_airdrop.png)
 
-* **Enter the Game:** Once confirmed, 
+* **Enter the Game:** Once confirmed your work, 
 
 [<img src="enter_game_after_airdrop.png" width="250"/>](enter_game_after_airdrop.png)
 
@@ -61,14 +64,18 @@ click the "Enter game" button to launch the Togar3 game.
 **Airdrop notification:** Upon entering the game, you'll receive a notification confirming your successful airdrop and your 300 food balance.
 
 [<img src="airdrop_successful.png" width="250"/>](airdrop_successful.png)
-**Start playing:** Click "Join" to enter the game and begin your food-collecting adventure!
 
-**How to play? What are the game rules?**, please continue [reading](#togar3-game-rules)
+* **Start playing:** Click "Join" to enter the game and begin your food-collecting adventure!
+
+* **How to play? What are the game rules?**, please continue [reading](#togar3-game-rules)
 
 ### Step4: Protect Your Food with Z-Transfer
 
-**Save your progress:** While playing, press the "Z" key (on computers) or tap the "Transfer" button (on mobile) to transfer your collected mass to your game account. This ensures you don't lose everything if another player "eats" you.
-**Check your balance:** Keep track of your progress by pressing "Esc" (on computers) or tapping the "Pause" button anytime during the game.
+* **Save your progress:** While playing, press the "Z" key (on computers) or tap the "Transfer" button (on mobile) to transfer your collected mass to your game account. This ensures you don't lose everything if another player "eats" you.
+
+* **Check your balance:** Keep track of your progress by pressing "Esc" (on computers) or tapping the "Pause" button anytime during the game. 
+
+[<img src="game_pause.png" width="250"/>](game_pause.png)
 
 ### Step5: Unload Your Food and Claim Your TEA Tokens
 
@@ -132,8 +139,40 @@ Failure to complete your round within the allocated time will prevent you from r
 
 Upon reaching the time limit, you'll be automatically logged out of the game. However, any remaining mass within your cells will be transferred to your game bank account, where it will be converted into "game tokens" for the TEA Project. These tokens can be redeemed and utilized in subsequent rounds.
 
+[<img src="server_restart_soon.png" width="250"/>](server_restart_soon.png)
+
 ## Sell game token for TEA
 
 You can utilize the [TAppStore Investment](./_1_TAppStore_2_Investments.md) platform to sell your game tokens to TEA. Subsequently, you can seamlessly swap these tokens for any other ERC20 token using the Uniswap protocol.
 
 [<img src="game_token_in_investment.png" width="250"/>](game_token_in_investment.png)
+
+## Partial airdrop
+
+The price of the game token may soar to considerable heights, driven by sustained holding among players within the game. However, there's a ceiling on the airdrop distribution. Each airdrop is capped at a maximum of 1 TEA. Consequently, there's a possibility that players might receive less than 300 food (equivalent to 0.06 game tokens) during an airdrop if the token's value increases substantially. In such cases, players may opt to purchase additional game tokens from the [TAppStore investment page](./_1_TAppStore_2_Investments.md) or through exchanges with other players.
+
+## Buy and load game token
+
+The game token follows the standard bonding curve model, and buying or selling these tokens is facilitated through the [TAppStore Investment Page](./_1_TAppStore_2_Investments.md).
+
+To utilize your game token within the game as food, you'll need to "load" it. The load button can be found on the TeaFluencer airdrop page.
+
+[<img src="airdrop_alpha.png" width="250"/>](airdrop_alpha.png)
+
+Once you've loaded your tokens, switch to your Togar3 game. Within a few seconds, you'll receive a notification confirming the receipt of food.
+
+[<img src="airdrop_successful.png" width="250"/>](airdrop_successful.png)
+
+## Understand game host
+
+The game host assumes a crucial role within the game ecosystem. In essence, the game room is owned and managed by the game host, who also creates the game token. Players receive airdrops by completing tasks designed by the game host. Furthermore, the game host deducts a percentage (Theta value) from every game token sold by players.
+
+The game host will undertake the following tasks:
+
+* Name a token (the remaining setup is automated).
+* Establish a game room (simply providing a name), utilizing the token created in the previous step as the game token.
+* Craft a tweet. Those who retweet this tweet will receive a minimum amount of the game token, enabling them to participate in the game and earn airdrops.
+* The TEA Project will regularly purchase the game token and compensate players who retweet. Additionally, the TEA Project will frequently distribute "food" and "bots" to the game, allowing human players to consume and increase their mass.
+* Human players exit the game with their accumulated mass, which is converted into game tokens and sold to the TEA Project as airdrop income.
+* The game host has the ability to buy and sell game tokens as well. These tokens operate on a bonding curve, with the price linked to the total supply.
+* The game host also earns a percentage from every token earned by players.
