@@ -25,6 +25,7 @@ Download Metamask: Togar3 is a TEA App, and all TEA Apps require Metamask to run
 Verify Metamask connection: Once you have Metamask installed, follow [look up account here](./_1_TAppStore_0_account.md)d to verify it’s working correctly.
 
 The follow screenshot shows how Togar3 is loaded into Metamask on iPhone.
+
 [<img src="play_togar3_in_metamask.png" width="250"/>](play_togar3_in_metamask.png)
 
 ### Step 1: Land on the Tea Project Website
@@ -37,11 +38,13 @@ Please watch the short video below
 
 ### Step 2: Complete the Game host's Task in TeaFluencer:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NKYdzKNsCWM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-**Earn your food:** Watch the embedded video (or use the provided link) and complete the task (e.g., retweet a post) to earn 300 food, the minimum requirement for the airdrop.
-**Retweet and Apply:** Click the "Visit" button to access the retweet task on Twitter. Use your Twitter account to retweet the specified post and copy the retweet URL. Paste the URL into the "Apply airdrop" section on the TeaFluencer page and confirm.
+* **Earn your food:** Watch the embedded video (or use the provided link) and complete the task (e.g., retweet a post) to earn 300 food, the minimum requirement for the airdrop.
+
+* **Retweet and Apply:** Click the "Visit" button to access the retweet task on Twitter. Use your Twitter account to retweet the specified post and copy the retweet URL. Paste the URL into the "Apply airdrop" section on the TeaFluencer page and confirm.
+
 [<img src="game_token_in_airdrop.png" width="250"/>](game_token_in_airdrop.png)
-**Enter the Game:** Once confirmed, click the "Enter game" button to launch the Togar3 game.
+
+* **Enter the Game:** Once confirmed, click the "Enter game" button to launch the Togar3 game.
 
 ### Step 3: Play Togar3 and Claim Your Food
 
