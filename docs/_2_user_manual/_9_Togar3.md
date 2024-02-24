@@ -2,8 +2,10 @@
 
 {% hint style="info" %}
 **Quick links**:
-Alpha testnet TeaFlucner direct URL: https://alpha.teaproject.org/#/node/0/fluencer/go
-Beta mainnet TeaFluencer direct URL: https://beta.teaproject.org/#/node/0/fluencer/go
+
+* Alpha testnet TeaFlucner direct URL: https://alpha.teaproject.org/#/node/0/fluencer/go
+* Beta mainnet TeaFluencer direct URL: https://beta.teaproject.org/#/node/0/fluencer/go
+
 Click **Enter game** button to the Togar3 game in Metamask
 
 {% endhint %}
