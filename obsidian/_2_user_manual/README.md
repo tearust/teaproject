@@ -17,7 +17,7 @@
 - [[_8_Tea Party|TEA Party]] - A zoom-like peer to peer video conferencing app that supports payment channel
 
 **Airdrop game**
-- [Togar3 the game for Aridrop](./_9_Togar3.md)
+- [Togar3: the game for airdrop](./_9_Togar3.md)
 
 
 ## TApplication on Web and Mobile
