@@ -1,5 +1,13 @@
 # Togar3 Game
 
+{% hint style="info" %}
+**Quick links**:
+Alpha testnet TeaFlucner direct URL: https://alpha.teaproject.org/#/node/0/fluencer/go
+Beta mainnet TeaFluencer direct URL: https://beta.teaproject.org/#/node/0/fluencer/go
+Click **Enter game** button to the Togar3 game in Metamask
+
+{% endhint %}
+
 Togar3 stands for Tea Open agar.io for Web3. It is a web3 modified version of [agar.io game](https://en.wikipedia.org/wiki/Agar.io) based on [Ogar3](https://github.com/Faris90/Ogar3) open source project. 
 {% embed url="https://youtu.be/fKfGEGbq4uY?si=C9gL3RrWAEQsYbBT" %} 
 
